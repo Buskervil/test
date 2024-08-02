@@ -1,0 +1,2493 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "WebApplication2/1.0.0": {
+        "dependencies": {
+          "Vostok.Hosting.AspNetCore": "0.1.4",
+          "Vostok.Hosting.AspNetCore.Houston": "1.0.17",
+          "Vostok.Hosting.Houston2": "1.0.125"
+        },
+        "runtime": {
+          "WebApplication2.dll": {}
+        }
+      },
+      "Core.Infra.Netcore/1.0.29": {
+        "dependencies": {
+          "System.Diagnostics.PerformanceCounter": "5.0.0",
+          "Vostok.Logging.Abstractions": "1.0.32"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Core.Infra.Netcore.dll": {
+            "assemblyVersion": "1.0.29.0",
+            "fileVersion": "1.0.29.0"
+          }
+        }
+      },
+      "Houston2.Common.Clients/1.0.1845": {
+        "dependencies": {
+          "Houston2.Common.Models": "1.0.1845",
+          "Houston2.Configuration.AsCode": "1.0.1845",
+          "Newtonsoft.Json": "13.0.3",
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.ClusterClient.Datacenters": "0.1.4",
+          "Vostok.ClusterClient.Singular": "0.1.28",
+          "Vostok.ClusterClient.Topology.SD": "0.1.12",
+          "Vostok.ClusterClient.Transport": "0.1.36",
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Datacenters": "0.1.9",
+          "Vostok.Datacenters.Kontur": "1.0.55",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Logging.Context": "1.0.5",
+          "Vostok.Logging.Tracing": "0.1.7",
+          "Vostok.ServiceDiscovery": "0.1.23",
+          "Vostok.ServiceDiscovery.Abstractions": "0.1.7",
+          "Vostok.ServiceDiscovery.Kontur": "1.0.116",
+          "Vostok.Telemetry.Kontur": "1.0.96",
+          "Vostok.Tracing.Abstractions": "0.1.7",
+          "Vostok.Tracing.Extensions": "0.1.9"
+        },
+        "runtime": {
+          "lib/net6.0/Houston2.Common.Clients.dll": {
+            "assemblyVersion": "1.0.1845.0",
+            "fileVersion": "1.0.1845.0"
+          }
+        }
+      },
+      "Houston2.Common.Helpers/1.0.1845": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Metrics": "0.2.29"
+        },
+        "runtime": {
+          "lib/net6.0/Houston2.Common.Helpers.dll": {
+            "assemblyVersion": "1.0.1845.0",
+            "fileVersion": "1.0.1845.0"
+          }
+        }
+      },
+      "Houston2.Common.Models/1.0.1845": {
+        "dependencies": {
+          "Houston2.Common.Helpers": "1.0.1845",
+          "Kontur.Houston.CodeValidator.Models": "1.0.44",
+          "Newtonsoft.Json": "13.0.3",
+          "PublicationApi.Core": "1.0.1504",
+          "System.Text.Json": "6.0.3",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Hosting.Abstractions": "0.3.9",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Logging.Context": "1.0.5",
+          "Vostok.Tracing.Abstractions": "0.1.7",
+          "Vostok.Tracing.Extensions": "0.1.9",
+          "morelinq": "3.4.2"
+        },
+        "runtime": {
+          "lib/net6.0/Houston2.Common.Models.dll": {
+            "assemblyVersion": "1.0.1845.0",
+            "fileVersion": "1.0.1845.0"
+          }
+        }
+      },
+      "Houston2.Configuration.AsCode/1.0.1845": {
+        "dependencies": {
+          "Houston2.Common.Helpers": "1.0.1845",
+          "Houston2.Common.Models": "1.0.1845",
+          "PublicationApi.Core": "1.0.1504",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "YamlDotNet": "13.3.1"
+        },
+        "runtime": {
+          "lib/net6.0/Houston2.Configuration.AsCode.dll": {
+            "assemblyVersion": "1.0.1845.0",
+            "fileVersion": "1.0.1845.0"
+          }
+        }
+      },
+      "Kanso3d.Client/1.2.3483": {
+        "dependencies": {
+          "Kanso3d.Core.Netstandard": "1.2.3483",
+          "Kanso3d.Core.StringMatchers": "1.2.3483",
+          "Kontur.Core.Infra.Netstandard": "1.0.6",
+          "Kontur.Core.Netstandard": "1.0.26",
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.ClusterClient.Transport": "0.1.36",
+          "Vostok.ClusterConfig.Client": "0.2.20",
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Context": "0.1.7",
+          "Vostok.Datacenters": "0.1.9",
+          "Vostok.Datacenters.Kontur": "1.0.55",
+          "Vostok.Hercules.Client": "0.1.19",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Logging.Context": "1.0.5",
+          "Vostok.Logging.Tracing": "0.1.7",
+          "Vostok.Metrics": "0.2.29",
+          "Vostok.Metrics.Hercules": "0.1.5",
+          "Vostok.Telemetry.Kontur": "1.0.96",
+          "Vostok.Tracing.Abstractions": "0.1.7",
+          "Vostok.Tracing.Extensions": "0.1.9"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Kanso3d.Client.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Kanso3d.Core/1.2.3483": {
+        "dependencies": {
+          "Kanso3d.Core.StringMatchers": "1.2.3483",
+          "Kontur.Core.Infra.Netstandard": "1.0.6",
+          "Kontur.Core.Netstandard": "1.0.26",
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Logging.Abstractions": "1.0.32"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Kanso3d.Core.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Kanso3d.Core.Netstandard/1.2.3483": {
+        "dependencies": {
+          "Kanso3d.Core": "1.2.3483",
+          "Kontur.Core.Infra.Netstandard": "1.0.6",
+          "Kontur.Core.Netstandard": "1.0.26",
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.ClusterClient.Topology.CC": "0.1.4",
+          "Vostok.ClusterClient.Tracing": "0.1.8",
+          "Vostok.ClusterClient.Transport": "0.1.36",
+          "Vostok.ClusterConfig.Client": "0.2.20",
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Configuration.Logging": "0.1.4",
+          "Vostok.Configuration.Sources.ClusterConfig": "0.1.8",
+          "Vostok.Configuration.Sources.Yaml": "0.1.2",
+          "Vostok.Hercules.Client.Abstractions": "0.1.10",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Metrics": "0.2.29",
+          "Vostok.Telemetry.Kontur": "1.0.96",
+          "Vostok.Tracing": "0.1.7",
+          "Vostok.Tracing.Abstractions": "0.1.7",
+          "Vostok.Tracing.Kontur": "1.0.36"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Kanso3d.Core.Netstandard.dll": {
+            "assemblyVersion": "1.2.3483.0",
+            "fileVersion": "1.2.3483.0"
+          }
+        }
+      },
+      "Kanso3d.Core.StringMatchers/1.2.3483": {
+        "dependencies": {
+          "Kontur.Core.Netstandard": "1.0.26",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Collections.Immutable": "1.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Kanso3d.Core.StringMatchers.dll": {
+            "assemblyVersion": "1.2.3483.0",
+            "fileVersion": "1.2.3483.0"
+          }
+        }
+      },
+      "Kontur.Core.Infra.Netstandard/1.0.6": {
+        "dependencies": {
+          "Kontur.Core.Netstandard": "1.0.26",
+          "System.Diagnostics.PerformanceCounter": "5.0.0",
+          "System.Management": "5.0.0",
+          "Vostok.Logging.Abstractions": "1.0.32"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Kontur.Core.Infra.Netstandard.dll": {
+            "assemblyVersion": "1.0.6.0",
+            "fileVersion": "1.0.6.0"
+          }
+        }
+      },
+      "Kontur.Core.Netstandard/1.0.26": {
+        "dependencies": {
+          "System.Reflection.Emit.Lightweight": "4.7.0",
+          "Vostok.Logging.Abstractions": "1.0.32"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Kontur.Core.Netstandard.dll": {
+            "assemblyVersion": "1.0.26.0",
+            "fileVersion": "1.0.26.0"
+          }
+        }
+      },
+      "Kontur.Houston.CodeValidator.Models/1.0.44": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Kontur.Houston.CodeValidator.Models.dll": {
+            "assemblyVersion": "1.0.44.0",
+            "fileVersion": "1.0.44.0"
+          }
+        }
+      },
+      "Microsoft.Bcl.HashCode/1.1.1": {
+        "runtime": {
+          "lib/netcoreapp2.1/Microsoft.Bcl.HashCode.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "4.700.20.56604"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration/3.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.0"
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/3.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.1.0"
+        }
+      },
+      "Microsoft.Extensions.Configuration.Binder/3.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.1.0"
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/3.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.0"
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.0": {},
+      "Microsoft.Extensions.Logging/3.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Binder": "3.1.0",
+          "Microsoft.Extensions.DependencyInjection": "3.1.0",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.0",
+          "Microsoft.Extensions.Options": "3.1.0"
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/3.1.0": {},
+      "Microsoft.Extensions.Logging.Configuration/3.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "3.1.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "3.1.0"
+        }
+      },
+      "Microsoft.Extensions.Options/3.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.0",
+          "Microsoft.Extensions.Primitives": "3.1.0"
+        }
+      },
+      "Microsoft.Extensions.Options.ConfigurationExtensions/3.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.0",
+          "Microsoft.Extensions.Configuration.Binder": "3.1.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.0",
+          "Microsoft.Extensions.Options": "3.1.0"
+        }
+      },
+      "Microsoft.Extensions.Primitives/3.1.0": {},
+      "Microsoft.NETCore.Platforms/5.0.0": {},
+      "Microsoft.Win32.Registry/5.0.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "5.0.0",
+          "System.Security.Principal.Windows": "5.0.0"
+        }
+      },
+      "Microsoft.Win32.SystemEvents/5.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "morelinq/3.4.2": {
+        "runtime": {
+          "lib/net6.0/MoreLinq.dll": {
+            "assemblyVersion": "3.4.2.0",
+            "fileVersion": "3.4.2.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "OpenTelemetry/1.4.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Configuration": "3.1.0",
+          "OpenTelemetry.Api.ProviderBuilderExtensions": "1.4.0"
+        },
+        "runtime": {
+          "lib/net6.0/OpenTelemetry.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.4.0.802"
+          }
+        }
+      },
+      "OpenTelemetry.Api/1.4.0": {
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "7.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/OpenTelemetry.Api.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.4.0.802"
+          }
+        }
+      },
+      "OpenTelemetry.Api.ProviderBuilderExtensions/1.4.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.0",
+          "OpenTelemetry.Api": "1.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/OpenTelemetry.Api.ProviderBuilderExtensions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.4.0.802"
+          }
+        }
+      },
+      "OpenTelemetry.Instrumentation.AspNetCore/1.0.0-rc9.14": {
+        "dependencies": {
+          "OpenTelemetry": "1.4.0"
+        },
+        "runtime": {
+          "lib/net6.0/OpenTelemetry.Instrumentation.AspNetCore.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.802"
+          }
+        }
+      },
+      "OpenTelemetry.SemanticConventions/1.0.0-rc9.9": {
+        "runtime": {
+          "lib/netstandard2.0/OpenTelemetry.SemanticConventions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.687"
+          }
+        }
+      },
+      "PublicationApi.Core/1.0.1504": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Configuration.Sources": "0.1.19",
+          "Vostok.Configuration.Sources.Json": "0.1.8"
+        },
+        "runtime": {
+          "lib/netstandard2.0/PublicationApi.Core.dll": {
+            "assemblyVersion": "1.0.1504.0",
+            "fileVersion": "1.0.1504.0"
+          }
+        }
+      },
+      "System.CodeDom/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.CodeDom.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.Collections.Immutable/1.5.0": {},
+      "System.Configuration.ConfigurationManager/5.0.0": {
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "5.0.0",
+          "System.Security.Permissions": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.Diagnostics.DiagnosticSource/7.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "System.Diagnostics.PerformanceCounter/5.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "Microsoft.Win32.Registry": "5.0.0",
+          "System.Configuration.ConfigurationManager": "5.0.0",
+          "System.Security.Principal.Windows": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Diagnostics.PerformanceCounter.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Diagnostics.PerformanceCounter.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.Drawing.Common/5.0.0": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "5.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.Management/5.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "Microsoft.Win32.Registry": "5.0.0",
+          "System.CodeDom": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Management.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Management.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.Reflection.Emit.Lightweight/4.7.0": {},
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "System.Security.AccessControl/5.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "System.Security.Principal.Windows": "5.0.0"
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.Security.Permissions/5.0.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "5.0.0",
+          "System.Windows.Extensions": "5.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/System.Security.Permissions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.Security.Principal.Windows/5.0.0": {},
+      "System.Text.Encodings.Web/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "System.Text.Json/6.0.3": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Text.Encodings.Web": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Text.Json.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.422.16404"
+          }
+        }
+      },
+      "System.Windows.Extensions/5.0.0": {
+        "dependencies": {
+          "System.Drawing.Common": "5.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Windows.Extensions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Vostok.Applications.AspNetCore/0.3.24": {
+        "dependencies": {
+          "OpenTelemetry": "1.4.0",
+          "OpenTelemetry.Instrumentation.AspNetCore": "1.0.0-rc9.14",
+          "OpenTelemetry.SemanticConventions": "1.0.0-rc9.9",
+          "Vostok.ClusterClient.Context": "0.1.6",
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.ClusterClient.Tracing": "0.1.8",
+          "Vostok.ClusterClient.Transport": "0.1.36",
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Configuration.Microsoft": "1.0.4",
+          "Vostok.Configuration.Sources": "0.1.19",
+          "Vostok.Context": "0.1.7",
+          "Vostok.Datacenters": "0.1.9",
+          "Vostok.Hercules.Client.Abstractions": "0.1.10",
+          "Vostok.Hosting.Abstractions": "0.3.9",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Logging.Context": "1.0.5",
+          "Vostok.Logging.Microsoft": "2.0.15",
+          "Vostok.Logging.Tracing": "0.1.7",
+          "Vostok.Metrics": "0.2.29",
+          "Vostok.ServiceDiscovery.Abstractions": "0.1.7",
+          "Vostok.Throttling": "0.1.5",
+          "Vostok.Throttling.Metrics": "0.1.7",
+          "Vostok.Tracing.Abstractions": "0.1.7",
+          "Vostok.Tracing.Diagnostics": "0.1.0",
+          "Vostok.Tracing.Extensions": "0.1.9"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Applications.AspNetCore.dll": {
+            "assemblyVersion": "0.3.24.0",
+            "fileVersion": "0.3.24.0"
+          }
+        }
+      },
+      "Vostok.ClusterClient.Context/0.1.6": {
+        "dependencies": {
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.Context": "0.1.7"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.ClusterClient.Context.dll": {
+            "assemblyVersion": "0.1.6.0",
+            "fileVersion": "0.1.6.0"
+          }
+        }
+      },
+      "Vostok.ClusterClient.Core/0.1.50": {
+        "dependencies": {
+          "Vostok.Logging.Abstractions": "1.0.32"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.ClusterClient.Core.dll": {
+            "assemblyVersion": "0.1.50.0",
+            "fileVersion": "0.1.50.0"
+          }
+        }
+      },
+      "Vostok.ClusterClient.Datacenters/0.1.4": {
+        "dependencies": {
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.Datacenters": "0.1.9"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.ClusterClient.Datacenters.dll": {
+            "assemblyVersion": "0.1.4.0",
+            "fileVersion": "0.1.4.0"
+          }
+        }
+      },
+      "Vostok.ClusterClient.Singular/0.1.28": {
+        "dependencies": {
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.ClusterClient.Datacenters": "0.1.4",
+          "Vostok.ClusterClient.Topology.CC": "0.1.4",
+          "Vostok.ClusterClient.Transport": "0.1.36",
+          "Vostok.ClusterConfig.Client": "0.2.20",
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Configuration.Logging": "0.1.4",
+          "Vostok.Configuration.Sources": "0.1.19",
+          "Vostok.Configuration.Sources.ClusterConfig": "0.1.8",
+          "Vostok.Configuration.Sources.Json": "0.1.8",
+          "Vostok.Context": "0.1.7",
+          "Vostok.Datacenters": "0.1.9",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Metrics": "0.2.29"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.ClusterClient.Singular.dll": {
+            "assemblyVersion": "0.1.28.0",
+            "fileVersion": "0.1.28.0"
+          }
+        }
+      },
+      "Vostok.ClusterClient.Topology.CC/0.1.4": {
+        "dependencies": {
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Logging.Abstractions": "1.0.32"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.ClusterClient.Topology.CC.dll": {
+            "assemblyVersion": "0.1.4.0",
+            "fileVersion": "0.1.4.0"
+          }
+        }
+      },
+      "Vostok.ClusterClient.Topology.SD/0.1.12": {
+        "dependencies": {
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.Context": "0.1.7",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.ServiceDiscovery.Abstractions": "0.1.7",
+          "Vostok.ServiceDiscovery.Extensions": "0.1.10"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.ClusterClient.Topology.SD.dll": {
+            "assemblyVersion": "0.1.12.0",
+            "fileVersion": "0.1.12.0"
+          }
+        }
+      },
+      "Vostok.ClusterClient.Tracing/0.1.8": {
+        "dependencies": {
+          "Vostok.ClusterClient.Context": "0.1.6",
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.Tracing.Abstractions": "0.1.7",
+          "Vostok.Tracing.Extensions": "0.1.9"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.ClusterClient.Tracing.dll": {
+            "assemblyVersion": "0.1.8.0",
+            "fileVersion": "0.1.8.0"
+          }
+        }
+      },
+      "Vostok.ClusterClient.Transport/0.1.36": {
+        "dependencies": {
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.Logging.Abstractions": "1.0.32"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.ClusterClient.Transport.dll": {
+            "assemblyVersion": "0.1.36.0",
+            "fileVersion": "0.1.36.0"
+          }
+        }
+      },
+      "Vostok.ClusterConfig.Client/0.2.20": {
+        "dependencies": {
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.ClusterClient.Transport": "0.1.36",
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Configuration.Sources": "0.1.19",
+          "Vostok.Logging.Abstractions": "1.0.32"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.ClusterConfig.Client.dll": {
+            "assemblyVersion": "0.2.20.0",
+            "fileVersion": "0.2.20.0"
+          }
+        }
+      },
+      "Vostok.ClusterConfig.Client.Abstractions/0.1.2": {
+        "dependencies": {
+          "Vostok.Configuration.Abstractions": "0.1.15"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.ClusterConfig.Client.Abstractions.dll": {
+            "assemblyVersion": "0.1.2.0",
+            "fileVersion": "0.1.2.0"
+          }
+        }
+      },
+      "Vostok.Configuration/0.1.43": {
+        "dependencies": {
+          "Vostok.Configuration.Abstractions": "0.1.15"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Configuration.dll": {
+            "assemblyVersion": "0.1.43.0",
+            "fileVersion": "0.1.43.0"
+          }
+        }
+      },
+      "Vostok.Configuration.Abstractions/0.1.15": {
+        "runtime": {
+          "lib/net6.0/Vostok.Configuration.Abstractions.dll": {
+            "assemblyVersion": "0.1.15.0",
+            "fileVersion": "0.1.15.0"
+          }
+        }
+      },
+      "Vostok.Configuration.Logging/0.1.4": {
+        "dependencies": {
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Logging.Abstractions": "1.0.32"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Configuration.Logging.dll": {
+            "assemblyVersion": "0.1.4.0",
+            "fileVersion": "0.1.4.0"
+          }
+        }
+      },
+      "Vostok.Configuration.Microsoft/1.0.4": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.1.0",
+          "Vostok.Configuration.Abstractions": "0.1.15"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Configuration.Microsoft.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
+        }
+      },
+      "Vostok.Configuration.Sources/0.1.19": {
+        "dependencies": {
+          "Vostok.Configuration.Abstractions": "0.1.15"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Configuration.Sources.dll": {
+            "assemblyVersion": "0.1.19.0",
+            "fileVersion": "0.1.19.0"
+          }
+        }
+      },
+      "Vostok.Configuration.Sources.ClusterConfig/0.1.8": {
+        "dependencies": {
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Configuration.Sources": "0.1.19"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Configuration.Sources.ClusterConfig.dll": {
+            "assemblyVersion": "0.1.8.0",
+            "fileVersion": "0.1.8.0"
+          }
+        }
+      },
+      "Vostok.Configuration.Sources.ClusterConfig.Legacy/1.0.16": {
+        "dependencies": {
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Configuration.Sources.ClusterConfig": "0.1.8"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Configuration.Sources.ClusterConfig.Legacy.dll": {
+            "assemblyVersion": "1.0.16.0",
+            "fileVersion": "1.0.16.0"
+          }
+        }
+      },
+      "Vostok.Configuration.Sources.Json/0.1.8": {
+        "dependencies": {
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Configuration.Sources": "0.1.19"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Configuration.Sources.Json.dll": {
+            "assemblyVersion": "0.1.8.0",
+            "fileVersion": "0.1.8.0"
+          }
+        }
+      },
+      "Vostok.Configuration.Sources.Xml/0.1.3": {
+        "dependencies": {
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Configuration.Sources": "0.1.19"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Configuration.Sources.Xml.dll": {
+            "assemblyVersion": "0.1.3.0",
+            "fileVersion": "0.1.3.0"
+          }
+        }
+      },
+      "Vostok.Configuration.Sources.Yaml/0.1.2": {
+        "dependencies": {
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Configuration.Sources": "0.1.19"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Configuration.Sources.Yaml.dll": {
+            "assemblyVersion": "0.1.2.0",
+            "fileVersion": "0.1.2.0"
+          }
+        }
+      },
+      "Vostok.Context/0.1.7": {
+        "runtime": {
+          "lib/net6.0/Vostok.Context.dll": {
+            "assemblyVersion": "0.1.7.0",
+            "fileVersion": "0.1.7.0"
+          }
+        }
+      },
+      "Vostok.Datacenters/0.1.9": {
+        "runtime": {
+          "lib/net6.0/Vostok.Datacenters.dll": {
+            "assemblyVersion": "0.1.9.0",
+            "fileVersion": "0.1.9.0"
+          }
+        }
+      },
+      "Vostok.Datacenters.Kontur/1.0.55": {
+        "dependencies": {
+          "Vostok.ClusterConfig.Client": "0.2.20",
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Configuration.Logging": "0.1.4",
+          "Vostok.Configuration.Sources.ClusterConfig": "0.1.8",
+          "Vostok.Datacenters": "0.1.9",
+          "Vostok.Logging.Abstractions": "1.0.32"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Datacenters.Kontur.dll": {
+            "assemblyVersion": "1.0.55.0",
+            "fileVersion": "1.0.55.0"
+          }
+        }
+      },
+      "Vostok.Hercules.Client/0.1.19": {
+        "dependencies": {
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.ClusterClient.Transport": "0.1.36",
+          "Vostok.Hercules.Client.Abstractions": "0.1.10",
+          "Vostok.Logging.Abstractions": "1.0.32"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Hercules.Client.dll": {
+            "assemblyVersion": "0.1.19.0",
+            "fileVersion": "0.1.19.0"
+          }
+        }
+      },
+      "Vostok.Hercules.Client.Abstractions/0.1.10": {
+        "runtime": {
+          "lib/net6.0/Vostok.Hercules.Client.Abstractions.dll": {
+            "assemblyVersion": "0.1.10.0",
+            "fileVersion": "0.1.10.0"
+          }
+        }
+      },
+      "Vostok.Hosting/0.3.70": {
+        "dependencies": {
+          "Vostok.ClusterClient.Context": "0.1.6",
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.ClusterClient.Datacenters": "0.1.4",
+          "Vostok.ClusterClient.Topology.CC": "0.1.4",
+          "Vostok.ClusterClient.Topology.SD": "0.1.12",
+          "Vostok.ClusterClient.Tracing": "0.1.8",
+          "Vostok.ClusterConfig.Client": "0.2.20",
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Configuration.Logging": "0.1.4",
+          "Vostok.Configuration.Sources": "0.1.19",
+          "Vostok.Configuration.Sources.ClusterConfig": "0.1.8",
+          "Vostok.Configuration.Sources.Json": "0.1.8",
+          "Vostok.Configuration.Sources.Xml": "0.1.3",
+          "Vostok.Configuration.Sources.Yaml": "0.1.2",
+          "Vostok.Context": "0.1.7",
+          "Vostok.Datacenters": "0.1.9",
+          "Vostok.Hercules.Client": "0.1.19",
+          "Vostok.Hercules.Client.Abstractions": "0.1.10",
+          "Vostok.Hosting.Abstractions": "0.3.9",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Logging.Configuration": "1.0.8",
+          "Vostok.Logging.Console": "1.0.10",
+          "Vostok.Logging.Context": "1.0.5",
+          "Vostok.Logging.File": "1.0.23",
+          "Vostok.Logging.Formatting": "1.0.14",
+          "Vostok.Logging.Hercules": "0.1.12",
+          "Vostok.Logging.Tracing": "0.1.7",
+          "Vostok.Metrics": "0.2.29",
+          "Vostok.Metrics.Hercules": "0.1.5",
+          "Vostok.Metrics.System": "0.3.23",
+          "Vostok.ServiceDiscovery": "0.1.23",
+          "Vostok.ServiceDiscovery.Abstractions": "0.1.7",
+          "Vostok.ServiceDiscovery.Telemetry": "0.1.3",
+          "Vostok.ServiceDiscovery.Telemetry.Hercules": "0.1.1",
+          "Vostok.Tracing": "0.1.7",
+          "Vostok.Tracing.Abstractions": "0.1.7",
+          "Vostok.Tracing.Diagnostics": "0.1.0",
+          "Vostok.Tracing.Extensions": "0.1.9",
+          "Vostok.Tracing.Hercules": "0.1.10",
+          "Vostok.ZooKeeper.Client": "0.1.14",
+          "Vostok.ZooKeeper.Client.Abstractions": "0.1.8"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Hosting.dll": {
+            "assemblyVersion": "0.3.70.0",
+            "fileVersion": "0.3.70.0"
+          }
+        }
+      },
+      "Vostok.Hosting.Abstractions/0.3.9": {
+        "dependencies": {
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Context": "0.1.7",
+          "Vostok.Datacenters": "0.1.9",
+          "Vostok.Hercules.Client.Abstractions": "0.1.10",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Metrics": "0.2.29",
+          "Vostok.ServiceDiscovery.Abstractions": "0.1.7",
+          "Vostok.Tracing.Abstractions": "0.1.7"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Hosting.Abstractions.dll": {
+            "assemblyVersion": "0.3.9.0",
+            "fileVersion": "0.3.9.0"
+          }
+        }
+      },
+      "Vostok.Hosting.AspNetCore/0.1.4": {
+        "dependencies": {
+          "Vostok.Applications.AspNetCore": "0.3.24",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Configuration.Microsoft": "1.0.4",
+          "Vostok.Configuration.Sources": "0.1.19",
+          "Vostok.Hosting": "0.3.70",
+          "Vostok.Hosting.Abstractions": "0.3.9",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Logging.Context": "1.0.5",
+          "Vostok.Logging.Microsoft": "2.0.15",
+          "Vostok.Metrics": "0.2.29",
+          "Vostok.ServiceDiscovery": "0.1.23",
+          "Vostok.ServiceDiscovery.Abstractions": "0.1.7",
+          "Vostok.Throttling": "0.1.5",
+          "Vostok.Throttling.Metrics": "0.1.7"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Hosting.AspNetCore.dll": {
+            "assemblyVersion": "0.1.4.0",
+            "fileVersion": "0.1.4.0"
+          }
+        }
+      },
+      "Vostok.Hosting.AspNetCore.Houston/1.0.17": {
+        "dependencies": {
+          "Vostok.Applications.AspNetCore": "0.3.24",
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.ClusterConfig.Client": "0.2.20",
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Configuration.Sources": "0.1.19",
+          "Vostok.Context": "0.1.7",
+          "Vostok.Datacenters": "0.1.9",
+          "Vostok.Hercules.Client": "0.1.19",
+          "Vostok.Hercules.Client.Abstractions": "0.1.10",
+          "Vostok.Hosting": "0.3.70",
+          "Vostok.Hosting.Abstractions": "0.3.9",
+          "Vostok.Hosting.AspNetCore": "0.1.4",
+          "Vostok.Hosting.Houston": "1.0.503",
+          "Vostok.Hosting.Houston.Abstractions": "1.0.95",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Logging.Configuration": "1.0.8",
+          "Vostok.Logging.Console": "1.0.10",
+          "Vostok.Logging.File": "1.0.23",
+          "Vostok.Logging.Hercules": "0.1.12",
+          "Vostok.Logging.Microsoft": "2.0.15",
+          "Vostok.Metrics": "0.2.29",
+          "Vostok.Metrics.Hercules": "0.1.5",
+          "Vostok.ServiceDiscovery": "0.1.23",
+          "Vostok.ServiceDiscovery.Abstractions": "0.1.7",
+          "Vostok.Tracing": "0.1.7",
+          "Vostok.Tracing.Abstractions": "0.1.7",
+          "Vostok.Tracing.Hercules": "0.1.10",
+          "Vostok.ZooKeeper.Client": "0.1.14",
+          "Vostok.ZooKeeper.Client.Abstractions": "0.1.8"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Hosting.AspNetCore.Houston.dll": {
+            "assemblyVersion": "1.0.17.0",
+            "fileVersion": "1.0.17.0"
+          }
+        }
+      },
+      "Vostok.Hosting.Houston/1.0.503": {
+        "dependencies": {
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.ClusterClient.Transport": "0.1.36",
+          "Vostok.ClusterConfig.Client": "0.2.20",
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Configuration.Sources": "0.1.19",
+          "Vostok.Configuration.Sources.Json": "0.1.8",
+          "Vostok.Hercules.Client": "0.1.19",
+          "Vostok.Hercules.Client.Abstractions": "0.1.10",
+          "Vostok.Hosting": "0.3.70",
+          "Vostok.Hosting.Abstractions": "0.3.9",
+          "Vostok.Hosting.Houston.Abstractions": "1.0.95",
+          "Vostok.Hosting.Kontur": "1.0.134",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Logging.Configuration": "1.0.8",
+          "Vostok.Logging.Console": "1.0.10",
+          "Vostok.Logging.File": "1.0.23",
+          "Vostok.Logging.Formatting": "1.0.14",
+          "Vostok.Logging.Hercules": "0.1.12",
+          "Vostok.Metrics": "0.2.29",
+          "Vostok.Metrics.Hercules": "0.1.5",
+          "Vostok.Metrics.System": "0.3.23",
+          "Vostok.ServiceDiscovery": "0.1.23",
+          "Vostok.ServiceDiscovery.Abstractions": "0.1.7",
+          "Vostok.Tracing.Abstractions": "0.1.7",
+          "Vostok.ZooKeeper.Client.Abstractions": "0.1.8",
+          "Zebra.ClientEx": "1.4.136",
+          "Zebra.Core": "1.4.136"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Hosting.Houston.dll": {
+            "assemblyVersion": "1.0.503.0",
+            "fileVersion": "1.0.503.0"
+          }
+        }
+      },
+      "Vostok.Hosting.Houston.Abstractions/1.0.95": {
+        "dependencies": {
+          "Vostok.Hosting.Abstractions": "0.3.9",
+          "Vostok.Logging.Abstractions": "1.0.32"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Hosting.Houston.Abstractions.dll": {
+            "assemblyVersion": "1.0.95.0",
+            "fileVersion": "1.0.95.0"
+          }
+        }
+      },
+      "Vostok.Hosting.Houston2/1.0.125": {
+        "dependencies": {
+          "Houston2.Common.Clients": "1.0.1845",
+          "Houston2.Common.Models": "1.0.1845",
+          "Houston2.Configuration.AsCode": "1.0.1845",
+          "Microsoft.Bcl.HashCode": "1.1.1",
+          "Newtonsoft.Json": "13.0.3",
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.ClusterConfig.Client": "0.2.20",
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Configuration.Sources": "0.1.19",
+          "Vostok.Configuration.Sources.Json": "0.1.8",
+          "Vostok.Context": "0.1.7",
+          "Vostok.Datacenters": "0.1.9",
+          "Vostok.Hercules.Client": "0.1.19",
+          "Vostok.Hercules.Client.Abstractions": "0.1.10",
+          "Vostok.Hosting": "0.3.70",
+          "Vostok.Hosting.Abstractions": "0.3.9",
+          "Vostok.Hosting.Houston": "1.0.503",
+          "Vostok.Hosting.Houston.Abstractions": "1.0.95",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Logging.Configuration": "1.0.8",
+          "Vostok.Logging.Console": "1.0.10",
+          "Vostok.Logging.File": "1.0.23",
+          "Vostok.Logging.Hercules": "0.1.12",
+          "Vostok.Metrics": "0.2.29",
+          "Vostok.Metrics.Hercules": "0.1.5",
+          "Vostok.ServiceDiscovery": "0.1.23",
+          "Vostok.ServiceDiscovery.Abstractions": "0.1.7",
+          "Vostok.Tracing": "0.1.7",
+          "Vostok.Tracing.Abstractions": "0.1.7",
+          "Vostok.Tracing.Hercules": "0.1.10",
+          "Vostok.ZooKeeper.Client": "0.1.14",
+          "Vostok.ZooKeeper.Client.Abstractions": "0.1.8",
+          "YamlDotNet": "13.3.1"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Hosting.Houston2.dll": {
+            "assemblyVersion": "1.0.125.0",
+            "fileVersion": "1.0.125.0"
+          }
+        }
+      },
+      "Vostok.Hosting.Kontur/1.0.134": {
+        "dependencies": {
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.ClusterClient.Datacenters": "0.1.4",
+          "Vostok.ClusterConfig.Client": "0.2.20",
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Context": "0.1.7",
+          "Vostok.Datacenters": "0.1.9",
+          "Vostok.Datacenters.Kontur": "1.0.55",
+          "Vostok.Hercules.Client": "0.1.19",
+          "Vostok.Hercules.Client.Abstractions": "0.1.10",
+          "Vostok.Hosting": "0.3.70",
+          "Vostok.Hosting.Abstractions": "0.3.9",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Metrics": "0.2.29",
+          "Vostok.Metrics.Hercules": "0.1.5",
+          "Vostok.ServiceDiscovery": "0.1.23",
+          "Vostok.ServiceDiscovery.Abstractions": "0.1.7",
+          "Vostok.ServiceDiscovery.Kontur": "1.0.116",
+          "Vostok.Telemetry.Kontur": "1.0.96",
+          "Vostok.Tracing": "0.1.7",
+          "Vostok.Tracing.Abstractions": "0.1.7",
+          "Vostok.Tracing.Kontur": "1.0.36",
+          "Vostok.ZooKeeper.Client": "0.1.14",
+          "Vostok.ZooKeeper.Client.Abstractions": "0.1.8"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Hosting.Kontur.dll": {
+            "assemblyVersion": "1.0.134.0",
+            "fileVersion": "1.0.134.0"
+          }
+        }
+      },
+      "Vostok.Logging.Abstractions/1.0.32": {
+        "runtime": {
+          "lib/net6.0/Vostok.Logging.Abstractions.dll": {
+            "assemblyVersion": "1.0.32.0",
+            "fileVersion": "1.0.32.0"
+          }
+        }
+      },
+      "Vostok.Logging.Configuration/1.0.8": {
+        "dependencies": {
+          "Vostok.Logging.Abstractions": "1.0.32"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Logging.Configuration.dll": {
+            "assemblyVersion": "1.0.8.0",
+            "fileVersion": "1.0.8.0"
+          }
+        }
+      },
+      "Vostok.Logging.Console/1.0.10": {
+        "dependencies": {
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Logging.Formatting": "1.0.14"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Logging.Console.dll": {
+            "assemblyVersion": "1.0.10.0",
+            "fileVersion": "1.0.10.0"
+          }
+        }
+      },
+      "Vostok.Logging.Context/1.0.5": {
+        "dependencies": {
+          "Vostok.Context": "0.1.7",
+          "Vostok.Logging.Abstractions": "1.0.32"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Logging.Context.dll": {
+            "assemblyVersion": "1.0.5.0",
+            "fileVersion": "1.0.5.0"
+          }
+        }
+      },
+      "Vostok.Logging.File/1.0.23": {
+        "dependencies": {
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Logging.Formatting": "1.0.14"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Logging.File.dll": {
+            "assemblyVersion": "1.0.23.0",
+            "fileVersion": "1.0.23.0"
+          }
+        }
+      },
+      "Vostok.Logging.Formatting/1.0.14": {
+        "dependencies": {
+          "Vostok.Logging.Abstractions": "1.0.32"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Logging.Formatting.dll": {
+            "assemblyVersion": "1.0.14.0",
+            "fileVersion": "1.0.14.0"
+          }
+        }
+      },
+      "Vostok.Logging.Hercules/0.1.12": {
+        "dependencies": {
+          "Vostok.Hercules.Client.Abstractions": "0.1.10",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Logging.Formatting": "1.0.14"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Logging.Hercules.dll": {
+            "assemblyVersion": "0.1.12.0",
+            "fileVersion": "0.1.12.0"
+          }
+        }
+      },
+      "Vostok.Logging.Microsoft/2.0.15": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "3.1.0",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Logging.Context": "1.0.5",
+          "Vostok.Logging.Formatting": "1.0.14"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Logging.Microsoft.dll": {
+            "assemblyVersion": "2.0.15.0",
+            "fileVersion": "2.0.15.0"
+          }
+        }
+      },
+      "Vostok.Logging.Tracing/0.1.7": {
+        "dependencies": {
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Tracing.Abstractions": "0.1.7"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Logging.Tracing.dll": {
+            "assemblyVersion": "0.1.7.0",
+            "fileVersion": "0.1.7.0"
+          }
+        }
+      },
+      "Vostok.Metrics/0.2.29": {
+        "runtime": {
+          "lib/net6.0/Vostok.Metrics.dll": {
+            "assemblyVersion": "0.2.29.0",
+            "fileVersion": "0.2.29.0"
+          }
+        }
+      },
+      "Vostok.Metrics.Hercules/0.1.5": {
+        "dependencies": {
+          "Vostok.Hercules.Client.Abstractions": "0.1.10",
+          "Vostok.Metrics": "0.2.29"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Metrics.Hercules.dll": {
+            "assemblyVersion": "0.1.5.0",
+            "fileVersion": "0.1.5.0"
+          }
+        }
+      },
+      "Vostok.Metrics.System/0.3.23": {
+        "dependencies": {
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Metrics": "0.2.29",
+          "Vostok.Sys.Metrics.PerfCounters": "0.0.6"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Metrics.System.dll": {
+            "assemblyVersion": "0.3.23.0",
+            "fileVersion": "0.3.23.0"
+          }
+        }
+      },
+      "Vostok.ServiceDiscovery/0.1.23": {
+        "dependencies": {
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.ServiceDiscovery.Abstractions": "0.1.7",
+          "Vostok.ServiceDiscovery.Telemetry": "0.1.3",
+          "Vostok.ZooKeeper.Client.Abstractions": "0.1.8"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.ServiceDiscovery.dll": {
+            "assemblyVersion": "0.1.23.0",
+            "fileVersion": "0.1.23.0"
+          }
+        }
+      },
+      "Vostok.ServiceDiscovery.Abstractions/0.1.7": {
+        "runtime": {
+          "lib/net6.0/Vostok.ServiceDiscovery.Abstractions.dll": {
+            "assemblyVersion": "0.1.7.0",
+            "fileVersion": "0.1.7.0"
+          }
+        }
+      },
+      "Vostok.ServiceDiscovery.Extensions/0.1.10": {
+        "dependencies": {
+          "Vostok.ServiceDiscovery.Abstractions": "0.1.7",
+          "Vostok.ServiceDiscovery.Telemetry": "0.1.3"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.ServiceDiscovery.Extensions.dll": {
+            "assemblyVersion": "0.1.10.0",
+            "fileVersion": "0.1.10.0"
+          }
+        }
+      },
+      "Vostok.ServiceDiscovery.Kontur/1.0.116": {
+        "dependencies": {
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.ClusterClient.Topology.CC": "0.1.4",
+          "Vostok.ClusterConfig.Client": "0.2.20",
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Datacenters": "0.1.9",
+          "Vostok.Datacenters.Kontur": "1.0.55",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Logging.Tracing": "0.1.7",
+          "Vostok.Metrics": "0.2.29",
+          "Vostok.ServiceDiscovery": "0.1.23",
+          "Vostok.ServiceDiscovery.Abstractions": "0.1.7",
+          "Vostok.ServiceDiscovery.Telemetry": "0.1.3",
+          "Vostok.Telemetry.Kontur": "1.0.96",
+          "Vostok.Tracing.Abstractions": "0.1.7",
+          "Vostok.ZooKeeper.Client": "0.1.14",
+          "Vostok.ZooKeeper.Client.Abstractions": "0.1.8"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.ServiceDiscovery.Kontur.dll": {
+            "assemblyVersion": "1.0.116.0",
+            "fileVersion": "1.0.116.0"
+          }
+        }
+      },
+      "Vostok.ServiceDiscovery.Telemetry/0.1.3": {
+        "dependencies": {
+          "Vostok.Context": "0.1.7"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.ServiceDiscovery.Telemetry.dll": {
+            "assemblyVersion": "0.1.3.0",
+            "fileVersion": "0.1.3.0"
+          }
+        }
+      },
+      "Vostok.ServiceDiscovery.Telemetry.Hercules/0.1.1": {
+        "dependencies": {
+          "Vostok.Hercules.Client.Abstractions": "0.1.10",
+          "Vostok.ServiceDiscovery.Telemetry": "0.1.3"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.ServiceDiscovery.Telemetry.Hercules.dll": {
+            "assemblyVersion": "0.1.1.0",
+            "fileVersion": "0.1.1.0"
+          }
+        }
+      },
+      "Vostok.Sys.Metrics.PerfCounters/0.0.6": {
+        "runtime": {
+          "lib/net6.0/Vostok.Sys.Metrics.PerfCounters.dll": {
+            "assemblyVersion": "0.0.6.0",
+            "fileVersion": "0.0.6.0"
+          }
+        }
+      },
+      "Vostok.Telemetry.Kontur/1.0.96": {
+        "dependencies": {
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.ClusterClient.Datacenters": "0.1.4",
+          "Vostok.ClusterClient.Topology.CC": "0.1.4",
+          "Vostok.ClusterClient.Topology.SD": "0.1.12",
+          "Vostok.ClusterClient.Tracing": "0.1.8",
+          "Vostok.ClusterConfig.Client": "0.2.20",
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Configuration.Logging": "0.1.4",
+          "Vostok.Configuration.Sources.ClusterConfig": "0.1.8",
+          "Vostok.Datacenters": "0.1.9",
+          "Vostok.Datacenters.Kontur": "1.0.55",
+          "Vostok.Hercules.Client": "0.1.19",
+          "Vostok.Hercules.Client.Abstractions": "0.1.10",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Logging.Hercules": "0.1.12",
+          "Vostok.Logging.Tracing": "0.1.7",
+          "Vostok.Metrics": "0.2.29",
+          "Vostok.Metrics.Hercules": "0.1.5",
+          "Vostok.ServiceDiscovery.Abstractions": "0.1.7",
+          "Vostok.ServiceDiscovery.Telemetry": "0.1.3",
+          "Vostok.ServiceDiscovery.Telemetry.Hercules": "0.1.1",
+          "Vostok.Tracing": "0.1.7",
+          "Vostok.Tracing.Abstractions": "0.1.7",
+          "Vostok.Tracing.Extensions": "0.1.9",
+          "Vostok.Tracing.Hercules": "0.1.10",
+          "Vostok.Tracing.Kontur": "1.0.36"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Telemetry.Kontur.dll": {
+            "assemblyVersion": "1.0.96.0",
+            "fileVersion": "1.0.96.0"
+          }
+        }
+      },
+      "Vostok.Throttling/0.1.5": {
+        "runtime": {
+          "lib/net6.0/Vostok.Throttling.dll": {
+            "assemblyVersion": "0.1.5.0",
+            "fileVersion": "0.1.5.0"
+          }
+        }
+      },
+      "Vostok.Throttling.Metrics/0.1.7": {
+        "dependencies": {
+          "Vostok.Metrics": "0.2.29",
+          "Vostok.Throttling": "0.1.5"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Throttling.Metrics.dll": {
+            "assemblyVersion": "0.1.7.0",
+            "fileVersion": "0.1.7.0"
+          }
+        }
+      },
+      "Vostok.Tracing/0.1.7": {
+        "dependencies": {
+          "Vostok.Context": "0.1.7",
+          "Vostok.Tracing.Abstractions": "0.1.7"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Tracing.dll": {
+            "assemblyVersion": "0.1.7.0",
+            "fileVersion": "0.1.7.0"
+          }
+        }
+      },
+      "Vostok.Tracing.Abstractions/0.1.7": {
+        "runtime": {
+          "lib/net6.0/Vostok.Tracing.Abstractions.dll": {
+            "assemblyVersion": "0.1.7.0",
+            "fileVersion": "0.1.7.0"
+          }
+        }
+      },
+      "Vostok.Tracing.Diagnostics/0.1.0": {
+        "dependencies": {
+          "Vostok.Context": "0.1.7",
+          "Vostok.Tracing.Abstractions": "0.1.7"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Tracing.Diagnostics.dll": {
+            "assemblyVersion": "0.1.0.0",
+            "fileVersion": "0.1.0.0"
+          }
+        }
+      },
+      "Vostok.Tracing.Extensions/0.1.9": {
+        "dependencies": {
+          "Vostok.Tracing.Abstractions": "0.1.7"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Tracing.Extensions.dll": {
+            "assemblyVersion": "0.1.9.0",
+            "fileVersion": "0.1.9.0"
+          }
+        }
+      },
+      "Vostok.Tracing.Hercules/0.1.10": {
+        "dependencies": {
+          "OpenTelemetry.SemanticConventions": "1.0.0-rc9.9",
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.Hercules.Client.Abstractions": "0.1.10",
+          "Vostok.Tracing.Abstractions": "0.1.7"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Tracing.Hercules.dll": {
+            "assemblyVersion": "0.1.10.0",
+            "fileVersion": "0.1.10.0"
+          }
+        }
+      },
+      "Vostok.Tracing.Kontur/1.0.36": {
+        "dependencies": {
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.Context": "0.1.7",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Tracing": "0.1.7",
+          "Vostok.Tracing.Abstractions": "0.1.7"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Tracing.Kontur.dll": {
+            "assemblyVersion": "1.0.36.0",
+            "fileVersion": "1.0.36.0"
+          }
+        }
+      },
+      "Vostok.ZooKeeper.Client/0.1.14": {
+        "dependencies": {
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Tracing.Abstractions": "0.1.7",
+          "Vostok.ZooKeeper.Client.Abstractions": "0.1.8"
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.ZooKeeper.Client.dll": {
+            "assemblyVersion": "0.1.14.0",
+            "fileVersion": "0.1.14.0"
+          }
+        }
+      },
+      "Vostok.ZooKeeper.Client.Abstractions/0.1.8": {
+        "runtime": {
+          "lib/net6.0/Vostok.ZooKeeper.Client.Abstractions.dll": {
+            "assemblyVersion": "0.1.8.0",
+            "fileVersion": "0.1.8.0"
+          }
+        }
+      },
+      "YamlDotNet/13.3.1": {
+        "runtime": {
+          "lib/net6.0/YamlDotNet.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.3.1.0"
+          }
+        }
+      },
+      "Zebra.ClientEx/1.4.136": {
+        "dependencies": {
+          "Kanso3d.Client": "1.2.3483",
+          "Kanso3d.Core": "1.2.3483",
+          "Kontur.Core.Infra.Netstandard": "1.0.6",
+          "Kontur.Core.Netstandard": "1.0.26",
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.ClusterConfig.Client": "0.2.20",
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Configuration.Sources.ClusterConfig": "0.1.8",
+          "Vostok.Configuration.Sources.ClusterConfig.Legacy": "1.0.16",
+          "Vostok.Context": "0.1.7",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Logging.Tracing": "0.1.7",
+          "Vostok.Metrics": "0.2.29",
+          "Vostok.Telemetry.Kontur": "1.0.96",
+          "Vostok.Tracing.Abstractions": "0.1.7",
+          "Vostok.Tracing.Extensions": "0.1.9",
+          "Zebra.Core": "1.4.136"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Zebra.ClientEx.dll": {
+            "assemblyVersion": "1.4.136.0",
+            "fileVersion": "1.4.136.0"
+          }
+        }
+      },
+      "Zebra.Core/1.4.136": {
+        "dependencies": {
+          "Core.Infra.Netcore": "1.0.29",
+          "Kanso3d.Client": "1.2.3483",
+          "Kontur.Core.Infra.Netstandard": "1.0.6",
+          "Kontur.Core.Netstandard": "1.0.26",
+          "System.Reflection.Emit.Lightweight": "4.7.0",
+          "Vostok.ClusterClient.Context": "0.1.6",
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.ClusterClient.Topology.CC": "0.1.4",
+          "Vostok.ClusterClient.Tracing": "0.1.8",
+          "Vostok.ClusterClient.Transport": "0.1.36",
+          "Vostok.ClusterConfig.Client": "0.2.20",
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Configuration.Sources.ClusterConfig": "0.1.8",
+          "Vostok.Configuration.Sources.Yaml": "0.1.2",
+          "Vostok.Context": "0.1.7",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Tracing.Abstractions": "0.1.7",
+          "Vostok.Tracing.Kontur": "1.0.36"
+        },
+        "runtime": {
+          "lib/net6.0/Zebra.Core.dll": {
+            "assemblyVersion": "1.4.136.0",
+            "fileVersion": "1.4.136.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WebApplication2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Core.Infra.Netcore/1.0.29": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mLuf6bMNgDaXhHo546ENCOb9xQXBqTAXJvek0toDZBMz2slxmbBDZldWeaHr8k38MabgHdok+ItR2n45EaiuNg==",
+      "path": "core.infra.netcore/1.0.29",
+      "hashPath": "core.infra.netcore.1.0.29.nupkg.sha512"
+    },
+    "Houston2.Common.Clients/1.0.1845": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jrUNMbvaBI6OsEDzNEx2tAnNpgTXckcp6AMXCNTldbMuPcZx8poU6WL4094AJIZlIiEaeR/gtya45nDgzidOHA==",
+      "path": "houston2.common.clients/1.0.1845",
+      "hashPath": "houston2.common.clients.1.0.1845.nupkg.sha512"
+    },
+    "Houston2.Common.Helpers/1.0.1845": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sqovRPbkwJaKyTtVRKIyBPCXxVerh6rdUMbiNzt2qfVCxijNTG+ivdKHateX0F7oC9kDqDN3GALMgmdKnaf24A==",
+      "path": "houston2.common.helpers/1.0.1845",
+      "hashPath": "houston2.common.helpers.1.0.1845.nupkg.sha512"
+    },
+    "Houston2.Common.Models/1.0.1845": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+2kSX0rp+VGYqshEUv855DG46vvsU8OmN2UfLN3ooKZbXH/DFGMQpTHHRhZ+ss1M8RWIjeh38ARKH3F9BoSGLA==",
+      "path": "houston2.common.models/1.0.1845",
+      "hashPath": "houston2.common.models.1.0.1845.nupkg.sha512"
+    },
+    "Houston2.Configuration.AsCode/1.0.1845": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DEfwvUZmaAfYjVsJs0KSlDUH4uh99YUIdPu1x/5ebzjwHhf2lufKFwBSg5oqcPNvHOEdHQFZx7IhODvhP88YgA==",
+      "path": "houston2.configuration.ascode/1.0.1845",
+      "hashPath": "houston2.configuration.ascode.1.0.1845.nupkg.sha512"
+    },
+    "Kanso3d.Client/1.2.3483": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VgMi7ENIThvAz7wCNX7l3aRMICVFxlhitKX1KTt2x9AVK/nCzGb0SLVY+vG1ri6rM8K0gxbyeoi5/NYEBYwCFw==",
+      "path": "kanso3d.client/1.2.3483",
+      "hashPath": "kanso3d.client.1.2.3483.nupkg.sha512"
+    },
+    "Kanso3d.Core/1.2.3483": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0VupUsOEKZOlM4H8sj72pjspGvUSmHg+i93I/oaGZOcRNv/aBeAV+RM6ER8PpflZfbDYh8x7WHNwFJ29S/AhPw==",
+      "path": "kanso3d.core/1.2.3483",
+      "hashPath": "kanso3d.core.1.2.3483.nupkg.sha512"
+    },
+    "Kanso3d.Core.Netstandard/1.2.3483": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LK60Dk0fCqXFc586rsdE4BAcAXmiO+6CNvHP+nwuXORk77hvl0voYfI9ArD4Q+l9b6rMagdpscDHcF704UDeSw==",
+      "path": "kanso3d.core.netstandard/1.2.3483",
+      "hashPath": "kanso3d.core.netstandard.1.2.3483.nupkg.sha512"
+    },
+    "Kanso3d.Core.StringMatchers/1.2.3483": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JDaMeR1Z/Ee72HjaUML/klzoVt/d4zScedtMykvEC3H9jTytcBN6v4EBANOIFn4SKBg4dJH+7CCGKeAMWNcXdA==",
+      "path": "kanso3d.core.stringmatchers/1.2.3483",
+      "hashPath": "kanso3d.core.stringmatchers.1.2.3483.nupkg.sha512"
+    },
+    "Kontur.Core.Infra.Netstandard/1.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T3IHD/gZ5VrOMvpYo1ge/AGxxJDAcfT1OEqez5lBCdT06hQ98toNwrBQoRcnpuQxK3o7fFqz4GWFnlpuOkfjyQ==",
+      "path": "kontur.core.infra.netstandard/1.0.6",
+      "hashPath": "kontur.core.infra.netstandard.1.0.6.nupkg.sha512"
+    },
+    "Kontur.Core.Netstandard/1.0.26": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-idcaORSQswE7D8iXrQM4vGTST74X4Bs6cogby9ysRssoAyQUapv7/s4Ph59gTLzvbhp29WHm/w7I4RRAQSxmtA==",
+      "path": "kontur.core.netstandard/1.0.26",
+      "hashPath": "kontur.core.netstandard.1.0.26.nupkg.sha512"
+    },
+    "Kontur.Houston.CodeValidator.Models/1.0.44": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MDQaGKiHibI7zdxes0TV2pzjo+gKPcXH3OCEmNe95qmBzxcqseCJqtOTqpy0hlKX+TAGpa5GmVBeCxbAN+QshA==",
+      "path": "kontur.houston.codevalidator.models/1.0.44",
+      "hashPath": "kontur.houston.codevalidator.models.1.0.44.nupkg.sha512"
+    },
+    "Microsoft.Bcl.HashCode/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MalY0Y/uM/LjXtHfX/26l2VtN4LDNZ2OE3aumNOHDLsT4fNYy2hiHXI4CXCqKpNUNm7iJ2brrc4J89UdaL56FA==",
+      "path": "microsoft.bcl.hashcode/1.1.1",
+      "hashPath": "microsoft.bcl.hashcode.1.1.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Lu41BWNmwhKr6LgyQvcYBOge0pPvmiaK8R5UHXX4//wBhonJyWcT2OK1mqYfEM5G7pTf31fPrpIHOT6sN7EGOA==",
+      "path": "microsoft.extensions.configuration/3.1.0",
+      "hashPath": "microsoft.extensions.configuration.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ESz6bVoDQX7sgWdKHF6G9Pq672T8k+19AFb/txDXwdz7MoqaNQj2/in3agm/3qae9V+WvQZH86LLTNVo0it8vQ==",
+      "path": "microsoft.extensions.configuration.abstractions/3.1.0",
+      "hashPath": "microsoft.extensions.configuration.abstractions.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Binder/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o9eELDBfNkR7sUtYysFZ1Q7BQ1mYt27DMkups/3vu7xgPyOpMD+iAfrBZFzUXT2iw0fmFb8s1gfNBZS+IgjKdQ==",
+      "path": "microsoft.extensions.configuration.binder/3.1.0",
+      "hashPath": "microsoft.extensions.configuration.binder.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KVkv3aF2MQpmGFRh4xRx2CNbc2sjDFk+lH4ySrjWSOS+XoY1Xc+sJphw3N0iYOpoeCCq8976ceVYDH8sdx2qIQ==",
+      "path": "microsoft.extensions.dependencyinjection/3.1.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-44rDtOf1JXXAFpNT2EXMExaDm/4OJ2RXOL9i9lE4bK427nzC7Exphv+beB6IgluyE2GIoo8zezTStMXI7MQ8WA==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P+8sKQ8L4ooL79sxxqwFPxGGC3aBrUDLB/dZqhs4J0XjTyrkeeyJQ4D4nzJB6OnAhy78HIIgQ/RbD6upOXLynw==",
+      "path": "microsoft.extensions.logging/3.1.0",
+      "hashPath": "microsoft.extensions.logging.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jjo4YXRx6MIpv6DiRxJjSpl+sPP0+5VW0clMEdLyIAz44PPwrDTFrd5PZckIxIXl1kKZ2KK6IL2nkt0+ug2MQg==",
+      "path": "microsoft.extensions.logging.abstractions/3.1.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Configuration/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yW3nIoNM3T5iZg8bRViiCN4+vIU/02l+mlWSvKqWnr0Fd5Uk1zKdT9jBWKEcJhRIWKVWWSpFWXnM5yWoIAy1Eg==",
+      "path": "microsoft.extensions.logging.configuration/3.1.0",
+      "hashPath": "microsoft.extensions.logging.configuration.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9b6JHY7TAXrSfZ6EEGf+j8XnqKIiMPErfmaNXhJYSCb+BUW2H4RtzkNJvwLJzwgzqBP0wtTjyA6Uw4BPPdmkMw==",
+      "path": "microsoft.extensions.options/3.1.0",
+      "hashPath": "microsoft.extensions.options.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options.ConfigurationExtensions/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tx6gMKE3rDspA1YZT8SlQJmyt1BaBSl6mNjB3g0ZO6m3NnoavCifXkGeBuDk9Ae4XjW8C+dty52p+0u38jPRIQ==",
+      "path": "microsoft.extensions.options.configurationextensions/3.1.0",
+      "hashPath": "microsoft.extensions.options.configurationextensions.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LEKAnX7lhUhSoIc2XraCTK3M4IU/LdVUzCe464Sa4+7F4ZJuXHHRzZli2mDbiT4xzAZhgqXbvfnb5+CNDcQFfg==",
+      "path": "microsoft.extensions.primitives/3.1.0",
+      "hashPath": "microsoft.extensions.primitives.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VyPlqzH2wavqquTcYpkIIAQ6WdenuKoFN0BdYBbCWsclXacSOHNQn66Gt4z5NBqEYW0FAPm5rlvki9ZiCij5xQ==",
+      "path": "microsoft.netcore.platforms/5.0.0",
+      "hashPath": "microsoft.netcore.platforms.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dDoKi0PnDz31yAyETfRntsLArTlVAVzUzCIvvEDsDsucrl33Dl8pIJG06ePTJTI3tGpeyHS9Cq7Foc/s4EeKcg==",
+      "path": "microsoft.win32.registry/5.0.0",
+      "hashPath": "microsoft.win32.registry.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Bh6blKG8VAKvXiLe2L+sEsn62nc1Ij34MrNxepD2OCrS5cpCwQa9MeLyhVQPQ/R4Wlzwuy6wMK8hLb11QPDRsQ==",
+      "path": "microsoft.win32.systemevents/5.0.0",
+      "hashPath": "microsoft.win32.systemevents.5.0.0.nupkg.sha512"
+    },
+    "morelinq/3.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nKdpt7Ai+xQO8PZ0YFTn13INGJcKO0Nx65kO/ut0zaDirRo6d7atedmW2l68YB3x7U4pOqTLdMfYsBys8KxA1Q==",
+      "path": "morelinq/3.4.2",
+      "hashPath": "morelinq.3.4.2.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "OpenTelemetry/1.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0yHQEYVyYcxxD3H+Zec/e2iw1XU6ksXPKIqUGyqm9jt5ZTkC2OEVAjaqx1Wcr3kua+YEXgebkAbcIiHuK7oUDw==",
+      "path": "opentelemetry/1.4.0",
+      "hashPath": "opentelemetry.1.4.0.nupkg.sha512"
+    },
+    "OpenTelemetry.Api/1.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-754QKfiEZ3TNR3lOWS+u15qJYOVMWXhuUy8zjCXtgbaJihCFga3Wm3UZ9ggC5CJiUEjyeR6vw66NBZUxMOPTNQ==",
+      "path": "opentelemetry.api/1.4.0",
+      "hashPath": "opentelemetry.api.1.4.0.nupkg.sha512"
+    },
+    "OpenTelemetry.Api.ProviderBuilderExtensions/1.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W0Vp2PutW0yJbjRQMTcKhtDlp20kXZqvswQ0EteSoJ4kI3J2Tod5m5RG+3JblAZU3kIwSCzQnhtHT8I4LOvm0g==",
+      "path": "opentelemetry.api.providerbuilderextensions/1.4.0",
+      "hashPath": "opentelemetry.api.providerbuilderextensions.1.4.0.nupkg.sha512"
+    },
+    "OpenTelemetry.Instrumentation.AspNetCore/1.0.0-rc9.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1FEX8srCzGBrDWL5gdXwk0RoXkYWamj3ZnBjDbwqJd2XGvWCE4LwfwtPj8G8P1ox1tYaBEs5mWkb+h2t9KQyfQ==",
+      "path": "opentelemetry.instrumentation.aspnetcore/1.0.0-rc9.14",
+      "hashPath": "opentelemetry.instrumentation.aspnetcore.1.0.0-rc9.14.nupkg.sha512"
+    },
+    "OpenTelemetry.SemanticConventions/1.0.0-rc9.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ag1czlfURv4vthJtbHLWUMO7raVX8/IKlcZRd4RFE8CsBRniXT+wtRvh0RRULYyoTbchOey41U8NkPTIZJl7zg==",
+      "path": "opentelemetry.semanticconventions/1.0.0-rc9.9",
+      "hashPath": "opentelemetry.semanticconventions.1.0.0-rc9.9.nupkg.sha512"
+    },
+    "PublicationApi.Core/1.0.1504": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1vuUE4nbj1r8fnnwXVo3SvYWy9cypKcsQvAscGD8GV8/VDG3lxrGYDhMP11wd44oIEJ7WFNFw8fQuySjswji9Q==",
+      "path": "publicationapi.core/1.0.1504",
+      "hashPath": "publicationapi.core.1.0.1504.nupkg.sha512"
+    },
+    "System.CodeDom/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JPJArwA1kdj8qDAkY2XGjSWoYnqiM7q/3yRNkt6n28Mnn95MuEGkZXUbPBf7qc3IjwrGY5ttQon7yqHZyQJmOQ==",
+      "path": "system.codedom/5.0.0",
+      "hashPath": "system.codedom.5.0.0.nupkg.sha512"
+    },
+    "System.Collections.Immutable/1.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EXKiDFsChZW0RjrZ4FYHu9aW6+P4MCgEDCklsVseRfhoO0F+dXeMSsMRAlVXIo06kGJ/zv+2w1a2uc2+kxxSaQ==",
+      "path": "system.collections.immutable/1.5.0",
+      "hashPath": "system.collections.immutable.1.5.0.nupkg.sha512"
+    },
+    "System.Configuration.ConfigurationManager/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aM7cbfEfVNlEEOj3DsZP+2g9NRwbkyiAv2isQEzw7pnkDg9ekCU2m1cdJLM02Uq691OaCS91tooaxcEn8d0q5w==",
+      "path": "system.configuration.configurationmanager/5.0.0",
+      "hashPath": "system.configuration.configurationmanager.5.0.0.nupkg.sha512"
+    },
+    "System.Diagnostics.DiagnosticSource/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9W0ewWDuAyDqS2PigdTxk6jDKonfgscY/hP8hm7VpxYhNHZHKvZTdRckberlFk3VnCmr3xBUyMBut12Q+T2aOw==",
+      "path": "system.diagnostics.diagnosticsource/7.0.0",
+      "hashPath": "system.diagnostics.diagnosticsource.7.0.0.nupkg.sha512"
+    },
+    "System.Diagnostics.PerformanceCounter/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kcQWWtGVC3MWMNXdMDWfrmIlFZZ2OdoeT6pSNVRtk9+Sa7jwdPiMlNwb0ZQcS7NRlT92pCfmjRtkSWUW3RAKwg==",
+      "path": "system.diagnostics.performancecounter/5.0.0",
+      "hashPath": "system.diagnostics.performancecounter.5.0.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SztFwAnpfKC8+sEKXAFxCBWhKQaEd97EiOL7oZJZP56zbqnLpmxACWA8aGseaUExciuEAUuR9dY8f7HkTRAdnw==",
+      "path": "system.drawing.common/5.0.0",
+      "hashPath": "system.drawing.common.5.0.0.nupkg.sha512"
+    },
+    "System.Management/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MF1CHaRcC+MLFdnDthv4/bKWBZnlnSpkGqa87pKukQefgEdwtb9zFW6zs0GjPp73qtpYYg4q6PEKbzJbxCpKfw==",
+      "path": "system.management/5.0.0",
+      "hashPath": "system.management.5.0.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.Lightweight/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a4OLB4IITxAXJeV74MDx49Oq2+PsF6Sml54XAFv+2RyWwtDBcabzoxiiJRhdhx+gaohLh4hEGCLQyBozXoQPqA==",
+      "path": "system.reflection.emit.lightweight/4.7.0",
+      "hashPath": "system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "System.Security.AccessControl/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dagJ1mHZO3Ani8GH0PHpPEe/oYO+rVdbQjvjJkBRNQkX4t0r1iaeGn8+/ybkSLEan3/slM0t59SVdHzuHf2jmw==",
+      "path": "system.security.accesscontrol/5.0.0",
+      "hashPath": "system.security.accesscontrol.5.0.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HGxMSAFAPLNoxBvSfW08vHde0F9uh7BjASwu6JF9JnXuEPhCY3YUqURn0+bQV/4UWeaqymmrHWV+Aw9riQCtCA==",
+      "path": "system.security.cryptography.protecteddata/5.0.0",
+      "hashPath": "system.security.cryptography.protecteddata.5.0.0.nupkg.sha512"
+    },
+    "System.Security.Permissions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uE8juAhEkp7KDBCdjDIE3H9R1HJuEHqeqX8nLX9gmYKWwsqk3T5qZlPx8qle5DPKimC/Fy3AFTdV7HamgCh9qQ==",
+      "path": "system.security.permissions/5.0.0",
+      "hashPath": "system.security.permissions.5.0.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t0MGLukB5WAVU9bO3MGzvlGnyJPgUlcwerXn1kzBRjwLKixT96XV0Uza41W49gVd8zEMFu9vQEFlv0IOrytICA==",
+      "path": "system.security.principal.windows/5.0.0",
+      "hashPath": "system.security.principal.windows.5.0.0.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Vg8eB5Tawm1IFqj4TVK1czJX89rhFxJo9ELqc/Eiq0eXy13RK00eubyU6TJE6y+GQXjyV5gSfiewDUZjQgSE0w==",
+      "path": "system.text.encodings.web/6.0.0",
+      "hashPath": "system.text.encodings.web.6.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/6.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1Bi8pSdTTVNVKcGFiU1o9Iq6FwFyGQmgBgGHxy9pPvZANXc1cT6D72j+r/H/NsyVnWxKIxOgI3o7DrAwC3zcaA==",
+      "path": "system.text.json/6.0.3",
+      "hashPath": "system.text.json.6.0.3.nupkg.sha512"
+    },
+    "System.Windows.Extensions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c1ho9WU9ZxMZawML+ssPKZfdnrg/OjR3pe0m9v8230z3acqphwvPJqzAkH54xRYm5ntZHGG1EPP3sux9H3qSPg==",
+      "path": "system.windows.extensions/5.0.0",
+      "hashPath": "system.windows.extensions.5.0.0.nupkg.sha512"
+    },
+    "Vostok.Applications.AspNetCore/0.3.24": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+qLsBERRYgthHl5DoMn73c6XAo6aLBz5FAxhKHtO1smwjhqwbrxC0ZRfhn4P87mNfRXpXPs0I2MY7AbLRMDQ/A==",
+      "path": "vostok.applications.aspnetcore/0.3.24",
+      "hashPath": "vostok.applications.aspnetcore.0.3.24.nupkg.sha512"
+    },
+    "Vostok.ClusterClient.Context/0.1.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fg+gpcAg1SqWs+omtTc8whqpcWsy6D6t2F9+kwxdwBpNAB7I+3eqcF+tnHY+y7Pj1U9jtxdwfQ+gxdRluCqB/g==",
+      "path": "vostok.clusterclient.context/0.1.6",
+      "hashPath": "vostok.clusterclient.context.0.1.6.nupkg.sha512"
+    },
+    "Vostok.ClusterClient.Core/0.1.50": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9dLc6yh0ZBJEG1SQXSO+2O+op+HrRi2O2Ewg+vFzeFHrX7ArCcbPNC/bLWb3M5iCtXnF5LNljxxQ0hA1OKhv2w==",
+      "path": "vostok.clusterclient.core/0.1.50",
+      "hashPath": "vostok.clusterclient.core.0.1.50.nupkg.sha512"
+    },
+    "Vostok.ClusterClient.Datacenters/0.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-clsulaNZVkcrR0Cs9/Zuqp8REGqbReQy6IAp5SAxPqmgVGJ9X7RDo+lycBUsZXv1j4O7Tm5BjuzcGwgUip2DaQ==",
+      "path": "vostok.clusterclient.datacenters/0.1.4",
+      "hashPath": "vostok.clusterclient.datacenters.0.1.4.nupkg.sha512"
+    },
+    "Vostok.ClusterClient.Singular/0.1.28": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JhzUwvc9kEtU3hcdTm+GyXVhBijv0v/jp0IMDtKpwTPQbu1sbCs14g3zoLv3lYH6lCDE05rP2r+UP5l50J1E1Q==",
+      "path": "vostok.clusterclient.singular/0.1.28",
+      "hashPath": "vostok.clusterclient.singular.0.1.28.nupkg.sha512"
+    },
+    "Vostok.ClusterClient.Topology.CC/0.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mZnaeH08FzGrdrarXY8OBNE7yLeaIL6wYkbgsaDgvffi7X03wVftJHXEzcvcq6sUYR9fsmt7CLS54cWwk4gARg==",
+      "path": "vostok.clusterclient.topology.cc/0.1.4",
+      "hashPath": "vostok.clusterclient.topology.cc.0.1.4.nupkg.sha512"
+    },
+    "Vostok.ClusterClient.Topology.SD/0.1.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QrAW3FBTlW4xP4Vd0KV/e4ZjXsADxnKwh5wt3KJbkndHpPxUSFSzoBcmrmzppBOstsob6oQlH/X7mn/VPry64w==",
+      "path": "vostok.clusterclient.topology.sd/0.1.12",
+      "hashPath": "vostok.clusterclient.topology.sd.0.1.12.nupkg.sha512"
+    },
+    "Vostok.ClusterClient.Tracing/0.1.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IuIPLPz5RAC2JOLwzS76mdSHWFRXVAx7tmsMLJBsSBqsp6ug3khJAwuM4uVrCUr3T5/wB2azri0/5htn+UGFZQ==",
+      "path": "vostok.clusterclient.tracing/0.1.8",
+      "hashPath": "vostok.clusterclient.tracing.0.1.8.nupkg.sha512"
+    },
+    "Vostok.ClusterClient.Transport/0.1.36": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-btItG1bBdQwsZHvGZ1ETW79K3Hs2zMsDtQ/tTD/WyEaYacl12eTtjd3l4FskNUbQOonLXHIRxF/jnHsAoIve1w==",
+      "path": "vostok.clusterclient.transport/0.1.36",
+      "hashPath": "vostok.clusterclient.transport.0.1.36.nupkg.sha512"
+    },
+    "Vostok.ClusterConfig.Client/0.2.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rnEbPaphYMMES3daF8S/O9uiGDWdiuv/DmUD7W8vTgXemqgsAlvqmZyK7BJcOyCisi0ZpZCRK4/q+jxrzn/epw==",
+      "path": "vostok.clusterconfig.client/0.2.20",
+      "hashPath": "vostok.clusterconfig.client.0.2.20.nupkg.sha512"
+    },
+    "Vostok.ClusterConfig.Client.Abstractions/0.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZxBhnD8hFsBmERTvNW9mkm98Tk8DtFIzXvqkDAgWWbeuWIrBbHNjWfysu9jyTuf1VQpVxnfpB90MsnwCGs2jEA==",
+      "path": "vostok.clusterconfig.client.abstractions/0.1.2",
+      "hashPath": "vostok.clusterconfig.client.abstractions.0.1.2.nupkg.sha512"
+    },
+    "Vostok.Configuration/0.1.43": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X9x/k6OTIj7ECVYwUdy+tTZMySgqpDI1d1BlRGC1lKy+8lPCJKg3KTHDsxZXvwOCovymeKO2N0RZgnjl0SPnng==",
+      "path": "vostok.configuration/0.1.43",
+      "hashPath": "vostok.configuration.0.1.43.nupkg.sha512"
+    },
+    "Vostok.Configuration.Abstractions/0.1.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cBoK4PrQbwbknsyYwwplcm7lUUJkvVurSl7G0LttVynh03dRI16azfE2hd3uIl3/sLFcy780is03HdZliPjsMA==",
+      "path": "vostok.configuration.abstractions/0.1.15",
+      "hashPath": "vostok.configuration.abstractions.0.1.15.nupkg.sha512"
+    },
+    "Vostok.Configuration.Logging/0.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lqu7pm+DZAZ+XRC0cEdrd0TJIYev4vuNguUhsypMW/myvSzFTEps1zHMusBXtP3eWuWkdR7Q+EPRK3vTRp3ByQ==",
+      "path": "vostok.configuration.logging/0.1.4",
+      "hashPath": "vostok.configuration.logging.0.1.4.nupkg.sha512"
+    },
+    "Vostok.Configuration.Microsoft/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sk6Sjc8hCHqATP+YroeHWhNdHMMf1qOtnj2AprY6nMHVfqkeYXKLq55alBPzYtYLqwPDB1qmwOgjGy03AzTlXw==",
+      "path": "vostok.configuration.microsoft/1.0.4",
+      "hashPath": "vostok.configuration.microsoft.1.0.4.nupkg.sha512"
+    },
+    "Vostok.Configuration.Sources/0.1.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JJ0qnlH84nXyntcpxe5J2n+9C3ymL/RI0PkYa2uzKGersdn8j45y6p76hoNRjQbDg33XD0NrsJrl7o1TK6aPew==",
+      "path": "vostok.configuration.sources/0.1.19",
+      "hashPath": "vostok.configuration.sources.0.1.19.nupkg.sha512"
+    },
+    "Vostok.Configuration.Sources.ClusterConfig/0.1.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CdrQTq8T4ONs3Ac0wq0FCc/5MwmXCu2jUoGJ7lzZzhEzfh3KlCpXvi8XwYjWlDCeP01c36vA/KJxp2oVEoET6g==",
+      "path": "vostok.configuration.sources.clusterconfig/0.1.8",
+      "hashPath": "vostok.configuration.sources.clusterconfig.0.1.8.nupkg.sha512"
+    },
+    "Vostok.Configuration.Sources.ClusterConfig.Legacy/1.0.16": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ydZG7DjEyu/DnDrVb27EmMULCiK7zlc4Dyit2g0k9zyfYSSDN2Q8GaEK+eNrjMLNzBd2P2cb4G7w7fvaR+vqpA==",
+      "path": "vostok.configuration.sources.clusterconfig.legacy/1.0.16",
+      "hashPath": "vostok.configuration.sources.clusterconfig.legacy.1.0.16.nupkg.sha512"
+    },
+    "Vostok.Configuration.Sources.Json/0.1.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WGd1kVyFUcjWkjKyDIsumMXC2oiA5coKj98TKCoX0D0QhK/LMTIdfPb+OIHTo8M2+Ej3TSuVa2d7GDOP/Dfrvg==",
+      "path": "vostok.configuration.sources.json/0.1.8",
+      "hashPath": "vostok.configuration.sources.json.0.1.8.nupkg.sha512"
+    },
+    "Vostok.Configuration.Sources.Xml/0.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vAH4beMFBJgRfeLeqRWShyoffk9McmWaoWDThzBpEQtBwD/SCJbHCbvEMiYNWPPexc4p4bv6uSWp61QMC9HZZA==",
+      "path": "vostok.configuration.sources.xml/0.1.3",
+      "hashPath": "vostok.configuration.sources.xml.0.1.3.nupkg.sha512"
+    },
+    "Vostok.Configuration.Sources.Yaml/0.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Hcq8yvZMIT3CHxX7JtztEcCu3d2cfPvrRvQYnQoaRVfMMgg+ibXjWcI1oQTgmIWqjmFf5ZbRhwdFyP1LeCCZZA==",
+      "path": "vostok.configuration.sources.yaml/0.1.2",
+      "hashPath": "vostok.configuration.sources.yaml.0.1.2.nupkg.sha512"
+    },
+    "Vostok.Context/0.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7PwPoFFLu4WFTolWS7fXoChEl3aMUpH7e+NbGM/XrLowhESy3g1SFMiC2dssNV3CI94OefRJHKDCovyfVaCmZg==",
+      "path": "vostok.context/0.1.7",
+      "hashPath": "vostok.context.0.1.7.nupkg.sha512"
+    },
+    "Vostok.Datacenters/0.1.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jsVMmk6WPv238zhEmOBTgdo0NlsMBmQes5+82gQt95AXQnkP7+m9NpxgeC03rBMaZvgR7hPQK4xDOlKhPXh2yg==",
+      "path": "vostok.datacenters/0.1.9",
+      "hashPath": "vostok.datacenters.0.1.9.nupkg.sha512"
+    },
+    "Vostok.Datacenters.Kontur/1.0.55": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+pMrEcV6SoUG8YU/Ju7n4VJ8GT+XYEU83McKLPRrw1LB5tRF6LOLH7dGbyyUAZ65zzVWCQBJAqEnG8i6jhVDHw==",
+      "path": "vostok.datacenters.kontur/1.0.55",
+      "hashPath": "vostok.datacenters.kontur.1.0.55.nupkg.sha512"
+    },
+    "Vostok.Hercules.Client/0.1.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-K5xx6rh+IVrGakAIZsrdcHZnoR2So4B6UmxPwBaEto/vnQf4nPiBXUqUHBYk2d11IspXU/iX+PJpjFRbdoF6hw==",
+      "path": "vostok.hercules.client/0.1.19",
+      "hashPath": "vostok.hercules.client.0.1.19.nupkg.sha512"
+    },
+    "Vostok.Hercules.Client.Abstractions/0.1.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hu1NEGrrUipl5+4nn/C0rIH3cfqR/iielHvxOxSwBV6i8Lc+zs8X6K9SLEvVJx8XndlCfJZp9P0Afy3uNcLLCw==",
+      "path": "vostok.hercules.client.abstractions/0.1.10",
+      "hashPath": "vostok.hercules.client.abstractions.0.1.10.nupkg.sha512"
+    },
+    "Vostok.Hosting/0.3.70": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EalMHjvwCWLf33qO2hw8BVKDmrH+JhnvAXxf+rmmj0rBd0XZPeVcXGyy/HJSf691Z9quscKKRFRq3TSIicePgQ==",
+      "path": "vostok.hosting/0.3.70",
+      "hashPath": "vostok.hosting.0.3.70.nupkg.sha512"
+    },
+    "Vostok.Hosting.Abstractions/0.3.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nyitKnAekN5ObGb5CPN7olGPQMNE/O1up2aH2iPtbyplM8hzgm8f2WnC4cKP6Sm/roVoq/Jhe4G3/YBkmEA5TQ==",
+      "path": "vostok.hosting.abstractions/0.3.9",
+      "hashPath": "vostok.hosting.abstractions.0.3.9.nupkg.sha512"
+    },
+    "Vostok.Hosting.AspNetCore/0.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3R7eosMNryrCwDQtNmAdhAf6XNC38rhVmfxCoMkoXj6HqZWwqg+ulfE9DkkbVOm/L465Dew6SG7RQma5i/HzLA==",
+      "path": "vostok.hosting.aspnetcore/0.1.4",
+      "hashPath": "vostok.hosting.aspnetcore.0.1.4.nupkg.sha512"
+    },
+    "Vostok.Hosting.AspNetCore.Houston/1.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gcvApeXCosc+CDZB693FdABf2z5ngQxMszsn2WHlsmnlmCsyfQkq6QPIctr4UEJDblL8j72t03vdWruK12+lpA==",
+      "path": "vostok.hosting.aspnetcore.houston/1.0.17",
+      "hashPath": "vostok.hosting.aspnetcore.houston.1.0.17.nupkg.sha512"
+    },
+    "Vostok.Hosting.Houston/1.0.503": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-clQXWXnIUNuWQIHq0J6fJ0FZyMTpBXN3ZS6bCJ0kZlVhbJvJWzTdbTaEMnTkYQwzEFLgYc6qI4bfeB0VuScpTw==",
+      "path": "vostok.hosting.houston/1.0.503",
+      "hashPath": "vostok.hosting.houston.1.0.503.nupkg.sha512"
+    },
+    "Vostok.Hosting.Houston.Abstractions/1.0.95": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oXKS1WygkgsK2oTt62yT/44JFXKsNBrMnhk1HW8BhXwKzkrXJ8fhQMqAKKmLIXs0YKxf1+czfPqKvT6hsnpZ0w==",
+      "path": "vostok.hosting.houston.abstractions/1.0.95",
+      "hashPath": "vostok.hosting.houston.abstractions.1.0.95.nupkg.sha512"
+    },
+    "Vostok.Hosting.Houston2/1.0.125": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5drzPisve94kZmd4EH2BHJLAbN6NtdFT3ZG1U1Mv1CA2bFVhyVFZ0/zm4a1RJQjagGC+O/jTNECUB9jBQKc5Jw==",
+      "path": "vostok.hosting.houston2/1.0.125",
+      "hashPath": "vostok.hosting.houston2.1.0.125.nupkg.sha512"
+    },
+    "Vostok.Hosting.Kontur/1.0.134": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UDq13+r4VZtm9nD2aQvDUwcYBRiYRNiW7eqo/Zl8/QXbVDsvFXBuJAwKfN2gKzCGOvB1EsRIuTKZ1ixh9yEXCQ==",
+      "path": "vostok.hosting.kontur/1.0.134",
+      "hashPath": "vostok.hosting.kontur.1.0.134.nupkg.sha512"
+    },
+    "Vostok.Logging.Abstractions/1.0.32": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WbhrvhsO7yr2EAI+M88BQZy0uMJnWpUdpqfcS34oiMTUoiJfv3Y997JNck4ZsaWJDZqit54/V7Lm/H9oVe+YoQ==",
+      "path": "vostok.logging.abstractions/1.0.32",
+      "hashPath": "vostok.logging.abstractions.1.0.32.nupkg.sha512"
+    },
+    "Vostok.Logging.Configuration/1.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N2RK8RQqAVe3gezqX/TbMU2ZSf63bt8yoDXXrFp7boJML0Zn1gBcqXBmAVYsMTcid5NU3wvKJH5VnGxzcxaWjw==",
+      "path": "vostok.logging.configuration/1.0.8",
+      "hashPath": "vostok.logging.configuration.1.0.8.nupkg.sha512"
+    },
+    "Vostok.Logging.Console/1.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-q6tbQ+O9pUGRBJqPoQm3/lhvU6PU4py0ituuaSsCnrhoEXMxd3974vR8WH/E/TArR8956kphFqVLUgTj+qoJ7w==",
+      "path": "vostok.logging.console/1.0.10",
+      "hashPath": "vostok.logging.console.1.0.10.nupkg.sha512"
+    },
+    "Vostok.Logging.Context/1.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6L03P2rpugYNyxCxMk3q1Goioe+GK+YQHMtIQUkrhYeEV6+iYoKDXY027T3sQULwTPSZY9withqUwdA8HpoPfg==",
+      "path": "vostok.logging.context/1.0.5",
+      "hashPath": "vostok.logging.context.1.0.5.nupkg.sha512"
+    },
+    "Vostok.Logging.File/1.0.23": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8xXT0KfzXQQbnIrAoLhM1iOeiwJOQ+Nrhmv4NRa0Q67fiDuCaTMwYDZ8sy54mOcwJ4F7nKbZuoqor3dlbgPoOQ==",
+      "path": "vostok.logging.file/1.0.23",
+      "hashPath": "vostok.logging.file.1.0.23.nupkg.sha512"
+    },
+    "Vostok.Logging.Formatting/1.0.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-H3DYcuiwJQBoUfApOuIg6VgwnUwL7zmweRgIFF17m6AuiaIt8qHeDQrbKKJoLBAMGBAqIfBroLyCbEjzb5pviQ==",
+      "path": "vostok.logging.formatting/1.0.14",
+      "hashPath": "vostok.logging.formatting.1.0.14.nupkg.sha512"
+    },
+    "Vostok.Logging.Hercules/0.1.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hUOO23HKI7qpPpaqQXB4sUd4tcyd8OOS7wYVNeV9CnuO9Q86VkqoGnIUk+zGi1l3d9guwkPo/cyBZ7adPTRl6Q==",
+      "path": "vostok.logging.hercules/0.1.12",
+      "hashPath": "vostok.logging.hercules.0.1.12.nupkg.sha512"
+    },
+    "Vostok.Logging.Microsoft/2.0.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MG6KVaTiHh/XI7wc/1BJE2EfnLKgiz5PWFuyiqQ93Ffi4TtL1l11e4CDmlKGSo1bSDjpTXVPy+LEUiOhAuyBng==",
+      "path": "vostok.logging.microsoft/2.0.15",
+      "hashPath": "vostok.logging.microsoft.2.0.15.nupkg.sha512"
+    },
+    "Vostok.Logging.Tracing/0.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HAjnrQpmCMWxxdm6WJ7TfFR9H39rqPo5Pv4hEHiFUqjU+GMXr5S58HJmr+Nrc5tiYhEYTO+NXQHI71MI7NuwRQ==",
+      "path": "vostok.logging.tracing/0.1.7",
+      "hashPath": "vostok.logging.tracing.0.1.7.nupkg.sha512"
+    },
+    "Vostok.Metrics/0.2.29": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1FZ3KT8JzBCSvvrcW1s0x9mrmWN1bo29gQ2ZgGUgeR5GLPQ2EeABrTCzKfv+cA/txEG3A4UVufJ64s2NRkpQ7A==",
+      "path": "vostok.metrics/0.2.29",
+      "hashPath": "vostok.metrics.0.2.29.nupkg.sha512"
+    },
+    "Vostok.Metrics.Hercules/0.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AHJTe+qYnpmjBzut9T56FIBGS3rZF2UopSKPBvA9I9J4+V7fdmgOAeIgziE3b03olEOM4rfuJz0RhIKcutGO5A==",
+      "path": "vostok.metrics.hercules/0.1.5",
+      "hashPath": "vostok.metrics.hercules.0.1.5.nupkg.sha512"
+    },
+    "Vostok.Metrics.System/0.3.23": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vLNDX36uUxmRPQEdBdu7klz9ty5GHWZgQ3J3j8AximxhLjPcZ3Ch7OltZrNJm+2cWADepfJjoMNwufhTahuIKw==",
+      "path": "vostok.metrics.system/0.3.23",
+      "hashPath": "vostok.metrics.system.0.3.23.nupkg.sha512"
+    },
+    "Vostok.ServiceDiscovery/0.1.23": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+ZHZ4F/nr73PxbUAF1xo7apLM8i/9zATu5h77V/jsY4UL3TGrdat9/h6GMXF1XSB46JGEywFOrJzO0SI400GhQ==",
+      "path": "vostok.servicediscovery/0.1.23",
+      "hashPath": "vostok.servicediscovery.0.1.23.nupkg.sha512"
+    },
+    "Vostok.ServiceDiscovery.Abstractions/0.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hAPqM/uPxoLoFL7IZkTQrsserKbltzN6VVTJXcnqyn/xa32mDYUfTbftRYIzlPn3EdJJ8/s++Uic/aiS0L5m7g==",
+      "path": "vostok.servicediscovery.abstractions/0.1.7",
+      "hashPath": "vostok.servicediscovery.abstractions.0.1.7.nupkg.sha512"
+    },
+    "Vostok.ServiceDiscovery.Extensions/0.1.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jqdl2vXBOwT1JrUCNXt6qvIYQ6Mgu//ySSftbZlxAGs5Cr/ovT24wrXAlZpZNEuvECDD9yuGljMj09Mb5CdAzg==",
+      "path": "vostok.servicediscovery.extensions/0.1.10",
+      "hashPath": "vostok.servicediscovery.extensions.0.1.10.nupkg.sha512"
+    },
+    "Vostok.ServiceDiscovery.Kontur/1.0.116": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HTg+xgJNwvFf+4t3akRzD17pnQVmJuyXUXMMT3a7TmPCRr0H5VZyAJGlAXrTuVWDJB/7zDbSsefSo7RyzQpnHg==",
+      "path": "vostok.servicediscovery.kontur/1.0.116",
+      "hashPath": "vostok.servicediscovery.kontur.1.0.116.nupkg.sha512"
+    },
+    "Vostok.ServiceDiscovery.Telemetry/0.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WMjhnzyO5AQc+FH6HGZ/8cV6vUDappaBfHJ6ylzLniawLKti2GSIAJdRBuRJERcJaghA90n2YwVAtFgphUO62w==",
+      "path": "vostok.servicediscovery.telemetry/0.1.3",
+      "hashPath": "vostok.servicediscovery.telemetry.0.1.3.nupkg.sha512"
+    },
+    "Vostok.ServiceDiscovery.Telemetry.Hercules/0.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b8NvQOHSDRO1QPi2IRbKcZVmG0jmwIpHLOOB3YOonNuHHPWgb5B+CTLQ7uaMPgtz0rJXOObK99fSoXktYsajYQ==",
+      "path": "vostok.servicediscovery.telemetry.hercules/0.1.1",
+      "hashPath": "vostok.servicediscovery.telemetry.hercules.0.1.1.nupkg.sha512"
+    },
+    "Vostok.Sys.Metrics.PerfCounters/0.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1MG4J2s3HTE9ayf5Vj4fpyv2A8qoRjw+GN6bWzE9lB69dBmA9jQmW65truyfSI5wnvPy4thnbejR3XJs5arkeA==",
+      "path": "vostok.sys.metrics.perfcounters/0.0.6",
+      "hashPath": "vostok.sys.metrics.perfcounters.0.0.6.nupkg.sha512"
+    },
+    "Vostok.Telemetry.Kontur/1.0.96": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N4DCXW1A2qClHscnydL15EMI7xC1ywhqG4HZKk0yR6ORU/vE0+lHeBZThzh6fkLSH2iWaaJsQrM9F/6+jsXMIA==",
+      "path": "vostok.telemetry.kontur/1.0.96",
+      "hashPath": "vostok.telemetry.kontur.1.0.96.nupkg.sha512"
+    },
+    "Vostok.Throttling/0.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Xyuk3yvj+htvJieDOVjcj10g7hydzNW7vOnPcqzOiAgZnSfFj2JhIDVdTtmFCxODl2XhpuP+jt1gyF46LG48Nw==",
+      "path": "vostok.throttling/0.1.5",
+      "hashPath": "vostok.throttling.0.1.5.nupkg.sha512"
+    },
+    "Vostok.Throttling.Metrics/0.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GdUngNo4+A1dFOAry5CIF3IegDP7FMnNctGeAhl/JYSFT8L5GlXKTRptY/1ZyNWW5CDvt6p26mQbx2FoIOGDqA==",
+      "path": "vostok.throttling.metrics/0.1.7",
+      "hashPath": "vostok.throttling.metrics.0.1.7.nupkg.sha512"
+    },
+    "Vostok.Tracing/0.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VAPrOiM889LmyPlAxWQrlHHSvzBcdZD7aIwLGalKhqkoXwxvj4CPEADAqSG0kga1CkHkUdk2rvhnfnwTr4qk4w==",
+      "path": "vostok.tracing/0.1.7",
+      "hashPath": "vostok.tracing.0.1.7.nupkg.sha512"
+    },
+    "Vostok.Tracing.Abstractions/0.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JGFZgFYJpgjUED2QdNoskCoUL5qGg8EFlXoAaqMXcvCy1v4th/aLiLV6FngoNkAtO9ZEDnhrpbReW+ywOgmkHQ==",
+      "path": "vostok.tracing.abstractions/0.1.7",
+      "hashPath": "vostok.tracing.abstractions.0.1.7.nupkg.sha512"
+    },
+    "Vostok.Tracing.Diagnostics/0.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-e7M9QUj9IUSip6rv+wOTDByutjaZpOSKORq0zr6Y8U7WjFqZlGhAOAsUYhmulYlDlr5kAzoL0NajzV7EablUBA==",
+      "path": "vostok.tracing.diagnostics/0.1.0",
+      "hashPath": "vostok.tracing.diagnostics.0.1.0.nupkg.sha512"
+    },
+    "Vostok.Tracing.Extensions/0.1.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7jLBBzhINz0NHsdmb+NZY9KRnJdNMYzezkRgRFocgoyeFguSlAq75ujYaPgNvJeQPtngBkCB1mlZbXaZb+BRZA==",
+      "path": "vostok.tracing.extensions/0.1.9",
+      "hashPath": "vostok.tracing.extensions.0.1.9.nupkg.sha512"
+    },
+    "Vostok.Tracing.Hercules/0.1.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AvMzMagZo0Z0/XbhoS+xG5hjbZG406Dfra/z1op1fUqG+ju7ltu1jBPVtzeHUhPN+De70FKm2fYI+N9hw7DtmQ==",
+      "path": "vostok.tracing.hercules/0.1.10",
+      "hashPath": "vostok.tracing.hercules.0.1.10.nupkg.sha512"
+    },
+    "Vostok.Tracing.Kontur/1.0.36": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-J68VJ/L4vTtyetXeU7DcSJDRGnIqmzPDL9YUaziL1/yxsVvUwXtWMUlVbBCZ5ESDbKRgsXVIz+KM8Y4Z8S1W8w==",
+      "path": "vostok.tracing.kontur/1.0.36",
+      "hashPath": "vostok.tracing.kontur.1.0.36.nupkg.sha512"
+    },
+    "Vostok.ZooKeeper.Client/0.1.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8fr16V9RhFUNpSNrSUNttO/HO4Rr2XMSHsCur+h/sKcu815H2mGj3xkwDYQ9hf7Vkali9KYykJgU3BYcrvXfIA==",
+      "path": "vostok.zookeeper.client/0.1.14",
+      "hashPath": "vostok.zookeeper.client.0.1.14.nupkg.sha512"
+    },
+    "Vostok.ZooKeeper.Client.Abstractions/0.1.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pJFZdAvhF6IDkbRmvlUGZzGRWCc090QBI0APOJJPd8fK+77n04uo7aTyp/FGL767YptM86md3WFjLWOuEdOu7A==",
+      "path": "vostok.zookeeper.client.abstractions/0.1.8",
+      "hashPath": "vostok.zookeeper.client.abstractions.0.1.8.nupkg.sha512"
+    },
+    "YamlDotNet/13.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Q2dqDsb0xAlr092grgHk8/vTXI2snIiYM5ND3IXkgJDFIdPnqDYwYnlk+gwzSeRByDLhiSzTog8uT7xFwH68Zg==",
+      "path": "yamldotnet/13.3.1",
+      "hashPath": "yamldotnet.13.3.1.nupkg.sha512"
+    },
+    "Zebra.ClientEx/1.4.136": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MxEtoZSjbtay32ezT4B6hn2AjlWsUNHis3GmV/wezZAMgutKj+LqSt/ZHDjTURURO0dL+oOZ6VoT71PNG11SjA==",
+      "path": "zebra.clientex/1.4.136",
+      "hashPath": "zebra.clientex.1.4.136.nupkg.sha512"
+    },
+    "Zebra.Core/1.4.136": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xR3onGQSgC9dUYjrrmzFAIRisTp1JJ8AVhEJRAmZQwF7yRLaM3+8KsS1wAGCcX3Z0rMARUj8ID+EdGoVd7iyug==",
+      "path": "zebra.core/1.4.136",
+      "hashPath": "zebra.core.1.4.136.nupkg.sha512"
+    }
+  }
+}

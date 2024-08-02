@@ -1,0 +1,4655 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Core.Infra.Netcore/1.0.29": {
+        "type": "package",
+        "dependencies": {
+          "System.Diagnostics.PerformanceCounter": "5.0.0",
+          "Vostok.Logging.Abstractions": "1.0.21"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Core.Infra.Netcore.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Houston2.Common.Clients/1.0.1845": {
+        "type": "package",
+        "dependencies": {
+          "Houston2.Common.Models": "1.0.1845",
+          "Houston2.Configuration.AsCode": "1.0.1845",
+          "Newtonsoft.Json": "13.0.3",
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.ClusterClient.Datacenters": "0.1.4",
+          "Vostok.ClusterClient.Singular": "0.1.28",
+          "Vostok.ClusterClient.Topology.SD": "0.1.12",
+          "Vostok.ClusterClient.Transport": "0.1.36",
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Datacenters": "0.1.9",
+          "Vostok.Datacenters.Kontur": "1.0.55",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Logging.Context": "1.0.5",
+          "Vostok.Logging.Tracing": "0.1.7",
+          "Vostok.ServiceDiscovery": "0.1.23",
+          "Vostok.ServiceDiscovery.Abstractions": "0.1.7",
+          "Vostok.ServiceDiscovery.Kontur": "1.0.116",
+          "Vostok.Telemetry.Kontur": "1.0.96",
+          "Vostok.Tracing.Abstractions": "0.1.7",
+          "Vostok.Tracing.Extensions": "0.1.9"
+        },
+        "compile": {
+          "lib/net6.0/Houston2.Common.Clients.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Houston2.Common.Clients.dll": {}
+        }
+      },
+      "Houston2.Common.Helpers/1.0.1845": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Metrics": "0.2.29"
+        },
+        "compile": {
+          "lib/net6.0/Houston2.Common.Helpers.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Houston2.Common.Helpers.dll": {}
+        }
+      },
+      "Houston2.Common.Models/1.0.1845": {
+        "type": "package",
+        "dependencies": {
+          "Houston2.Common.Helpers": "1.0.1845",
+          "Kontur.Houston.CodeValidator.Models": "1.0.44",
+          "Newtonsoft.Json": "13.0.3",
+          "PublicationApi.Core": "1.0.1504",
+          "System.Text.Json": "6.0.3",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Hosting.Abstractions": "0.3.9",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Logging.Context": "1.0.5",
+          "Vostok.Tracing.Abstractions": "0.1.7",
+          "Vostok.Tracing.Extensions": "0.1.9",
+          "morelinq": "3.4.2"
+        },
+        "compile": {
+          "lib/net6.0/Houston2.Common.Models.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Houston2.Common.Models.dll": {}
+        }
+      },
+      "Houston2.Configuration.AsCode/1.0.1845": {
+        "type": "package",
+        "dependencies": {
+          "Houston2.Common.Helpers": "1.0.1845",
+          "Houston2.Common.Models": "1.0.1845",
+          "PublicationApi.Core": "1.0.1504",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "YamlDotNet": "13.3.1"
+        },
+        "compile": {
+          "lib/net6.0/Houston2.Configuration.AsCode.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Houston2.Configuration.AsCode.dll": {}
+        }
+      },
+      "Kanso3d.Client/1.2.3483": {
+        "type": "package",
+        "dependencies": {
+          "Kanso3d.Core.Netstandard": "1.2.3483",
+          "Kanso3d.Core.StringMatchers": "1.2.3483",
+          "Kontur.Core.Infra.Netstandard": "1.0.6",
+          "Kontur.Core.Netstandard": "1.0.26",
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.ClusterClient.Transport": "0.1.36",
+          "Vostok.ClusterConfig.Client": "0.2.20",
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Context": "0.1.7",
+          "Vostok.Datacenters": "0.1.9",
+          "Vostok.Datacenters.Kontur": "1.0.55",
+          "Vostok.Hercules.Client": "0.1.19",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Logging.Context": "1.0.5",
+          "Vostok.Logging.Tracing": "0.1.7",
+          "Vostok.Metrics": "0.2.29",
+          "Vostok.Metrics.Hercules": "0.1.5",
+          "Vostok.Telemetry.Kontur": "1.0.96",
+          "Vostok.Tracing.Abstractions": "0.1.7",
+          "Vostok.Tracing.Extensions": "0.1.9"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Kanso3d.Client.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Kanso3d.Client.dll": {}
+        }
+      },
+      "Kanso3d.Core/1.2.3483": {
+        "type": "package",
+        "dependencies": {
+          "Kanso3d.Core.StringMatchers": "1.2.3483",
+          "Kontur.Core.Infra.Netstandard": "1.0.6",
+          "Kontur.Core.Netstandard": "1.0.26",
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Logging.Abstractions": "1.0.32"
+        },
+        "compile": {
+          "lib/netstandard2.0/Kanso3d.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Kanso3d.Core.dll": {}
+        }
+      },
+      "Kanso3d.Core.Netstandard/1.2.3483": {
+        "type": "package",
+        "dependencies": {
+          "Kanso3d.Core": "1.2.3483",
+          "Kontur.Core.Infra.Netstandard": "1.0.6",
+          "Kontur.Core.Netstandard": "1.0.26",
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.ClusterClient.Topology.CC": "0.1.4",
+          "Vostok.ClusterClient.Tracing": "0.1.8",
+          "Vostok.ClusterClient.Transport": "0.1.36",
+          "Vostok.ClusterConfig.Client": "0.2.20",
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Configuration.Logging": "0.1.4",
+          "Vostok.Configuration.Sources.ClusterConfig": "0.1.8",
+          "Vostok.Configuration.Sources.Yaml": "0.1.2",
+          "Vostok.Hercules.Client.Abstractions": "0.1.10",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Metrics": "0.2.29",
+          "Vostok.Telemetry.Kontur": "1.0.96",
+          "Vostok.Tracing": "0.1.7",
+          "Vostok.Tracing.Abstractions": "0.1.7",
+          "Vostok.Tracing.Kontur": "1.0.36"
+        },
+        "compile": {
+          "lib/netstandard2.0/Kanso3d.Core.Netstandard.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Kanso3d.Core.Netstandard.dll": {}
+        }
+      },
+      "Kanso3d.Core.StringMatchers/1.2.3483": {
+        "type": "package",
+        "dependencies": {
+          "Kontur.Core.Netstandard": "1.0.26",
+          "Newtonsoft.Json": "10.0.1",
+          "System.Collections.Immutable": "1.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Kanso3d.Core.StringMatchers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Kanso3d.Core.StringMatchers.dll": {}
+        }
+      },
+      "Kontur.Core.Infra.Netstandard/1.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Kontur.Core.Netstandard": "1.0.14",
+          "System.Diagnostics.PerformanceCounter": "5.0.0",
+          "System.Management": "5.0.0",
+          "Vostok.Logging.Abstractions": "1.0.30"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Kontur.Core.Infra.Netstandard.dll": {}
+        }
+      },
+      "Kontur.Core.Netstandard/1.0.26": {
+        "type": "package",
+        "dependencies": {
+          "System.Reflection.Emit.Lightweight": "4.3.0",
+          "Vostok.Logging.Abstractions": "1.0.32"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Kontur.Core.Netstandard.dll": {}
+        }
+      },
+      "Kontur.Houston.CodeValidator.Models/1.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Kontur.Houston.CodeValidator.Models.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Kontur.Houston.CodeValidator.Models.dll": {}
+        }
+      },
+      "Microsoft.Bcl.HashCode/1.1.1": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/Microsoft.Bcl.HashCode.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/Microsoft.Bcl.HashCode.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration/3.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/3.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.1.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Binder/3.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.1.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/3.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging/3.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Binder": "3.1.0",
+          "Microsoft.Extensions.DependencyInjection": "3.1.0",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.0",
+          "Microsoft.Extensions.Options": "3.1.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Logging.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Logging.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Configuration/3.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "3.1.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "3.1.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Logging.Configuration.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Logging.Configuration.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/3.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.0",
+          "Microsoft.Extensions.Primitives": "3.1.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options.ConfigurationExtensions/3.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.0",
+          "Microsoft.Extensions.Configuration.Binder": "3.1.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.0",
+          "Microsoft.Extensions.Options": "3.1.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.Win32.Registry/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.AccessControl": "5.0.0",
+          "System.Security.Principal.Windows": "5.0.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "morelinq/3.4.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MoreLinq.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MoreLinq.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "OpenTelemetry/1.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Configuration": "3.1.0",
+          "OpenTelemetry.Api.ProviderBuilderExtensions": "1.4.0"
+        },
+        "compile": {
+          "lib/net6.0/OpenTelemetry.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/OpenTelemetry.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "OpenTelemetry.Api/1.4.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "7.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/OpenTelemetry.Api.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/OpenTelemetry.Api.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "OpenTelemetry.Api.ProviderBuilderExtensions/1.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.0",
+          "OpenTelemetry.Api": "1.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/OpenTelemetry.Api.ProviderBuilderExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/OpenTelemetry.Api.ProviderBuilderExtensions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "OpenTelemetry.Instrumentation.AspNetCore/1.0.0-rc9.14": {
+        "type": "package",
+        "dependencies": {
+          "OpenTelemetry": "1.4.0"
+        },
+        "compile": {
+          "lib/net6.0/OpenTelemetry.Instrumentation.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/OpenTelemetry.Instrumentation.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "OpenTelemetry.SemanticConventions/1.0.0-rc9.9": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/OpenTelemetry.SemanticConventions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/OpenTelemetry.SemanticConventions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "PublicationApi.Core/1.0.1504": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Configuration.Sources": "0.1.19",
+          "Vostok.Configuration.Sources.Json": "0.1.8"
+        },
+        "compile": {
+          "lib/netstandard2.0/PublicationApi.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PublicationApi.Core.dll": {}
+        }
+      },
+      "System.CodeDom/5.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Collections.Immutable/1.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Configuration.ConfigurationManager/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "5.0.0",
+          "System.Security.Permissions": "5.0.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Diagnostics.DiagnosticSource/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Diagnostics.PerformanceCounter/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "Microsoft.Win32.Registry": "5.0.0",
+          "System.Configuration.ConfigurationManager": "5.0.0",
+          "System.Security.Principal.Windows": "5.0.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Diagnostics.PerformanceCounter.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Diagnostics.PerformanceCounter.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Drawing.Common/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "5.0.0"
+        },
+        "compile": {
+          "ref/netcoreapp3.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Management/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "Microsoft.Win32.Registry": "5.0.0",
+          "System.CodeDom": "5.0.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Management.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Reflection.Emit.Lightweight/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Security.AccessControl/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "System.Security.Principal.Windows": "5.0.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/5.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Security.Permissions/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.AccessControl": "5.0.0",
+          "System.Windows.Extensions": "5.0.0"
+        },
+        "compile": {
+          "ref/net5.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/System.Security.Permissions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Security.Principal.Windows/5.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp3.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Text.Encodings.Web/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll": {
+            "assetType": "runtime",
+            "rid": "browser"
+          }
+        }
+      },
+      "System.Text.Json/6.0.3": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Text.Encodings.Web": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Windows.Extensions/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "5.0.0"
+        },
+        "compile": {
+          "ref/netcoreapp3.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Windows.Extensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "Vostok.Applications.AspNetCore/0.3.24": {
+        "type": "package",
+        "dependencies": {
+          "OpenTelemetry": "1.4.0",
+          "OpenTelemetry.Instrumentation.AspNetCore": "1.0.0-rc9.14",
+          "OpenTelemetry.SemanticConventions": "1.0.0-rc9.9",
+          "Vostok.ClusterClient.Context": "0.1.6",
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.ClusterClient.Tracing": "0.1.8",
+          "Vostok.ClusterClient.Transport": "0.1.36",
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Configuration.Microsoft": "1.0.4",
+          "Vostok.Configuration.Sources": "0.1.19",
+          "Vostok.Context": "0.1.7",
+          "Vostok.Datacenters": "0.1.9",
+          "Vostok.Hercules.Client.Abstractions": "0.1.10",
+          "Vostok.Hosting.Abstractions": "0.3.9",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Logging.Context": "1.0.5",
+          "Vostok.Logging.Microsoft": "2.0.15",
+          "Vostok.Logging.Tracing": "0.1.7",
+          "Vostok.Metrics": "0.2.29",
+          "Vostok.ServiceDiscovery.Abstractions": "0.1.7",
+          "Vostok.Throttling": "0.1.5",
+          "Vostok.Throttling.Metrics": "0.1.7",
+          "Vostok.Tracing.Abstractions": "0.1.7",
+          "Vostok.Tracing.Diagnostics": "0.1.0",
+          "Vostok.Tracing.Extensions": "0.1.9"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Applications.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Applications.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Vostok.ClusterClient.Context/0.1.6": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.ClusterClient.Core": "0.1.39",
+          "Vostok.Context": "0.1.6"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.ClusterClient.Context.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.ClusterClient.Context.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.ClusterClient.Core/0.1.50": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.Logging.Abstractions": "1.0.32"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.ClusterClient.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.ClusterClient.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.ClusterClient.Datacenters/0.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.ClusterClient.Core": "0.1.39",
+          "Vostok.Datacenters": "0.1.7"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.ClusterClient.Datacenters.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.ClusterClient.Datacenters.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.ClusterClient.Singular/0.1.28": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.ClusterClient.Core": "0.1.48",
+          "Vostok.ClusterClient.Datacenters": "0.1.4",
+          "Vostok.ClusterClient.Topology.CC": "0.1.4",
+          "Vostok.ClusterClient.Transport": "0.1.34",
+          "Vostok.ClusterConfig.Client": "0.2.20",
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Configuration.Logging": "0.1.4",
+          "Vostok.Configuration.Sources": "0.1.19",
+          "Vostok.Configuration.Sources.ClusterConfig": "0.1.8",
+          "Vostok.Configuration.Sources.Json": "0.1.8",
+          "Vostok.Context": "0.1.7",
+          "Vostok.Datacenters": "0.1.9",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Metrics": "0.2.29"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.ClusterClient.Singular.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.ClusterClient.Singular.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.ClusterClient.Topology.CC/0.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.ClusterClient.Core": "0.1.39",
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration.Abstractions": "0.1.13",
+          "Vostok.Logging.Abstractions": "1.0.23"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.ClusterClient.Topology.CC.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.ClusterClient.Topology.CC.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.ClusterClient.Topology.SD/0.1.12": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.ClusterClient.Core": "0.1.42",
+          "Vostok.Context": "0.1.6",
+          "Vostok.Logging.Abstractions": "1.0.30",
+          "Vostok.ServiceDiscovery.Abstractions": "0.1.7",
+          "Vostok.ServiceDiscovery.Extensions": "0.1.10"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.ClusterClient.Topology.SD.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.ClusterClient.Topology.SD.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.ClusterClient.Tracing/0.1.8": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.ClusterClient.Context": "0.1.6",
+          "Vostok.ClusterClient.Core": "0.1.45",
+          "Vostok.Tracing.Abstractions": "0.1.7",
+          "Vostok.Tracing.Extensions": "0.1.9"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.ClusterClient.Tracing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.ClusterClient.Tracing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.ClusterClient.Transport/0.1.36": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.ClusterClient.Core": "0.1.48",
+          "Vostok.Logging.Abstractions": "1.0.32"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.ClusterClient.Transport.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.ClusterClient.Transport.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.ClusterConfig.Client/0.2.20": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.ClusterClient.Core": "0.1.47",
+          "Vostok.ClusterClient.Transport": "0.1.34",
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Configuration.Sources": "0.1.19",
+          "Vostok.Logging.Abstractions": "1.0.31"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.ClusterConfig.Client.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.ClusterConfig.Client.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.ClusterConfig.Client.Abstractions/0.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.Configuration.Abstractions": "0.1.13"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.ClusterConfig.Client.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.ClusterConfig.Client.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Configuration/0.1.43": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.Configuration.Abstractions": "0.1.15"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Configuration.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Configuration.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Configuration.Abstractions/0.1.15": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Vostok.Configuration.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Configuration.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Configuration.Logging/0.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.Configuration": "0.1.35",
+          "Vostok.Configuration.Abstractions": "0.1.13",
+          "Vostok.Logging.Abstractions": "1.0.23"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Configuration.Logging.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Configuration.Logging.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Configuration.Microsoft/1.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "2.1.1",
+          "Vostok.Configuration.Abstractions": "0.1.13"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Configuration.Microsoft.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Configuration.Microsoft.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Configuration.Sources/0.1.19": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.Configuration.Abstractions": "0.1.13"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Configuration.Sources.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Configuration.Sources.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Configuration.Sources.ClusterConfig/0.1.8": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration.Abstractions": "0.1.13",
+          "Vostok.Configuration.Sources": "0.1.18"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Configuration.Sources.ClusterConfig.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Configuration.Sources.ClusterConfig.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Configuration.Sources.ClusterConfig.Legacy/1.0.16": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration.Abstractions": "0.1.13",
+          "Vostok.Configuration.Sources.ClusterConfig": "0.1.8"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Configuration.Sources.ClusterConfig.Legacy.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Configuration.Sources.ClusterConfig.Legacy.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Configuration.Sources.Json/0.1.8": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Configuration.Sources": "0.1.19"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Configuration.Sources.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Configuration.Sources.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Configuration.Sources.Xml/0.1.3": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.Configuration.Abstractions": "0.1.13",
+          "Vostok.Configuration.Sources": "0.1.18"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Configuration.Sources.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Configuration.Sources.Xml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Configuration.Sources.Yaml/0.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.Configuration.Abstractions": "0.1.13",
+          "Vostok.Configuration.Sources": "0.1.18"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Configuration.Sources.Yaml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Configuration.Sources.Yaml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Context/0.1.7": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Vostok.Context.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Context.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Datacenters/0.1.9": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Vostok.Datacenters.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Datacenters.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Datacenters.Kontur/1.0.55": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.ClusterConfig.Client": "0.2.18",
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Configuration.Logging": "0.1.4",
+          "Vostok.Configuration.Sources.ClusterConfig": "0.1.8",
+          "Vostok.Datacenters": "0.1.9",
+          "Vostok.Logging.Abstractions": "1.0.31"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Datacenters.Kontur.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Datacenters.Kontur.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Hercules.Client/0.1.19": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.ClusterClient.Core": "0.1.40",
+          "Vostok.ClusterClient.Transport": "0.1.23",
+          "Vostok.Hercules.Client.Abstractions": "0.1.9",
+          "Vostok.Logging.Abstractions": "1.0.28"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Hercules.Client.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Hercules.Client.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Hercules.Client.Abstractions/0.1.10": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Vostok.Hercules.Client.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Hercules.Client.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Hosting/0.3.70": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.ClusterClient.Context": "0.1.6",
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.ClusterClient.Datacenters": "0.1.4",
+          "Vostok.ClusterClient.Topology.CC": "0.1.4",
+          "Vostok.ClusterClient.Topology.SD": "0.1.12",
+          "Vostok.ClusterClient.Tracing": "0.1.8",
+          "Vostok.ClusterConfig.Client": "0.2.20",
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Configuration.Logging": "0.1.4",
+          "Vostok.Configuration.Sources": "0.1.19",
+          "Vostok.Configuration.Sources.ClusterConfig": "0.1.8",
+          "Vostok.Configuration.Sources.Json": "0.1.8",
+          "Vostok.Configuration.Sources.Xml": "0.1.3",
+          "Vostok.Configuration.Sources.Yaml": "0.1.2",
+          "Vostok.Context": "0.1.7",
+          "Vostok.Datacenters": "0.1.9",
+          "Vostok.Hercules.Client": "0.1.19",
+          "Vostok.Hercules.Client.Abstractions": "0.1.10",
+          "Vostok.Hosting.Abstractions": "0.3.9",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Logging.Configuration": "1.0.8",
+          "Vostok.Logging.Console": "1.0.10",
+          "Vostok.Logging.Context": "1.0.5",
+          "Vostok.Logging.File": "1.0.23",
+          "Vostok.Logging.Formatting": "1.0.14",
+          "Vostok.Logging.Hercules": "0.1.12",
+          "Vostok.Logging.Tracing": "0.1.7",
+          "Vostok.Metrics": "0.2.29",
+          "Vostok.Metrics.Hercules": "0.1.5",
+          "Vostok.Metrics.System": "0.3.23",
+          "Vostok.ServiceDiscovery": "0.1.23",
+          "Vostok.ServiceDiscovery.Abstractions": "0.1.7",
+          "Vostok.ServiceDiscovery.Telemetry": "0.1.3",
+          "Vostok.ServiceDiscovery.Telemetry.Hercules": "0.1.1",
+          "Vostok.Tracing": "0.1.7",
+          "Vostok.Tracing.Abstractions": "0.1.7",
+          "Vostok.Tracing.Diagnostics": "0.1.0",
+          "Vostok.Tracing.Extensions": "0.1.9",
+          "Vostok.Tracing.Hercules": "0.1.10",
+          "Vostok.ZooKeeper.Client": "0.1.14",
+          "Vostok.ZooKeeper.Client.Abstractions": "0.1.8"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Hosting.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Hosting.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Hosting.Abstractions/0.3.9": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Context": "0.1.6",
+          "Vostok.Datacenters": "0.1.8",
+          "Vostok.Hercules.Client.Abstractions": "0.1.10",
+          "Vostok.Logging.Abstractions": "1.0.30",
+          "Vostok.Metrics": "0.2.29",
+          "Vostok.ServiceDiscovery.Abstractions": "0.1.7",
+          "Vostok.Tracing.Abstractions": "0.1.7"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Hosting.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Hosting.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Hosting.AspNetCore/0.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.Applications.AspNetCore": "0.3.24",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Configuration.Microsoft": "1.0.4",
+          "Vostok.Configuration.Sources": "0.1.19",
+          "Vostok.Hosting": "0.3.70",
+          "Vostok.Hosting.Abstractions": "0.3.9",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Logging.Context": "1.0.5",
+          "Vostok.Logging.Microsoft": "2.0.15",
+          "Vostok.Metrics": "0.2.29",
+          "Vostok.ServiceDiscovery": "0.1.23",
+          "Vostok.ServiceDiscovery.Abstractions": "0.1.7",
+          "Vostok.Throttling": "0.1.5",
+          "Vostok.Throttling.Metrics": "0.1.7"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Hosting.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Hosting.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Vostok.Hosting.AspNetCore.Houston/1.0.17": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.Applications.AspNetCore": "0.3.24",
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.ClusterConfig.Client": "0.2.20",
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Configuration.Sources": "0.1.19",
+          "Vostok.Context": "0.1.7",
+          "Vostok.Datacenters": "0.1.9",
+          "Vostok.Hercules.Client": "0.1.19",
+          "Vostok.Hercules.Client.Abstractions": "0.1.10",
+          "Vostok.Hosting": "0.3.70",
+          "Vostok.Hosting.Abstractions": "0.3.9",
+          "Vostok.Hosting.AspNetCore": "0.1.3",
+          "Vostok.Hosting.Houston": "1.0.503",
+          "Vostok.Hosting.Houston.Abstractions": "1.0.95",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Logging.Configuration": "1.0.8",
+          "Vostok.Logging.Console": "1.0.10",
+          "Vostok.Logging.File": "1.0.23",
+          "Vostok.Logging.Hercules": "0.1.12",
+          "Vostok.Logging.Microsoft": "2.0.15",
+          "Vostok.Metrics": "0.2.29",
+          "Vostok.Metrics.Hercules": "0.1.5",
+          "Vostok.ServiceDiscovery": "0.1.23",
+          "Vostok.ServiceDiscovery.Abstractions": "0.1.7",
+          "Vostok.Tracing": "0.1.7",
+          "Vostok.Tracing.Abstractions": "0.1.7",
+          "Vostok.Tracing.Hercules": "0.1.10",
+          "Vostok.ZooKeeper.Client": "0.1.14",
+          "Vostok.ZooKeeper.Client.Abstractions": "0.1.8"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Hosting.AspNetCore.Houston.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Hosting.AspNetCore.Houston.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Vostok.Hosting.Houston/1.0.503": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.ClusterClient.Transport": "0.1.36",
+          "Vostok.ClusterConfig.Client": "0.2.20",
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Configuration.Sources": "0.1.19",
+          "Vostok.Configuration.Sources.Json": "0.1.8",
+          "Vostok.Hercules.Client": "0.1.19",
+          "Vostok.Hercules.Client.Abstractions": "0.1.10",
+          "Vostok.Hosting": "0.3.70",
+          "Vostok.Hosting.Abstractions": "0.3.9",
+          "Vostok.Hosting.Houston.Abstractions": "1.0.95",
+          "Vostok.Hosting.Kontur": "1.0.134",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Logging.Configuration": "1.0.8",
+          "Vostok.Logging.Console": "1.0.10",
+          "Vostok.Logging.File": "1.0.23",
+          "Vostok.Logging.Formatting": "1.0.14",
+          "Vostok.Logging.Hercules": "0.1.12",
+          "Vostok.Metrics": "0.2.29",
+          "Vostok.Metrics.Hercules": "0.1.5",
+          "Vostok.Metrics.System": "0.3.23",
+          "Vostok.ServiceDiscovery": "0.1.23",
+          "Vostok.ServiceDiscovery.Abstractions": "0.1.7",
+          "Vostok.Tracing.Abstractions": "0.1.7",
+          "Vostok.ZooKeeper.Client.Abstractions": "0.1.8",
+          "Zebra.ClientEx": "1.4.136",
+          "Zebra.Core": "1.4.136"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Hosting.Houston.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Hosting.Houston.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Hosting.Houston.Abstractions/1.0.95": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.Hosting.Abstractions": "0.3.9",
+          "Vostok.Logging.Abstractions": "1.0.30"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Hosting.Houston.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Hosting.Houston.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Hosting.Houston2/1.0.125": {
+        "type": "package",
+        "dependencies": {
+          "Houston2.Common.Clients": "1.0.1845",
+          "Houston2.Common.Models": "1.0.1845",
+          "Houston2.Configuration.AsCode": "1.0.1845",
+          "Microsoft.Bcl.HashCode": "1.1.1",
+          "Newtonsoft.Json": "13.0.3",
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.ClusterConfig.Client": "0.2.20",
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Configuration.Sources": "0.1.19",
+          "Vostok.Configuration.Sources.Json": "0.1.8",
+          "Vostok.Context": "0.1.7",
+          "Vostok.Datacenters": "0.1.9",
+          "Vostok.Hercules.Client": "0.1.19",
+          "Vostok.Hercules.Client.Abstractions": "0.1.10",
+          "Vostok.Hosting": "0.3.70",
+          "Vostok.Hosting.Abstractions": "0.3.9",
+          "Vostok.Hosting.Houston": "1.0.503",
+          "Vostok.Hosting.Houston.Abstractions": "1.0.95",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Logging.Configuration": "1.0.8",
+          "Vostok.Logging.Console": "1.0.10",
+          "Vostok.Logging.File": "1.0.23",
+          "Vostok.Logging.Hercules": "0.1.12",
+          "Vostok.Metrics": "0.2.29",
+          "Vostok.Metrics.Hercules": "0.1.5",
+          "Vostok.ServiceDiscovery": "0.1.23",
+          "Vostok.ServiceDiscovery.Abstractions": "0.1.7",
+          "Vostok.Tracing": "0.1.7",
+          "Vostok.Tracing.Abstractions": "0.1.7",
+          "Vostok.Tracing.Hercules": "0.1.10",
+          "Vostok.ZooKeeper.Client": "0.1.14",
+          "Vostok.ZooKeeper.Client.Abstractions": "0.1.8",
+          "YamlDotNet": "13.3.1"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Hosting.Houston2.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Hosting.Houston2.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Hosting.Kontur/1.0.134": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.ClusterClient.Datacenters": "0.1.4",
+          "Vostok.ClusterConfig.Client": "0.2.20",
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Context": "0.1.7",
+          "Vostok.Datacenters": "0.1.9",
+          "Vostok.Datacenters.Kontur": "1.0.55",
+          "Vostok.Hercules.Client": "0.1.19",
+          "Vostok.Hercules.Client.Abstractions": "0.1.10",
+          "Vostok.Hosting": "0.3.68",
+          "Vostok.Hosting.Abstractions": "0.3.9",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Metrics": "0.2.29",
+          "Vostok.Metrics.Hercules": "0.1.5",
+          "Vostok.ServiceDiscovery": "0.1.23",
+          "Vostok.ServiceDiscovery.Abstractions": "0.1.7",
+          "Vostok.ServiceDiscovery.Kontur": "1.0.116",
+          "Vostok.Telemetry.Kontur": "1.0.96",
+          "Vostok.Tracing": "0.1.7",
+          "Vostok.Tracing.Abstractions": "0.1.7",
+          "Vostok.Tracing.Kontur": "1.0.36",
+          "Vostok.ZooKeeper.Client": "0.1.14",
+          "Vostok.ZooKeeper.Client.Abstractions": "0.1.8"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Hosting.Kontur.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Hosting.Kontur.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Logging.Abstractions/1.0.32": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Vostok.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Logging.Configuration/1.0.8": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.Logging.Abstractions": "1.0.23"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Logging.Configuration.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Logging.Configuration.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Logging.Console/1.0.10": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Logging.Formatting": "1.0.14"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Logging.Console.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Logging.Console.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Logging.Context/1.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.Context": "0.1.6",
+          "Vostok.Logging.Abstractions": "1.0.30"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Logging.Context.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Logging.Context.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Logging.File/1.0.23": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Logging.Formatting": "1.0.14"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Logging.File.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Logging.File.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Logging.Formatting/1.0.14": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.Logging.Abstractions": "1.0.32"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Logging.Formatting.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Logging.Formatting.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Logging.Hercules/0.1.12": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.Hercules.Client.Abstractions": "0.1.10",
+          "Vostok.Logging.Abstractions": "1.0.30",
+          "Vostok.Logging.Formatting": "1.0.13"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Logging.Hercules.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Logging.Hercules.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Logging.Microsoft/2.0.15": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "2.0.0",
+          "Vostok.Logging.Abstractions": "1.0.31",
+          "Vostok.Logging.Context": "1.0.5",
+          "Vostok.Logging.Formatting": "1.0.13"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Logging.Microsoft.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Logging.Microsoft.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Logging.Tracing/0.1.7": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.Logging.Abstractions": "1.0.23",
+          "Vostok.Tracing.Abstractions": "0.1.6"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Logging.Tracing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Logging.Tracing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Metrics/0.2.29": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Vostok.Metrics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Metrics.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Metrics.Hercules/0.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.Hercules.Client.Abstractions": "0.1.9",
+          "Vostok.Metrics": "0.2.27"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Metrics.Hercules.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Metrics.Hercules.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Metrics.System/0.3.23": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Metrics": "0.2.29",
+          "Vostok.Sys.Metrics.PerfCounters": "0.0.6"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Metrics.System.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Metrics.System.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.ServiceDiscovery/0.1.23": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.ServiceDiscovery.Abstractions": "0.1.7",
+          "Vostok.ServiceDiscovery.Telemetry": "0.1.3",
+          "Vostok.ZooKeeper.Client.Abstractions": "0.1.8"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.ServiceDiscovery.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.ServiceDiscovery.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.ServiceDiscovery.Abstractions/0.1.7": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Vostok.ServiceDiscovery.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.ServiceDiscovery.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.ServiceDiscovery.Extensions/0.1.10": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.ServiceDiscovery.Abstractions": "0.1.7",
+          "Vostok.ServiceDiscovery.Telemetry": "0.1.3"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.ServiceDiscovery.Extensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.ServiceDiscovery.Extensions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.ServiceDiscovery.Kontur/1.0.116": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.ClusterClient.Core": "0.1.49",
+          "Vostok.ClusterClient.Topology.CC": "0.1.4",
+          "Vostok.ClusterConfig.Client": "0.2.20",
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Datacenters": "0.1.9",
+          "Vostok.Datacenters.Kontur": "1.0.55",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Logging.Tracing": "0.1.7",
+          "Vostok.Metrics": "0.2.29",
+          "Vostok.ServiceDiscovery": "0.1.21",
+          "Vostok.ServiceDiscovery.Abstractions": "0.1.7",
+          "Vostok.ServiceDiscovery.Telemetry": "0.1.3",
+          "Vostok.Telemetry.Kontur": "1.0.84",
+          "Vostok.Tracing.Abstractions": "0.1.7",
+          "Vostok.ZooKeeper.Client": "0.1.14",
+          "Vostok.ZooKeeper.Client.Abstractions": "0.1.8"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.ServiceDiscovery.Kontur.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.ServiceDiscovery.Kontur.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.ServiceDiscovery.Telemetry/0.1.3": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.Context": "0.1.6"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.ServiceDiscovery.Telemetry.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.ServiceDiscovery.Telemetry.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.ServiceDiscovery.Telemetry.Hercules/0.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.Hercules.Client.Abstractions": "0.1.10",
+          "Vostok.ServiceDiscovery.Telemetry": "0.1.3"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.ServiceDiscovery.Telemetry.Hercules.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.ServiceDiscovery.Telemetry.Hercules.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Sys.Metrics.PerfCounters/0.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Vostok.Sys.Metrics.PerfCounters.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Sys.Metrics.PerfCounters.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Telemetry.Kontur/1.0.96": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.ClusterClient.Core": "0.1.49",
+          "Vostok.ClusterClient.Datacenters": "0.1.4",
+          "Vostok.ClusterClient.Topology.CC": "0.1.4",
+          "Vostok.ClusterClient.Topology.SD": "0.1.12",
+          "Vostok.ClusterClient.Tracing": "0.1.8",
+          "Vostok.ClusterConfig.Client": "0.2.20",
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Configuration.Logging": "0.1.4",
+          "Vostok.Configuration.Sources.ClusterConfig": "0.1.8",
+          "Vostok.Datacenters": "0.1.9",
+          "Vostok.Datacenters.Kontur": "1.0.55",
+          "Vostok.Hercules.Client": "0.1.19",
+          "Vostok.Hercules.Client.Abstractions": "0.1.10",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Logging.Hercules": "0.1.12",
+          "Vostok.Logging.Tracing": "0.1.7",
+          "Vostok.Metrics": "0.2.29",
+          "Vostok.Metrics.Hercules": "0.1.5",
+          "Vostok.ServiceDiscovery.Abstractions": "0.1.7",
+          "Vostok.ServiceDiscovery.Telemetry": "0.1.3",
+          "Vostok.ServiceDiscovery.Telemetry.Hercules": "0.1.1",
+          "Vostok.Tracing": "0.1.7",
+          "Vostok.Tracing.Abstractions": "0.1.7",
+          "Vostok.Tracing.Extensions": "0.1.9",
+          "Vostok.Tracing.Hercules": "0.1.10",
+          "Vostok.Tracing.Kontur": "1.0.36"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Telemetry.Kontur.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Telemetry.Kontur.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Throttling/0.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Vostok.Throttling.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Throttling.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Throttling.Metrics/0.1.7": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.Metrics": "0.2.29",
+          "Vostok.Throttling": "0.1.5"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Throttling.Metrics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Throttling.Metrics.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Tracing/0.1.7": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.Context": "0.1.6",
+          "Vostok.Tracing.Abstractions": "0.1.7"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Tracing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Tracing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Tracing.Abstractions/0.1.7": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Vostok.Tracing.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Tracing.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Tracing.Diagnostics/0.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.Context": "0.1.7",
+          "Vostok.Tracing.Abstractions": "0.1.7"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Tracing.Diagnostics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Tracing.Diagnostics.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Tracing.Extensions/0.1.9": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.Tracing.Abstractions": "0.1.7"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Tracing.Extensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Tracing.Extensions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Tracing.Hercules/0.1.10": {
+        "type": "package",
+        "dependencies": {
+          "OpenTelemetry.SemanticConventions": "1.0.0-rc9.9",
+          "Vostok.ClusterClient.Core": "0.1.47",
+          "Vostok.Hercules.Client.Abstractions": "0.1.10",
+          "Vostok.Tracing.Abstractions": "0.1.7"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Tracing.Hercules.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Tracing.Hercules.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.Tracing.Kontur/1.0.36": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.ClusterClient.Core": "0.1.48",
+          "Vostok.Context": "0.1.7",
+          "Vostok.Logging.Abstractions": "1.0.31",
+          "Vostok.Tracing": "0.1.7",
+          "Vostok.Tracing.Abstractions": "0.1.7"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.Tracing.Kontur.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.Tracing.Kontur.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.ZooKeeper.Client/0.1.14": {
+        "type": "package",
+        "dependencies": {
+          "Vostok.Logging.Abstractions": "1.0.30",
+          "Vostok.Tracing.Abstractions": "0.1.7",
+          "Vostok.ZooKeeper.Client.Abstractions": "0.1.8"
+        },
+        "compile": {
+          "lib/net6.0/Vostok.ZooKeeper.Client.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.ZooKeeper.Client.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vostok.ZooKeeper.Client.Abstractions/0.1.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Vostok.ZooKeeper.Client.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vostok.ZooKeeper.Client.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "YamlDotNet/13.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/YamlDotNet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/YamlDotNet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Zebra.ClientEx/1.4.136": {
+        "type": "package",
+        "dependencies": {
+          "Kanso3d.Client": "1.2.3483",
+          "Kanso3d.Core": "1.2.3483",
+          "Kontur.Core.Infra.Netstandard": "1.0.6",
+          "Kontur.Core.Netstandard": "1.0.26",
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.ClusterConfig.Client": "0.2.20",
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Configuration.Sources.ClusterConfig": "0.1.8",
+          "Vostok.Configuration.Sources.ClusterConfig.Legacy": "1.0.16",
+          "Vostok.Context": "0.1.7",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Logging.Tracing": "0.1.7",
+          "Vostok.Metrics": "0.2.29",
+          "Vostok.Telemetry.Kontur": "1.0.96",
+          "Vostok.Tracing.Abstractions": "0.1.7",
+          "Vostok.Tracing.Extensions": "0.1.9",
+          "Zebra.Core": "1.4.136"
+        },
+        "compile": {
+          "lib/netstandard2.0/Zebra.ClientEx.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Zebra.ClientEx.dll": {}
+        }
+      },
+      "Zebra.Core/1.4.136": {
+        "type": "package",
+        "dependencies": {
+          "Core.Infra.Netcore": "1.0.29",
+          "Kanso3d.Client": "1.2.3483",
+          "Kontur.Core.Infra.Netstandard": "1.0.6",
+          "Kontur.Core.Netstandard": "1.0.26",
+          "System.Reflection.Emit.Lightweight": "4.7.0",
+          "Vostok.ClusterClient.Context": "0.1.6",
+          "Vostok.ClusterClient.Core": "0.1.50",
+          "Vostok.ClusterClient.Topology.CC": "0.1.4",
+          "Vostok.ClusterClient.Tracing": "0.1.8",
+          "Vostok.ClusterClient.Transport": "0.1.36",
+          "Vostok.ClusterConfig.Client": "0.2.20",
+          "Vostok.ClusterConfig.Client.Abstractions": "0.1.2",
+          "Vostok.Configuration": "0.1.43",
+          "Vostok.Configuration.Abstractions": "0.1.15",
+          "Vostok.Configuration.Sources.ClusterConfig": "0.1.8",
+          "Vostok.Configuration.Sources.Yaml": "0.1.2",
+          "Vostok.Context": "0.1.7",
+          "Vostok.Logging.Abstractions": "1.0.32",
+          "Vostok.Tracing.Abstractions": "0.1.7",
+          "Vostok.Tracing.Kontur": "1.0.36"
+        },
+        "compile": {
+          "lib/net6.0/Zebra.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Zebra.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Core.Infra.Netcore/1.0.29": {
+      "sha512": "mLuf6bMNgDaXhHo546ENCOb9xQXBqTAXJvek0toDZBMz2slxmbBDZldWeaHr8k38MabgHdok+ItR2n45EaiuNg==",
+      "type": "package",
+      "path": "core.infra.netcore/1.0.29",
+      "files": [
+        ".nupkg.metadata",
+        "core.infra.netcore.1.0.29.nupkg.sha512",
+        "core.infra.netcore.nuspec",
+        "lib/netstandard2.0/Core.Infra.Netcore.dll",
+        "lib/netstandard2.0/Core.Infra.Netcore.xml"
+      ]
+    },
+    "Houston2.Common.Clients/1.0.1845": {
+      "sha512": "jrUNMbvaBI6OsEDzNEx2tAnNpgTXckcp6AMXCNTldbMuPcZx8poU6WL4094AJIZlIiEaeR/gtya45nDgzidOHA==",
+      "type": "package",
+      "path": "houston2.common.clients/1.0.1845",
+      "files": [
+        ".nupkg.metadata",
+        "houston2.common.clients.1.0.1845.nupkg.sha512",
+        "houston2.common.clients.nuspec",
+        "lib/net5.0/Houston2.Common.Clients.dll",
+        "lib/net6.0/Houston2.Common.Clients.dll",
+        "lib/netstandard2.0/Houston2.Common.Clients.dll"
+      ]
+    },
+    "Houston2.Common.Helpers/1.0.1845": {
+      "sha512": "sqovRPbkwJaKyTtVRKIyBPCXxVerh6rdUMbiNzt2qfVCxijNTG+ivdKHateX0F7oC9kDqDN3GALMgmdKnaf24A==",
+      "type": "package",
+      "path": "houston2.common.helpers/1.0.1845",
+      "files": [
+        ".nupkg.metadata",
+        "houston2.common.helpers.1.0.1845.nupkg.sha512",
+        "houston2.common.helpers.nuspec",
+        "lib/net5.0/Houston2.Common.Helpers.dll",
+        "lib/net6.0/Houston2.Common.Helpers.dll",
+        "lib/netstandard2.0/Houston2.Common.Helpers.dll"
+      ]
+    },
+    "Houston2.Common.Models/1.0.1845": {
+      "sha512": "+2kSX0rp+VGYqshEUv855DG46vvsU8OmN2UfLN3ooKZbXH/DFGMQpTHHRhZ+ss1M8RWIjeh38ARKH3F9BoSGLA==",
+      "type": "package",
+      "path": "houston2.common.models/1.0.1845",
+      "files": [
+        ".nupkg.metadata",
+        "houston2.common.models.1.0.1845.nupkg.sha512",
+        "houston2.common.models.nuspec",
+        "lib/net5.0/Houston2.Common.Models.dll",
+        "lib/net6.0/Houston2.Common.Models.dll",
+        "lib/netstandard2.0/Houston2.Common.Models.dll"
+      ]
+    },
+    "Houston2.Configuration.AsCode/1.0.1845": {
+      "sha512": "DEfwvUZmaAfYjVsJs0KSlDUH4uh99YUIdPu1x/5ebzjwHhf2lufKFwBSg5oqcPNvHOEdHQFZx7IhODvhP88YgA==",
+      "type": "package",
+      "path": "houston2.configuration.ascode/1.0.1845",
+      "files": [
+        ".nupkg.metadata",
+        "houston2.configuration.ascode.1.0.1845.nupkg.sha512",
+        "houston2.configuration.ascode.nuspec",
+        "lib/net5.0/Houston2.Configuration.AsCode.dll",
+        "lib/net6.0/Houston2.Configuration.AsCode.dll",
+        "lib/netstandard2.0/Houston2.Configuration.AsCode.dll"
+      ]
+    },
+    "Kanso3d.Client/1.2.3483": {
+      "sha512": "VgMi7ENIThvAz7wCNX7l3aRMICVFxlhitKX1KTt2x9AVK/nCzGb0SLVY+vG1ri6rM8K0gxbyeoi5/NYEBYwCFw==",
+      "type": "package",
+      "path": "kanso3d.client/1.2.3483",
+      "files": [
+        ".nupkg.metadata",
+        "kanso3d.client.1.2.3483.nupkg.sha512",
+        "kanso3d.client.nuspec",
+        "lib/netcoreapp3.1/Kanso3d.Client.dll",
+        "lib/netstandard2.0/Kanso3d.Client.dll"
+      ]
+    },
+    "Kanso3d.Core/1.2.3483": {
+      "sha512": "0VupUsOEKZOlM4H8sj72pjspGvUSmHg+i93I/oaGZOcRNv/aBeAV+RM6ER8PpflZfbDYh8x7WHNwFJ29S/AhPw==",
+      "type": "package",
+      "path": "kanso3d.core/1.2.3483",
+      "files": [
+        ".nupkg.metadata",
+        "kanso3d.core.1.2.3483.nupkg.sha512",
+        "kanso3d.core.nuspec",
+        "lib/netstandard2.0/Kanso3d.Core.dll"
+      ]
+    },
+    "Kanso3d.Core.Netstandard/1.2.3483": {
+      "sha512": "LK60Dk0fCqXFc586rsdE4BAcAXmiO+6CNvHP+nwuXORk77hvl0voYfI9ArD4Q+l9b6rMagdpscDHcF704UDeSw==",
+      "type": "package",
+      "path": "kanso3d.core.netstandard/1.2.3483",
+      "files": [
+        ".nupkg.metadata",
+        "kanso3d.core.netstandard.1.2.3483.nupkg.sha512",
+        "kanso3d.core.netstandard.nuspec",
+        "lib/netstandard2.0/Kanso3d.Core.Netstandard.dll"
+      ]
+    },
+    "Kanso3d.Core.StringMatchers/1.2.3483": {
+      "sha512": "JDaMeR1Z/Ee72HjaUML/klzoVt/d4zScedtMykvEC3H9jTytcBN6v4EBANOIFn4SKBg4dJH+7CCGKeAMWNcXdA==",
+      "type": "package",
+      "path": "kanso3d.core.stringmatchers/1.2.3483",
+      "files": [
+        ".nupkg.metadata",
+        "kanso3d.core.stringmatchers.1.2.3483.nupkg.sha512",
+        "kanso3d.core.stringmatchers.nuspec",
+        "lib/netstandard2.0/Kanso3d.Core.StringMatchers.dll"
+      ]
+    },
+    "Kontur.Core.Infra.Netstandard/1.0.6": {
+      "sha512": "T3IHD/gZ5VrOMvpYo1ge/AGxxJDAcfT1OEqez5lBCdT06hQ98toNwrBQoRcnpuQxK3o7fFqz4GWFnlpuOkfjyQ==",
+      "type": "package",
+      "path": "kontur.core.infra.netstandard/1.0.6",
+      "files": [
+        ".nupkg.metadata",
+        "kontur.core.infra.netstandard.1.0.6.nupkg.sha512",
+        "kontur.core.infra.netstandard.nuspec",
+        "lib/netstandard2.0/Kontur.Core.Infra.Netstandard.dll"
+      ]
+    },
+    "Kontur.Core.Netstandard/1.0.26": {
+      "sha512": "idcaORSQswE7D8iXrQM4vGTST74X4Bs6cogby9ysRssoAyQUapv7/s4Ph59gTLzvbhp29WHm/w7I4RRAQSxmtA==",
+      "type": "package",
+      "path": "kontur.core.netstandard/1.0.26",
+      "files": [
+        ".nupkg.metadata",
+        "kontur.core.netstandard.1.0.26.nupkg.sha512",
+        "kontur.core.netstandard.nuspec",
+        "lib/netstandard2.0/Kontur.Core.Netstandard.dll"
+      ]
+    },
+    "Kontur.Houston.CodeValidator.Models/1.0.44": {
+      "sha512": "MDQaGKiHibI7zdxes0TV2pzjo+gKPcXH3OCEmNe95qmBzxcqseCJqtOTqpy0hlKX+TAGpa5GmVBeCxbAN+QshA==",
+      "type": "package",
+      "path": "kontur.houston.codevalidator.models/1.0.44",
+      "files": [
+        ".nupkg.metadata",
+        "kontur.houston.codevalidator.models.1.0.44.nupkg.sha512",
+        "kontur.houston.codevalidator.models.nuspec",
+        "lib/netstandard2.0/Kontur.Houston.CodeValidator.Models.dll"
+      ]
+    },
+    "Microsoft.Bcl.HashCode/1.1.1": {
+      "sha512": "MalY0Y/uM/LjXtHfX/26l2VtN4LDNZ2OE3aumNOHDLsT4fNYy2hiHXI4CXCqKpNUNm7iJ2brrc4J89UdaL56FA==",
+      "type": "package",
+      "path": "microsoft.bcl.hashcode/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Bcl.HashCode.dll",
+        "lib/net461/Microsoft.Bcl.HashCode.xml",
+        "lib/netcoreapp2.1/Microsoft.Bcl.HashCode.dll",
+        "lib/netcoreapp2.1/Microsoft.Bcl.HashCode.xml",
+        "lib/netstandard2.0/Microsoft.Bcl.HashCode.dll",
+        "lib/netstandard2.0/Microsoft.Bcl.HashCode.xml",
+        "lib/netstandard2.1/Microsoft.Bcl.HashCode.dll",
+        "lib/netstandard2.1/Microsoft.Bcl.HashCode.xml",
+        "microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
+        "microsoft.bcl.hashcode.nuspec",
+        "ref/net461/Microsoft.Bcl.HashCode.dll",
+        "ref/netcoreapp2.1/Microsoft.Bcl.HashCode.dll",
+        "ref/netstandard2.0/Microsoft.Bcl.HashCode.dll",
+        "ref/netstandard2.1/Microsoft.Bcl.HashCode.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Extensions.Configuration/3.1.0": {
+      "sha512": "Lu41BWNmwhKr6LgyQvcYBOge0pPvmiaK8R5UHXX4//wBhonJyWcT2OK1mqYfEM5G7pTf31fPrpIHOT6sN7EGOA==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.xml",
+        "microsoft.extensions.configuration.3.1.0.nupkg.sha512",
+        "microsoft.extensions.configuration.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/3.1.0": {
+      "sha512": "ESz6bVoDQX7sgWdKHF6G9Pq672T8k+19AFb/txDXwdz7MoqaNQj2/in3agm/3qae9V+WvQZH86LLTNVo0it8vQ==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.abstractions/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "microsoft.extensions.configuration.abstractions.3.1.0.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Binder/3.1.0": {
+      "sha512": "o9eELDBfNkR7sUtYysFZ1Q7BQ1mYt27DMkups/3vu7xgPyOpMD+iAfrBZFzUXT2iw0fmFb8s1gfNBZS+IgjKdQ==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.binder/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.xml",
+        "microsoft.extensions.configuration.binder.3.1.0.nupkg.sha512",
+        "microsoft.extensions.configuration.binder.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection/3.1.0": {
+      "sha512": "KVkv3aF2MQpmGFRh4xRx2CNbc2sjDFk+lH4ySrjWSOS+XoY1Xc+sJphw3N0iYOpoeCCq8976ceVYDH8sdx2qIQ==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.3.1.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.0": {
+      "sha512": "44rDtOf1JXXAFpNT2EXMExaDm/4OJ2RXOL9i9lE4bK427nzC7Exphv+beB6IgluyE2GIoo8zezTStMXI7MQ8WA==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.3.1.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Microsoft.Extensions.Logging/3.1.0": {
+      "sha512": "P+8sKQ8L4ooL79sxxqwFPxGGC3aBrUDLB/dZqhs4J0XjTyrkeeyJQ4D4nzJB6OnAhy78HIIgQ/RbD6upOXLynw==",
+      "type": "package",
+      "path": "microsoft.extensions.logging/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Logging.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Logging.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.xml",
+        "microsoft.extensions.logging.3.1.0.nupkg.sha512",
+        "microsoft.extensions.logging.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Abstractions/3.1.0": {
+      "sha512": "jjo4YXRx6MIpv6DiRxJjSpl+sPP0+5VW0clMEdLyIAz44PPwrDTFrd5PZckIxIXl1kKZ2KK6IL2nkt0+ug2MQg==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.abstractions/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "microsoft.extensions.logging.abstractions.3.1.0.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Configuration/3.1.0": {
+      "sha512": "yW3nIoNM3T5iZg8bRViiCN4+vIU/02l+mlWSvKqWnr0Fd5Uk1zKdT9jBWKEcJhRIWKVWWSpFWXnM5yWoIAy1Eg==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.configuration/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Logging.Configuration.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Logging.Configuration.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Configuration.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Configuration.xml",
+        "microsoft.extensions.logging.configuration.3.1.0.nupkg.sha512",
+        "microsoft.extensions.logging.configuration.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Microsoft.Extensions.Options/3.1.0": {
+      "sha512": "9b6JHY7TAXrSfZ6EEGf+j8XnqKIiMPErfmaNXhJYSCb+BUW2H4RtzkNJvwLJzwgzqBP0wtTjyA6Uw4BPPdmkMw==",
+      "type": "package",
+      "path": "microsoft.extensions.options/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
+        "microsoft.extensions.options.3.1.0.nupkg.sha512",
+        "microsoft.extensions.options.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Microsoft.Extensions.Options.ConfigurationExtensions/3.1.0": {
+      "sha512": "tx6gMKE3rDspA1YZT8SlQJmyt1BaBSl6mNjB3g0ZO6m3NnoavCifXkGeBuDk9Ae4XjW8C+dty52p+0u38jPRIQ==",
+      "type": "package",
+      "path": "microsoft.extensions.options.configurationextensions/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "microsoft.extensions.options.configurationextensions.3.1.0.nupkg.sha512",
+        "microsoft.extensions.options.configurationextensions.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/3.1.0": {
+      "sha512": "LEKAnX7lhUhSoIc2XraCTK3M4IU/LdVUzCe464Sa4+7F4ZJuXHHRzZli2mDbiT4xzAZhgqXbvfnb5+CNDcQFfg==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.3.1.0.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/5.0.0": {
+      "sha512": "VyPlqzH2wavqquTcYpkIIAQ6WdenuKoFN0BdYBbCWsclXacSOHNQn66Gt4z5NBqEYW0FAPm5rlvki9ZiCij5xQ==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Win32.Registry/5.0.0": {
+      "sha512": "dDoKi0PnDz31yAyETfRntsLArTlVAVzUzCIvvEDsDsucrl33Dl8pIJG06ePTJTI3tGpeyHS9Cq7Foc/s4EeKcg==",
+      "type": "package",
+      "path": "microsoft.win32.registry/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/Microsoft.Win32.Registry.dll",
+        "lib/net461/Microsoft.Win32.Registry.dll",
+        "lib/net461/Microsoft.Win32.Registry.xml",
+        "lib/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "lib/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "microsoft.win32.registry.5.0.0.nupkg.sha512",
+        "microsoft.win32.registry.nuspec",
+        "ref/net46/Microsoft.Win32.Registry.dll",
+        "ref/net461/Microsoft.Win32.Registry.dll",
+        "ref/net461/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "ref/netstandard1.3/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/de/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/es/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/fr/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/it/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ja/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ko/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ru/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/zh-hans/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/zh-hant/Microsoft.Win32.Registry.xml",
+        "ref/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "ref/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "runtimes/win/lib/net46/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/net461/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/net461/Microsoft.Win32.Registry.xml",
+        "runtimes/win/lib/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Win32.SystemEvents/5.0.0": {
+      "sha512": "Bh6blKG8VAKvXiLe2L+sEsn62nc1Ij34MrNxepD2OCrS5cpCwQa9MeLyhVQPQ/R4Wlzwuy6wMK8hLb11QPDRsQ==",
+      "type": "package",
+      "path": "microsoft.win32.systemevents/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Win32.SystemEvents.dll",
+        "lib/net461/Microsoft.Win32.SystemEvents.xml",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+        "microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+        "microsoft.win32.systemevents.nuspec",
+        "ref/net461/Microsoft.Win32.SystemEvents.dll",
+        "ref/net461/Microsoft.Win32.SystemEvents.xml",
+        "ref/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "ref/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.xml",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "morelinq/3.4.2": {
+      "sha512": "nKdpt7Ai+xQO8PZ0YFTn13INGJcKO0Nx65kO/ut0zaDirRo6d7atedmW2l68YB3x7U4pOqTLdMfYsBys8KxA1Q==",
+      "type": "package",
+      "path": "morelinq/3.4.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "COPYING.txt",
+        "README.md",
+        "lib/net462/MoreLinq.dll",
+        "lib/net462/MoreLinq.pdb",
+        "lib/net462/MoreLinq.xml",
+        "lib/net6.0/MoreLinq.dll",
+        "lib/net6.0/MoreLinq.pdb",
+        "lib/net6.0/MoreLinq.xml",
+        "lib/netstandard1.0/MoreLinq.dll",
+        "lib/netstandard1.0/MoreLinq.pdb",
+        "lib/netstandard1.0/MoreLinq.xml",
+        "lib/netstandard2.0/MoreLinq.dll",
+        "lib/netstandard2.0/MoreLinq.pdb",
+        "lib/netstandard2.0/MoreLinq.xml",
+        "lib/netstandard2.1/MoreLinq.dll",
+        "lib/netstandard2.1/MoreLinq.pdb",
+        "lib/netstandard2.1/MoreLinq.xml",
+        "morelinq.3.4.2.nupkg.sha512",
+        "morelinq.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "OpenTelemetry/1.4.0": {
+      "sha512": "0yHQEYVyYcxxD3H+Zec/e2iw1XU6ksXPKIqUGyqm9jt5ZTkC2OEVAjaqx1Wcr3kua+YEXgebkAbcIiHuK7oUDw==",
+      "type": "package",
+      "path": "opentelemetry/1.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/OpenTelemetry.dll",
+        "lib/net462/OpenTelemetry.xml",
+        "lib/net6.0/OpenTelemetry.dll",
+        "lib/net6.0/OpenTelemetry.xml",
+        "lib/netstandard2.0/OpenTelemetry.dll",
+        "lib/netstandard2.0/OpenTelemetry.xml",
+        "lib/netstandard2.1/OpenTelemetry.dll",
+        "lib/netstandard2.1/OpenTelemetry.xml",
+        "opentelemetry-icon-color.png",
+        "opentelemetry.1.4.0.nupkg.sha512",
+        "opentelemetry.nuspec"
+      ]
+    },
+    "OpenTelemetry.Api/1.4.0": {
+      "sha512": "754QKfiEZ3TNR3lOWS+u15qJYOVMWXhuUy8zjCXtgbaJihCFga3Wm3UZ9ggC5CJiUEjyeR6vw66NBZUxMOPTNQ==",
+      "type": "package",
+      "path": "opentelemetry.api/1.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/OpenTelemetry.Api.dll",
+        "lib/net462/OpenTelemetry.Api.xml",
+        "lib/netstandard2.0/OpenTelemetry.Api.dll",
+        "lib/netstandard2.0/OpenTelemetry.Api.xml",
+        "opentelemetry-icon-color.png",
+        "opentelemetry.api.1.4.0.nupkg.sha512",
+        "opentelemetry.api.nuspec"
+      ]
+    },
+    "OpenTelemetry.Api.ProviderBuilderExtensions/1.4.0": {
+      "sha512": "W0Vp2PutW0yJbjRQMTcKhtDlp20kXZqvswQ0EteSoJ4kI3J2Tod5m5RG+3JblAZU3kIwSCzQnhtHT8I4LOvm0g==",
+      "type": "package",
+      "path": "opentelemetry.api.providerbuilderextensions/1.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/OpenTelemetry.Api.ProviderBuilderExtensions.dll",
+        "lib/net462/OpenTelemetry.Api.ProviderBuilderExtensions.xml",
+        "lib/netstandard2.0/OpenTelemetry.Api.ProviderBuilderExtensions.dll",
+        "lib/netstandard2.0/OpenTelemetry.Api.ProviderBuilderExtensions.xml",
+        "opentelemetry-icon-color.png",
+        "opentelemetry.api.providerbuilderextensions.1.4.0.nupkg.sha512",
+        "opentelemetry.api.providerbuilderextensions.nuspec"
+      ]
+    },
+    "OpenTelemetry.Instrumentation.AspNetCore/1.0.0-rc9.14": {
+      "sha512": "1FEX8srCzGBrDWL5gdXwk0RoXkYWamj3ZnBjDbwqJd2XGvWCE4LwfwtPj8G8P1ox1tYaBEs5mWkb+h2t9KQyfQ==",
+      "type": "package",
+      "path": "opentelemetry.instrumentation.aspnetcore/1.0.0-rc9.14",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/OpenTelemetry.Instrumentation.AspNetCore.dll",
+        "lib/net6.0/OpenTelemetry.Instrumentation.AspNetCore.xml",
+        "lib/net7.0/OpenTelemetry.Instrumentation.AspNetCore.dll",
+        "lib/net7.0/OpenTelemetry.Instrumentation.AspNetCore.xml",
+        "lib/netstandard2.0/OpenTelemetry.Instrumentation.AspNetCore.dll",
+        "lib/netstandard2.0/OpenTelemetry.Instrumentation.AspNetCore.xml",
+        "lib/netstandard2.1/OpenTelemetry.Instrumentation.AspNetCore.dll",
+        "lib/netstandard2.1/OpenTelemetry.Instrumentation.AspNetCore.xml",
+        "opentelemetry-icon-color.png",
+        "opentelemetry.instrumentation.aspnetcore.1.0.0-rc9.14.nupkg.sha512",
+        "opentelemetry.instrumentation.aspnetcore.nuspec"
+      ]
+    },
+    "OpenTelemetry.SemanticConventions/1.0.0-rc9.9": {
+      "sha512": "Ag1czlfURv4vthJtbHLWUMO7raVX8/IKlcZRd4RFE8CsBRniXT+wtRvh0RRULYyoTbchOey41U8NkPTIZJl7zg==",
+      "type": "package",
+      "path": "opentelemetry.semanticconventions/1.0.0-rc9.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/OpenTelemetry.SemanticConventions.dll",
+        "lib/net462/OpenTelemetry.SemanticConventions.xml",
+        "lib/netstandard2.0/OpenTelemetry.SemanticConventions.dll",
+        "lib/netstandard2.0/OpenTelemetry.SemanticConventions.xml",
+        "opentelemetry-icon-color.png",
+        "opentelemetry.semanticconventions.1.0.0-rc9.9.nupkg.sha512",
+        "opentelemetry.semanticconventions.nuspec"
+      ]
+    },
+    "PublicationApi.Core/1.0.1504": {
+      "sha512": "1vuUE4nbj1r8fnnwXVo3SvYWy9cypKcsQvAscGD8GV8/VDG3lxrGYDhMP11wd44oIEJ7WFNFw8fQuySjswji9Q==",
+      "type": "package",
+      "path": "publicationapi.core/1.0.1504",
+      "files": [
+        ".nupkg.metadata",
+        "lib/netstandard2.0/PublicationApi.Core.dll",
+        "publicationapi.core.1.0.1504.nupkg.sha512",
+        "publicationapi.core.nuspec"
+      ]
+    },
+    "System.CodeDom/5.0.0": {
+      "sha512": "JPJArwA1kdj8qDAkY2XGjSWoYnqiM7q/3yRNkt6n28Mnn95MuEGkZXUbPBf7qc3IjwrGY5ttQon7yqHZyQJmOQ==",
+      "type": "package",
+      "path": "system.codedom/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.CodeDom.dll",
+        "lib/net461/System.CodeDom.xml",
+        "lib/netstandard2.0/System.CodeDom.dll",
+        "lib/netstandard2.0/System.CodeDom.xml",
+        "ref/net461/System.CodeDom.dll",
+        "ref/net461/System.CodeDom.xml",
+        "ref/netstandard2.0/System.CodeDom.dll",
+        "ref/netstandard2.0/System.CodeDom.xml",
+        "system.codedom.5.0.0.nupkg.sha512",
+        "system.codedom.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Collections.Immutable/1.5.0": {
+      "sha512": "EXKiDFsChZW0RjrZ4FYHu9aW6+P4MCgEDCklsVseRfhoO0F+dXeMSsMRAlVXIo06kGJ/zv+2w1a2uc2+kxxSaQ==",
+      "type": "package",
+      "path": "system.collections.immutable/1.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/System.Collections.Immutable.dll",
+        "lib/netstandard1.0/System.Collections.Immutable.xml",
+        "lib/netstandard1.3/System.Collections.Immutable.dll",
+        "lib/netstandard1.3/System.Collections.Immutable.xml",
+        "lib/netstandard2.0/System.Collections.Immutable.dll",
+        "lib/netstandard2.0/System.Collections.Immutable.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.xml",
+        "system.collections.immutable.1.5.0.nupkg.sha512",
+        "system.collections.immutable.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Configuration.ConfigurationManager/5.0.0": {
+      "sha512": "aM7cbfEfVNlEEOj3DsZP+2g9NRwbkyiAv2isQEzw7pnkDg9ekCU2m1cdJLM02Uq691OaCS91tooaxcEn8d0q5w==",
+      "type": "package",
+      "path": "system.configuration.configurationmanager/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Configuration.ConfigurationManager.dll",
+        "lib/net461/System.Configuration.ConfigurationManager.xml",
+        "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll",
+        "lib/netstandard2.0/System.Configuration.ConfigurationManager.xml",
+        "ref/net461/System.Configuration.ConfigurationManager.dll",
+        "ref/net461/System.Configuration.ConfigurationManager.xml",
+        "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll",
+        "ref/netstandard2.0/System.Configuration.ConfigurationManager.xml",
+        "system.configuration.configurationmanager.5.0.0.nupkg.sha512",
+        "system.configuration.configurationmanager.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Diagnostics.DiagnosticSource/7.0.0": {
+      "sha512": "9W0ewWDuAyDqS2PigdTxk6jDKonfgscY/hP8hm7VpxYhNHZHKvZTdRckberlFk3VnCmr3xBUyMBut12Q+T2aOw==",
+      "type": "package",
+      "path": "system.diagnostics.diagnosticsource/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Diagnostics.DiagnosticSource.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Diagnostics.DiagnosticSource.targets",
+        "lib/net462/System.Diagnostics.DiagnosticSource.dll",
+        "lib/net462/System.Diagnostics.DiagnosticSource.xml",
+        "lib/net6.0/System.Diagnostics.DiagnosticSource.dll",
+        "lib/net6.0/System.Diagnostics.DiagnosticSource.xml",
+        "lib/net7.0/System.Diagnostics.DiagnosticSource.dll",
+        "lib/net7.0/System.Diagnostics.DiagnosticSource.xml",
+        "lib/netstandard2.0/System.Diagnostics.DiagnosticSource.dll",
+        "lib/netstandard2.0/System.Diagnostics.DiagnosticSource.xml",
+        "system.diagnostics.diagnosticsource.7.0.0.nupkg.sha512",
+        "system.diagnostics.diagnosticsource.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Diagnostics.PerformanceCounter/5.0.0": {
+      "sha512": "kcQWWtGVC3MWMNXdMDWfrmIlFZZ2OdoeT6pSNVRtk9+Sa7jwdPiMlNwb0ZQcS7NRlT92pCfmjRtkSWUW3RAKwg==",
+      "type": "package",
+      "path": "system.diagnostics.performancecounter/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Diagnostics.PerformanceCounter.dll",
+        "lib/net461/System.Diagnostics.PerformanceCounter.xml",
+        "lib/netstandard2.0/System.Diagnostics.PerformanceCounter.dll",
+        "lib/netstandard2.0/System.Diagnostics.PerformanceCounter.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.Diagnostics.PerformanceCounter.dll",
+        "ref/net461/System.Diagnostics.PerformanceCounter.xml",
+        "ref/netstandard2.0/System.Diagnostics.PerformanceCounter.dll",
+        "ref/netstandard2.0/System.Diagnostics.PerformanceCounter.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/win/lib/netcoreapp2.0/System.Diagnostics.PerformanceCounter.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Diagnostics.PerformanceCounter.xml",
+        "system.diagnostics.performancecounter.5.0.0.nupkg.sha512",
+        "system.diagnostics.performancecounter.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Drawing.Common/5.0.0": {
+      "sha512": "SztFwAnpfKC8+sEKXAFxCBWhKQaEd97EiOL7oZJZP56zbqnLpmxACWA8aGseaUExciuEAUuR9dY8f7HkTRAdnw==",
+      "type": "package",
+      "path": "system.drawing.common/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Drawing.Common.dll",
+        "lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "lib/netcoreapp3.0/System.Drawing.Common.xml",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.Drawing.Common.dll",
+        "ref/netcoreapp3.0/System.Drawing.Common.dll",
+        "ref/netcoreapp3.0/System.Drawing.Common.xml",
+        "ref/netstandard2.0/System.Drawing.Common.dll",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.xml",
+        "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.xml",
+        "system.drawing.common.5.0.0.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Management/5.0.0": {
+      "sha512": "MF1CHaRcC+MLFdnDthv4/bKWBZnlnSpkGqa87pKukQefgEdwtb9zFW6zs0GjPp73qtpYYg4q6PEKbzJbxCpKfw==",
+      "type": "package",
+      "path": "system.management/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net45/_._",
+        "lib/netstandard2.0/System.Management.dll",
+        "lib/netstandard2.0/System.Management.xml",
+        "ref/net45/_._",
+        "ref/netstandard2.0/System.Management.dll",
+        "ref/netstandard2.0/System.Management.xml",
+        "runtimes/win/lib/net45/_._",
+        "runtimes/win/lib/netcoreapp2.0/System.Management.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Management.xml",
+        "system.management.5.0.0.nupkg.sha512",
+        "system.management.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Reflection.Emit.Lightweight/4.7.0": {
+      "sha512": "a4OLB4IITxAXJeV74MDx49Oq2+PsF6Sml54XAFv+2RyWwtDBcabzoxiiJRhdhx+gaohLh4hEGCLQyBozXoQPqA==",
+      "type": "package",
+      "path": "system.reflection.emit.lightweight/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.Reflection.Emit.Lightweight.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.Reflection.Emit.Lightweight.dll",
+        "lib/netstandard1.0/System.Reflection.Emit.Lightweight.xml",
+        "lib/netstandard1.3/System.Reflection.Emit.Lightweight.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.Lightweight.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.Lightweight.xml",
+        "lib/netstandard2.1/_._",
+        "lib/portable-net45+wp8/_._",
+        "lib/wp80/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/System.Reflection.Emit.Lightweight.dll",
+        "ref/netstandard1.0/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/de/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/es/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/fr/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/it/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/ja/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/ko/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/ru/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/zh-hans/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/zh-hant/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard2.0/System.Reflection.Emit.Lightweight.dll",
+        "ref/netstandard2.0/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard2.1/_._",
+        "ref/portable-net45+wp8/_._",
+        "ref/wp80/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.Lightweight.dll",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.Lightweight.xml",
+        "system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
+        "system.reflection.emit.lightweight.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "sha512": "/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Security.AccessControl/5.0.0": {
+      "sha512": "dagJ1mHZO3Ani8GH0PHpPEe/oYO+rVdbQjvjJkBRNQkX4t0r1iaeGn8+/ybkSLEan3/slM0t59SVdHzuHf2jmw==",
+      "type": "package",
+      "path": "system.security.accesscontrol/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.AccessControl.dll",
+        "lib/net461/System.Security.AccessControl.dll",
+        "lib/net461/System.Security.AccessControl.xml",
+        "lib/netstandard1.3/System.Security.AccessControl.dll",
+        "lib/netstandard2.0/System.Security.AccessControl.dll",
+        "lib/netstandard2.0/System.Security.AccessControl.xml",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.AccessControl.dll",
+        "ref/net461/System.Security.AccessControl.dll",
+        "ref/net461/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/System.Security.AccessControl.dll",
+        "ref/netstandard1.3/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/de/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/es/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/fr/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/it/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ja/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ko/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ru/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.AccessControl.xml",
+        "ref/netstandard2.0/System.Security.AccessControl.dll",
+        "ref/netstandard2.0/System.Security.AccessControl.xml",
+        "ref/uap10.0.16299/_._",
+        "runtimes/win/lib/net46/System.Security.AccessControl.dll",
+        "runtimes/win/lib/net461/System.Security.AccessControl.dll",
+        "runtimes/win/lib/net461/System.Security.AccessControl.xml",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.xml",
+        "runtimes/win/lib/netstandard1.3/System.Security.AccessControl.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.accesscontrol.5.0.0.nupkg.sha512",
+        "system.security.accesscontrol.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.Cryptography.ProtectedData/5.0.0": {
+      "sha512": "HGxMSAFAPLNoxBvSfW08vHde0F9uh7BjASwu6JF9JnXuEPhCY3YUqURn0+bQV/4UWeaqymmrHWV+Aw9riQCtCA==",
+      "type": "package",
+      "path": "system.security.cryptography.protecteddata/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Security.Cryptography.ProtectedData.dll",
+        "lib/net461/System.Security.Cryptography.ProtectedData.dll",
+        "lib/net461/System.Security.Cryptography.ProtectedData.xml",
+        "lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
+        "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.Security.Cryptography.ProtectedData.dll",
+        "ref/net461/System.Security.Cryptography.ProtectedData.dll",
+        "ref/net461/System.Security.Cryptography.ProtectedData.xml",
+        "ref/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
+        "ref/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "ref/netstandard2.0/System.Security.Cryptography.ProtectedData.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/win/lib/net46/System.Security.Cryptography.ProtectedData.dll",
+        "runtimes/win/lib/net461/System.Security.Cryptography.ProtectedData.dll",
+        "runtimes/win/lib/net461/System.Security.Cryptography.ProtectedData.xml",
+        "runtimes/win/lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
+        "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.xml",
+        "system.security.cryptography.protecteddata.5.0.0.nupkg.sha512",
+        "system.security.cryptography.protecteddata.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.Permissions/5.0.0": {
+      "sha512": "uE8juAhEkp7KDBCdjDIE3H9R1HJuEHqeqX8nLX9gmYKWwsqk3T5qZlPx8qle5DPKimC/Fy3AFTdV7HamgCh9qQ==",
+      "type": "package",
+      "path": "system.security.permissions/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Security.Permissions.dll",
+        "lib/net461/System.Security.Permissions.xml",
+        "lib/net5.0/System.Security.Permissions.dll",
+        "lib/net5.0/System.Security.Permissions.xml",
+        "lib/netcoreapp3.0/System.Security.Permissions.dll",
+        "lib/netcoreapp3.0/System.Security.Permissions.xml",
+        "lib/netstandard2.0/System.Security.Permissions.dll",
+        "lib/netstandard2.0/System.Security.Permissions.xml",
+        "ref/net461/System.Security.Permissions.dll",
+        "ref/net461/System.Security.Permissions.xml",
+        "ref/net5.0/System.Security.Permissions.dll",
+        "ref/net5.0/System.Security.Permissions.xml",
+        "ref/netcoreapp3.0/System.Security.Permissions.dll",
+        "ref/netcoreapp3.0/System.Security.Permissions.xml",
+        "ref/netstandard2.0/System.Security.Permissions.dll",
+        "ref/netstandard2.0/System.Security.Permissions.xml",
+        "system.security.permissions.5.0.0.nupkg.sha512",
+        "system.security.permissions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.Principal.Windows/5.0.0": {
+      "sha512": "t0MGLukB5WAVU9bO3MGzvlGnyJPgUlcwerXn1kzBRjwLKixT96XV0Uza41W49gVd8zEMFu9vQEFlv0IOrytICA==",
+      "type": "package",
+      "path": "system.security.principal.windows/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.Principal.Windows.dll",
+        "lib/net461/System.Security.Principal.Windows.dll",
+        "lib/net461/System.Security.Principal.Windows.xml",
+        "lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "lib/netstandard2.0/System.Security.Principal.Windows.dll",
+        "lib/netstandard2.0/System.Security.Principal.Windows.xml",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.xml",
+        "ref/netcoreapp3.0/System.Security.Principal.Windows.dll",
+        "ref/netcoreapp3.0/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/System.Security.Principal.Windows.dll",
+        "ref/netstandard1.3/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/de/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/es/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/fr/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/it/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ja/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ko/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ru/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.Principal.Windows.xml",
+        "ref/netstandard2.0/System.Security.Principal.Windows.dll",
+        "ref/netstandard2.0/System.Security.Principal.Windows.xml",
+        "ref/uap10.0.16299/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.xml",
+        "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll",
+        "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/net46/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net461/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net461/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.principal.windows.5.0.0.nupkg.sha512",
+        "system.security.principal.windows.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Text.Encodings.Web/6.0.0": {
+      "sha512": "Vg8eB5Tawm1IFqj4TVK1czJX89rhFxJo9ELqc/Eiq0eXy13RK00eubyU6TJE6y+GQXjyV5gSfiewDUZjQgSE0w==",
+      "type": "package",
+      "path": "system.text.encodings.web/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Text.Encodings.Web.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Text.Encodings.Web.dll",
+        "lib/net461/System.Text.Encodings.Web.xml",
+        "lib/net6.0/System.Text.Encodings.Web.dll",
+        "lib/net6.0/System.Text.Encodings.Web.xml",
+        "lib/netcoreapp3.1/System.Text.Encodings.Web.dll",
+        "lib/netcoreapp3.1/System.Text.Encodings.Web.xml",
+        "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard2.0/System.Text.Encodings.Web.xml",
+        "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll",
+        "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.xml",
+        "system.text.encodings.web.6.0.0.nupkg.sha512",
+        "system.text.encodings.web.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Text.Json/6.0.3": {
+      "sha512": "1Bi8pSdTTVNVKcGFiU1o9Iq6FwFyGQmgBgGHxy9pPvZANXc1cT6D72j+r/H/NsyVnWxKIxOgI3o7DrAwC3zcaA==",
+      "type": "package",
+      "path": "system.text.json/6.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "analyzers/dotnet/roslyn3.11/cs/System.Text.Json.SourceGeneration.dll",
+        "analyzers/dotnet/roslyn3.11/cs/cs/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/de/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/es/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/fr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/it/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ja/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ko/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/pl/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/pt-BR/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ru/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/tr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/System.Text.Json.SourceGeneration.dll",
+        "analyzers/dotnet/roslyn4.0/cs/cs/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/de/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/es/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/fr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/it/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ja/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ko/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/pl/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/pt-BR/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ru/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/tr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll",
+        "build/System.Text.Json.targets",
+        "buildTransitive/netcoreapp2.0/System.Text.Json.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Text.Json.dll",
+        "lib/net461/System.Text.Json.xml",
+        "lib/net6.0/System.Text.Json.dll",
+        "lib/net6.0/System.Text.Json.xml",
+        "lib/netcoreapp3.1/System.Text.Json.dll",
+        "lib/netcoreapp3.1/System.Text.Json.xml",
+        "lib/netstandard2.0/System.Text.Json.dll",
+        "lib/netstandard2.0/System.Text.Json.xml",
+        "system.text.json.6.0.3.nupkg.sha512",
+        "system.text.json.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Windows.Extensions/5.0.0": {
+      "sha512": "c1ho9WU9ZxMZawML+ssPKZfdnrg/OjR3pe0m9v8230z3acqphwvPJqzAkH54xRYm5ntZHGG1EPP3sux9H3qSPg==",
+      "type": "package",
+      "path": "system.windows.extensions/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp3.0/System.Windows.Extensions.dll",
+        "lib/netcoreapp3.0/System.Windows.Extensions.xml",
+        "ref/netcoreapp3.0/System.Windows.Extensions.dll",
+        "ref/netcoreapp3.0/System.Windows.Extensions.xml",
+        "runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll",
+        "runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.xml",
+        "system.windows.extensions.5.0.0.nupkg.sha512",
+        "system.windows.extensions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Vostok.Applications.AspNetCore/0.3.24": {
+      "sha512": "+qLsBERRYgthHl5DoMn73c6XAo6aLBz5FAxhKHtO1smwjhqwbrxC0ZRfhn4P87mNfRXpXPs0I2MY7AbLRMDQ/A==",
+      "type": "package",
+      "path": "vostok.applications.aspnetcore/0.3.24",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net5.0/Vostok.Applications.AspNetCore.dll",
+        "lib/net5.0/Vostok.Applications.AspNetCore.xml",
+        "lib/net6.0/Vostok.Applications.AspNetCore.dll",
+        "lib/net6.0/Vostok.Applications.AspNetCore.xml",
+        "lib/netcoreapp3.1/Vostok.Applications.AspNetCore.dll",
+        "lib/netcoreapp3.1/Vostok.Applications.AspNetCore.xml",
+        "lib/netstandard2.0/Vostok.Applications.AspNetCore.dll",
+        "lib/netstandard2.0/Vostok.Applications.AspNetCore.xml",
+        "vostok.applications.aspnetcore.0.3.24.nupkg.sha512",
+        "vostok.applications.aspnetcore.nuspec"
+      ]
+    },
+    "Vostok.ClusterClient.Context/0.1.6": {
+      "sha512": "fg+gpcAg1SqWs+omtTc8whqpcWsy6D6t2F9+kwxdwBpNAB7I+3eqcF+tnHY+y7Pj1U9jtxdwfQ+gxdRluCqB/g==",
+      "type": "package",
+      "path": "vostok.clusterclient.context/0.1.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.ClusterClient.Context.dll",
+        "lib/net6.0/Vostok.ClusterClient.Context.xml",
+        "lib/netstandard2.0/Vostok.ClusterClient.Context.dll",
+        "lib/netstandard2.0/Vostok.ClusterClient.Context.xml",
+        "vostok.clusterclient.context.0.1.6.nupkg.sha512",
+        "vostok.clusterclient.context.nuspec"
+      ]
+    },
+    "Vostok.ClusterClient.Core/0.1.50": {
+      "sha512": "9dLc6yh0ZBJEG1SQXSO+2O+op+HrRi2O2Ewg+vFzeFHrX7ArCcbPNC/bLWb3M5iCtXnF5LNljxxQ0hA1OKhv2w==",
+      "type": "package",
+      "path": "vostok.clusterclient.core/0.1.50",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.ClusterClient.Core.dll",
+        "lib/net6.0/Vostok.ClusterClient.Core.xml",
+        "lib/netstandard2.0/Vostok.ClusterClient.Core.dll",
+        "lib/netstandard2.0/Vostok.ClusterClient.Core.xml",
+        "vostok.clusterclient.core.0.1.50.nupkg.sha512",
+        "vostok.clusterclient.core.nuspec"
+      ]
+    },
+    "Vostok.ClusterClient.Datacenters/0.1.4": {
+      "sha512": "clsulaNZVkcrR0Cs9/Zuqp8REGqbReQy6IAp5SAxPqmgVGJ9X7RDo+lycBUsZXv1j4O7Tm5BjuzcGwgUip2DaQ==",
+      "type": "package",
+      "path": "vostok.clusterclient.datacenters/0.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.ClusterClient.Datacenters.dll",
+        "lib/net6.0/Vostok.ClusterClient.Datacenters.xml",
+        "lib/netstandard2.0/Vostok.ClusterClient.Datacenters.dll",
+        "lib/netstandard2.0/Vostok.ClusterClient.Datacenters.xml",
+        "vostok.clusterclient.datacenters.0.1.4.nupkg.sha512",
+        "vostok.clusterclient.datacenters.nuspec"
+      ]
+    },
+    "Vostok.ClusterClient.Singular/0.1.28": {
+      "sha512": "JhzUwvc9kEtU3hcdTm+GyXVhBijv0v/jp0IMDtKpwTPQbu1sbCs14g3zoLv3lYH6lCDE05rP2r+UP5l50J1E1Q==",
+      "type": "package",
+      "path": "vostok.clusterclient.singular/0.1.28",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.ClusterClient.Singular.dll",
+        "lib/net6.0/Vostok.ClusterClient.Singular.xml",
+        "lib/netstandard2.0/Vostok.ClusterClient.Singular.dll",
+        "lib/netstandard2.0/Vostok.ClusterClient.Singular.xml",
+        "vostok.clusterclient.singular.0.1.28.nupkg.sha512",
+        "vostok.clusterclient.singular.nuspec"
+      ]
+    },
+    "Vostok.ClusterClient.Topology.CC/0.1.4": {
+      "sha512": "mZnaeH08FzGrdrarXY8OBNE7yLeaIL6wYkbgsaDgvffi7X03wVftJHXEzcvcq6sUYR9fsmt7CLS54cWwk4gARg==",
+      "type": "package",
+      "path": "vostok.clusterclient.topology.cc/0.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.ClusterClient.Topology.CC.dll",
+        "lib/net6.0/Vostok.ClusterClient.Topology.CC.xml",
+        "lib/netstandard2.0/Vostok.ClusterClient.Topology.CC.dll",
+        "lib/netstandard2.0/Vostok.ClusterClient.Topology.CC.xml",
+        "vostok.clusterclient.topology.cc.0.1.4.nupkg.sha512",
+        "vostok.clusterclient.topology.cc.nuspec"
+      ]
+    },
+    "Vostok.ClusterClient.Topology.SD/0.1.12": {
+      "sha512": "QrAW3FBTlW4xP4Vd0KV/e4ZjXsADxnKwh5wt3KJbkndHpPxUSFSzoBcmrmzppBOstsob6oQlH/X7mn/VPry64w==",
+      "type": "package",
+      "path": "vostok.clusterclient.topology.sd/0.1.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.ClusterClient.Topology.SD.dll",
+        "lib/net6.0/Vostok.ClusterClient.Topology.SD.xml",
+        "lib/netstandard2.0/Vostok.ClusterClient.Topology.SD.dll",
+        "lib/netstandard2.0/Vostok.ClusterClient.Topology.SD.xml",
+        "vostok.clusterclient.topology.sd.0.1.12.nupkg.sha512",
+        "vostok.clusterclient.topology.sd.nuspec"
+      ]
+    },
+    "Vostok.ClusterClient.Tracing/0.1.8": {
+      "sha512": "IuIPLPz5RAC2JOLwzS76mdSHWFRXVAx7tmsMLJBsSBqsp6ug3khJAwuM4uVrCUr3T5/wB2azri0/5htn+UGFZQ==",
+      "type": "package",
+      "path": "vostok.clusterclient.tracing/0.1.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.ClusterClient.Tracing.dll",
+        "lib/net6.0/Vostok.ClusterClient.Tracing.xml",
+        "lib/netstandard2.0/Vostok.ClusterClient.Tracing.dll",
+        "lib/netstandard2.0/Vostok.ClusterClient.Tracing.xml",
+        "vostok.clusterclient.tracing.0.1.8.nupkg.sha512",
+        "vostok.clusterclient.tracing.nuspec"
+      ]
+    },
+    "Vostok.ClusterClient.Transport/0.1.36": {
+      "sha512": "btItG1bBdQwsZHvGZ1ETW79K3Hs2zMsDtQ/tTD/WyEaYacl12eTtjd3l4FskNUbQOonLXHIRxF/jnHsAoIve1w==",
+      "type": "package",
+      "path": "vostok.clusterclient.transport/0.1.36",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.ClusterClient.Transport.dll",
+        "lib/net6.0/Vostok.ClusterClient.Transport.xml",
+        "lib/netstandard2.0/Vostok.ClusterClient.Transport.dll",
+        "lib/netstandard2.0/Vostok.ClusterClient.Transport.xml",
+        "vostok.clusterclient.transport.0.1.36.nupkg.sha512",
+        "vostok.clusterclient.transport.nuspec"
+      ]
+    },
+    "Vostok.ClusterConfig.Client/0.2.20": {
+      "sha512": "rnEbPaphYMMES3daF8S/O9uiGDWdiuv/DmUD7W8vTgXemqgsAlvqmZyK7BJcOyCisi0ZpZCRK4/q+jxrzn/epw==",
+      "type": "package",
+      "path": "vostok.clusterconfig.client/0.2.20",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.ClusterConfig.Client.dll",
+        "lib/net6.0/Vostok.ClusterConfig.Client.xml",
+        "lib/netstandard2.0/Vostok.ClusterConfig.Client.dll",
+        "lib/netstandard2.0/Vostok.ClusterConfig.Client.xml",
+        "vostok.clusterconfig.client.0.2.20.nupkg.sha512",
+        "vostok.clusterconfig.client.nuspec"
+      ]
+    },
+    "Vostok.ClusterConfig.Client.Abstractions/0.1.2": {
+      "sha512": "ZxBhnD8hFsBmERTvNW9mkm98Tk8DtFIzXvqkDAgWWbeuWIrBbHNjWfysu9jyTuf1VQpVxnfpB90MsnwCGs2jEA==",
+      "type": "package",
+      "path": "vostok.clusterconfig.client.abstractions/0.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.ClusterConfig.Client.Abstractions.dll",
+        "lib/net6.0/Vostok.ClusterConfig.Client.Abstractions.xml",
+        "lib/netstandard2.0/Vostok.ClusterConfig.Client.Abstractions.dll",
+        "lib/netstandard2.0/Vostok.ClusterConfig.Client.Abstractions.xml",
+        "vostok.clusterconfig.client.abstractions.0.1.2.nupkg.sha512",
+        "vostok.clusterconfig.client.abstractions.nuspec"
+      ]
+    },
+    "Vostok.Configuration/0.1.43": {
+      "sha512": "X9x/k6OTIj7ECVYwUdy+tTZMySgqpDI1d1BlRGC1lKy+8lPCJKg3KTHDsxZXvwOCovymeKO2N0RZgnjl0SPnng==",
+      "type": "package",
+      "path": "vostok.configuration/0.1.43",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Configuration.dll",
+        "lib/net6.0/Vostok.Configuration.xml",
+        "lib/netstandard2.0/Vostok.Configuration.dll",
+        "lib/netstandard2.0/Vostok.Configuration.xml",
+        "vostok.configuration.0.1.43.nupkg.sha512",
+        "vostok.configuration.nuspec"
+      ]
+    },
+    "Vostok.Configuration.Abstractions/0.1.15": {
+      "sha512": "cBoK4PrQbwbknsyYwwplcm7lUUJkvVurSl7G0LttVynh03dRI16azfE2hd3uIl3/sLFcy780is03HdZliPjsMA==",
+      "type": "package",
+      "path": "vostok.configuration.abstractions/0.1.15",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Configuration.Abstractions.dll",
+        "lib/net6.0/Vostok.Configuration.Abstractions.xml",
+        "lib/netstandard2.0/Vostok.Configuration.Abstractions.dll",
+        "lib/netstandard2.0/Vostok.Configuration.Abstractions.xml",
+        "vostok.configuration.abstractions.0.1.15.nupkg.sha512",
+        "vostok.configuration.abstractions.nuspec"
+      ]
+    },
+    "Vostok.Configuration.Logging/0.1.4": {
+      "sha512": "lqu7pm+DZAZ+XRC0cEdrd0TJIYev4vuNguUhsypMW/myvSzFTEps1zHMusBXtP3eWuWkdR7Q+EPRK3vTRp3ByQ==",
+      "type": "package",
+      "path": "vostok.configuration.logging/0.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Configuration.Logging.dll",
+        "lib/net6.0/Vostok.Configuration.Logging.xml",
+        "lib/netstandard2.0/Vostok.Configuration.Logging.dll",
+        "lib/netstandard2.0/Vostok.Configuration.Logging.xml",
+        "vostok.configuration.logging.0.1.4.nupkg.sha512",
+        "vostok.configuration.logging.nuspec"
+      ]
+    },
+    "Vostok.Configuration.Microsoft/1.0.4": {
+      "sha512": "sk6Sjc8hCHqATP+YroeHWhNdHMMf1qOtnj2AprY6nMHVfqkeYXKLq55alBPzYtYLqwPDB1qmwOgjGy03AzTlXw==",
+      "type": "package",
+      "path": "vostok.configuration.microsoft/1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Configuration.Microsoft.dll",
+        "lib/net6.0/Vostok.Configuration.Microsoft.xml",
+        "lib/netstandard2.0/Vostok.Configuration.Microsoft.dll",
+        "lib/netstandard2.0/Vostok.Configuration.Microsoft.xml",
+        "vostok.configuration.microsoft.1.0.4.nupkg.sha512",
+        "vostok.configuration.microsoft.nuspec"
+      ]
+    },
+    "Vostok.Configuration.Sources/0.1.19": {
+      "sha512": "JJ0qnlH84nXyntcpxe5J2n+9C3ymL/RI0PkYa2uzKGersdn8j45y6p76hoNRjQbDg33XD0NrsJrl7o1TK6aPew==",
+      "type": "package",
+      "path": "vostok.configuration.sources/0.1.19",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Configuration.Sources.dll",
+        "lib/net6.0/Vostok.Configuration.Sources.xml",
+        "lib/netstandard2.0/Vostok.Configuration.Sources.dll",
+        "lib/netstandard2.0/Vostok.Configuration.Sources.xml",
+        "vostok.configuration.sources.0.1.19.nupkg.sha512",
+        "vostok.configuration.sources.nuspec"
+      ]
+    },
+    "Vostok.Configuration.Sources.ClusterConfig/0.1.8": {
+      "sha512": "CdrQTq8T4ONs3Ac0wq0FCc/5MwmXCu2jUoGJ7lzZzhEzfh3KlCpXvi8XwYjWlDCeP01c36vA/KJxp2oVEoET6g==",
+      "type": "package",
+      "path": "vostok.configuration.sources.clusterconfig/0.1.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Configuration.Sources.ClusterConfig.dll",
+        "lib/net6.0/Vostok.Configuration.Sources.ClusterConfig.xml",
+        "lib/netstandard2.0/Vostok.Configuration.Sources.ClusterConfig.dll",
+        "lib/netstandard2.0/Vostok.Configuration.Sources.ClusterConfig.xml",
+        "vostok.configuration.sources.clusterconfig.0.1.8.nupkg.sha512",
+        "vostok.configuration.sources.clusterconfig.nuspec"
+      ]
+    },
+    "Vostok.Configuration.Sources.ClusterConfig.Legacy/1.0.16": {
+      "sha512": "ydZG7DjEyu/DnDrVb27EmMULCiK7zlc4Dyit2g0k9zyfYSSDN2Q8GaEK+eNrjMLNzBd2P2cb4G7w7fvaR+vqpA==",
+      "type": "package",
+      "path": "vostok.configuration.sources.clusterconfig.legacy/1.0.16",
+      "files": [
+        ".nupkg.metadata",
+        "README.md",
+        "lib/net6.0/Vostok.Configuration.Sources.ClusterConfig.Legacy.dll",
+        "lib/net6.0/Vostok.Configuration.Sources.ClusterConfig.Legacy.xml",
+        "lib/netstandard2.0/Vostok.Configuration.Sources.ClusterConfig.Legacy.dll",
+        "lib/netstandard2.0/Vostok.Configuration.Sources.ClusterConfig.Legacy.xml",
+        "vostok.configuration.sources.clusterconfig.legacy.1.0.16.nupkg.sha512",
+        "vostok.configuration.sources.clusterconfig.legacy.nuspec"
+      ]
+    },
+    "Vostok.Configuration.Sources.Json/0.1.8": {
+      "sha512": "WGd1kVyFUcjWkjKyDIsumMXC2oiA5coKj98TKCoX0D0QhK/LMTIdfPb+OIHTo8M2+Ej3TSuVa2d7GDOP/Dfrvg==",
+      "type": "package",
+      "path": "vostok.configuration.sources.json/0.1.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Configuration.Sources.Json.dll",
+        "lib/net6.0/Vostok.Configuration.Sources.Json.xml",
+        "lib/netstandard2.0/Vostok.Configuration.Sources.Json.dll",
+        "lib/netstandard2.0/Vostok.Configuration.Sources.Json.xml",
+        "vostok.configuration.sources.json.0.1.8.nupkg.sha512",
+        "vostok.configuration.sources.json.nuspec"
+      ]
+    },
+    "Vostok.Configuration.Sources.Xml/0.1.3": {
+      "sha512": "vAH4beMFBJgRfeLeqRWShyoffk9McmWaoWDThzBpEQtBwD/SCJbHCbvEMiYNWPPexc4p4bv6uSWp61QMC9HZZA==",
+      "type": "package",
+      "path": "vostok.configuration.sources.xml/0.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Configuration.Sources.Xml.dll",
+        "lib/net6.0/Vostok.Configuration.Sources.Xml.xml",
+        "lib/netstandard2.0/Vostok.Configuration.Sources.Xml.dll",
+        "lib/netstandard2.0/Vostok.Configuration.Sources.Xml.xml",
+        "vostok.configuration.sources.xml.0.1.3.nupkg.sha512",
+        "vostok.configuration.sources.xml.nuspec"
+      ]
+    },
+    "Vostok.Configuration.Sources.Yaml/0.1.2": {
+      "sha512": "Hcq8yvZMIT3CHxX7JtztEcCu3d2cfPvrRvQYnQoaRVfMMgg+ibXjWcI1oQTgmIWqjmFf5ZbRhwdFyP1LeCCZZA==",
+      "type": "package",
+      "path": "vostok.configuration.sources.yaml/0.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Configuration.Sources.Yaml.dll",
+        "lib/net6.0/Vostok.Configuration.Sources.Yaml.xml",
+        "lib/netstandard2.0/Vostok.Configuration.Sources.Yaml.dll",
+        "lib/netstandard2.0/Vostok.Configuration.Sources.Yaml.xml",
+        "vostok.configuration.sources.yaml.0.1.2.nupkg.sha512",
+        "vostok.configuration.sources.yaml.nuspec"
+      ]
+    },
+    "Vostok.Context/0.1.7": {
+      "sha512": "7PwPoFFLu4WFTolWS7fXoChEl3aMUpH7e+NbGM/XrLowhESy3g1SFMiC2dssNV3CI94OefRJHKDCovyfVaCmZg==",
+      "type": "package",
+      "path": "vostok.context/0.1.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Context.dll",
+        "lib/net6.0/Vostok.Context.xml",
+        "lib/netstandard2.0/Vostok.Context.dll",
+        "lib/netstandard2.0/Vostok.Context.xml",
+        "vostok.context.0.1.7.nupkg.sha512",
+        "vostok.context.nuspec"
+      ]
+    },
+    "Vostok.Datacenters/0.1.9": {
+      "sha512": "jsVMmk6WPv238zhEmOBTgdo0NlsMBmQes5+82gQt95AXQnkP7+m9NpxgeC03rBMaZvgR7hPQK4xDOlKhPXh2yg==",
+      "type": "package",
+      "path": "vostok.datacenters/0.1.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Datacenters.dll",
+        "lib/net6.0/Vostok.Datacenters.xml",
+        "lib/netstandard2.0/Vostok.Datacenters.dll",
+        "lib/netstandard2.0/Vostok.Datacenters.xml",
+        "vostok.datacenters.0.1.9.nupkg.sha512",
+        "vostok.datacenters.nuspec"
+      ]
+    },
+    "Vostok.Datacenters.Kontur/1.0.55": {
+      "sha512": "+pMrEcV6SoUG8YU/Ju7n4VJ8GT+XYEU83McKLPRrw1LB5tRF6LOLH7dGbyyUAZ65zzVWCQBJAqEnG8i6jhVDHw==",
+      "type": "package",
+      "path": "vostok.datacenters.kontur/1.0.55",
+      "files": [
+        ".nupkg.metadata",
+        "README.md",
+        "lib/net6.0/Vostok.Datacenters.Kontur.dll",
+        "lib/net6.0/Vostok.Datacenters.Kontur.xml",
+        "lib/netstandard2.0/Vostok.Datacenters.Kontur.dll",
+        "lib/netstandard2.0/Vostok.Datacenters.Kontur.xml",
+        "vostok.datacenters.kontur.1.0.55.nupkg.sha512",
+        "vostok.datacenters.kontur.nuspec"
+      ]
+    },
+    "Vostok.Hercules.Client/0.1.19": {
+      "sha512": "K5xx6rh+IVrGakAIZsrdcHZnoR2So4B6UmxPwBaEto/vnQf4nPiBXUqUHBYk2d11IspXU/iX+PJpjFRbdoF6hw==",
+      "type": "package",
+      "path": "vostok.hercules.client/0.1.19",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Hercules.Client.dll",
+        "lib/net6.0/Vostok.Hercules.Client.xml",
+        "lib/netstandard2.0/Vostok.Hercules.Client.dll",
+        "lib/netstandard2.0/Vostok.Hercules.Client.xml",
+        "vostok.hercules.client.0.1.19.nupkg.sha512",
+        "vostok.hercules.client.nuspec"
+      ]
+    },
+    "Vostok.Hercules.Client.Abstractions/0.1.10": {
+      "sha512": "hu1NEGrrUipl5+4nn/C0rIH3cfqR/iielHvxOxSwBV6i8Lc+zs8X6K9SLEvVJx8XndlCfJZp9P0Afy3uNcLLCw==",
+      "type": "package",
+      "path": "vostok.hercules.client.abstractions/0.1.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Hercules.Client.Abstractions.dll",
+        "lib/net6.0/Vostok.Hercules.Client.Abstractions.xml",
+        "lib/netstandard2.0/Vostok.Hercules.Client.Abstractions.dll",
+        "lib/netstandard2.0/Vostok.Hercules.Client.Abstractions.xml",
+        "vostok.hercules.client.abstractions.0.1.10.nupkg.sha512",
+        "vostok.hercules.client.abstractions.nuspec"
+      ]
+    },
+    "Vostok.Hosting/0.3.70": {
+      "sha512": "EalMHjvwCWLf33qO2hw8BVKDmrH+JhnvAXxf+rmmj0rBd0XZPeVcXGyy/HJSf691Z9quscKKRFRq3TSIicePgQ==",
+      "type": "package",
+      "path": "vostok.hosting/0.3.70",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Hosting.dll",
+        "lib/net6.0/Vostok.Hosting.xml",
+        "lib/netstandard2.0/Vostok.Hosting.dll",
+        "lib/netstandard2.0/Vostok.Hosting.xml",
+        "vostok.hosting.0.3.70.nupkg.sha512",
+        "vostok.hosting.nuspec"
+      ]
+    },
+    "Vostok.Hosting.Abstractions/0.3.9": {
+      "sha512": "nyitKnAekN5ObGb5CPN7olGPQMNE/O1up2aH2iPtbyplM8hzgm8f2WnC4cKP6Sm/roVoq/Jhe4G3/YBkmEA5TQ==",
+      "type": "package",
+      "path": "vostok.hosting.abstractions/0.3.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Hosting.Abstractions.dll",
+        "lib/net6.0/Vostok.Hosting.Abstractions.xml",
+        "lib/netstandard2.0/Vostok.Hosting.Abstractions.dll",
+        "lib/netstandard2.0/Vostok.Hosting.Abstractions.xml",
+        "vostok.hosting.abstractions.0.3.9.nupkg.sha512",
+        "vostok.hosting.abstractions.nuspec"
+      ]
+    },
+    "Vostok.Hosting.AspNetCore/0.1.4": {
+      "sha512": "3R7eosMNryrCwDQtNmAdhAf6XNC38rhVmfxCoMkoXj6HqZWwqg+ulfE9DkkbVOm/L465Dew6SG7RQma5i/HzLA==",
+      "type": "package",
+      "path": "vostok.hosting.aspnetcore/0.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Hosting.AspNetCore.dll",
+        "lib/net6.0/Vostok.Hosting.AspNetCore.xml",
+        "vostok.hosting.aspnetcore.0.1.4.nupkg.sha512",
+        "vostok.hosting.aspnetcore.nuspec"
+      ]
+    },
+    "Vostok.Hosting.AspNetCore.Houston/1.0.17": {
+      "sha512": "gcvApeXCosc+CDZB693FdABf2z5ngQxMszsn2WHlsmnlmCsyfQkq6QPIctr4UEJDblL8j72t03vdWruK12+lpA==",
+      "type": "package",
+      "path": "vostok.hosting.aspnetcore.houston/1.0.17",
+      "files": [
+        ".nupkg.metadata",
+        "README.md",
+        "lib/net6.0/Vostok.Hosting.AspNetCore.Houston.dll",
+        "lib/net6.0/Vostok.Hosting.AspNetCore.Houston.xml",
+        "vostok.hosting.aspnetcore.houston.1.0.17.nupkg.sha512",
+        "vostok.hosting.aspnetcore.houston.nuspec"
+      ]
+    },
+    "Vostok.Hosting.Houston/1.0.503": {
+      "sha512": "clQXWXnIUNuWQIHq0J6fJ0FZyMTpBXN3ZS6bCJ0kZlVhbJvJWzTdbTaEMnTkYQwzEFLgYc6qI4bfeB0VuScpTw==",
+      "type": "package",
+      "path": "vostok.hosting.houston/1.0.503",
+      "files": [
+        ".nupkg.metadata",
+        "README.md",
+        "lib/net6.0/Vostok.Hosting.Houston.dll",
+        "lib/net6.0/Vostok.Hosting.Houston.xml",
+        "lib/netstandard2.0/Vostok.Hosting.Houston.dll",
+        "lib/netstandard2.0/Vostok.Hosting.Houston.xml",
+        "vostok.hosting.houston.1.0.503.nupkg.sha512",
+        "vostok.hosting.houston.nuspec"
+      ]
+    },
+    "Vostok.Hosting.Houston.Abstractions/1.0.95": {
+      "sha512": "oXKS1WygkgsK2oTt62yT/44JFXKsNBrMnhk1HW8BhXwKzkrXJ8fhQMqAKKmLIXs0YKxf1+czfPqKvT6hsnpZ0w==",
+      "type": "package",
+      "path": "vostok.hosting.houston.abstractions/1.0.95",
+      "files": [
+        ".nupkg.metadata",
+        "README.md",
+        "lib/net6.0/Vostok.Hosting.Houston.Abstractions.dll",
+        "lib/net6.0/Vostok.Hosting.Houston.Abstractions.xml",
+        "lib/netstandard2.0/Vostok.Hosting.Houston.Abstractions.dll",
+        "lib/netstandard2.0/Vostok.Hosting.Houston.Abstractions.xml",
+        "vostok.hosting.houston.abstractions.1.0.95.nupkg.sha512",
+        "vostok.hosting.houston.abstractions.nuspec"
+      ]
+    },
+    "Vostok.Hosting.Houston2/1.0.125": {
+      "sha512": "5drzPisve94kZmd4EH2BHJLAbN6NtdFT3ZG1U1Mv1CA2bFVhyVFZ0/zm4a1RJQjagGC+O/jTNECUB9jBQKc5Jw==",
+      "type": "package",
+      "path": "vostok.hosting.houston2/1.0.125",
+      "files": [
+        ".nupkg.metadata",
+        "README.md",
+        "lib/net5.0/Vostok.Hosting.Houston2.dll",
+        "lib/net5.0/Vostok.Hosting.Houston2.xml",
+        "lib/net6.0/Vostok.Hosting.Houston2.dll",
+        "lib/net6.0/Vostok.Hosting.Houston2.xml",
+        "lib/netstandard2.0/Vostok.Hosting.Houston2.dll",
+        "lib/netstandard2.0/Vostok.Hosting.Houston2.xml",
+        "vostok.hosting.houston2.1.0.125.nupkg.sha512",
+        "vostok.hosting.houston2.nuspec"
+      ]
+    },
+    "Vostok.Hosting.Kontur/1.0.134": {
+      "sha512": "UDq13+r4VZtm9nD2aQvDUwcYBRiYRNiW7eqo/Zl8/QXbVDsvFXBuJAwKfN2gKzCGOvB1EsRIuTKZ1ixh9yEXCQ==",
+      "type": "package",
+      "path": "vostok.hosting.kontur/1.0.134",
+      "files": [
+        ".nupkg.metadata",
+        "README.md",
+        "lib/net6.0/Vostok.Hosting.Kontur.dll",
+        "lib/net6.0/Vostok.Hosting.Kontur.xml",
+        "lib/netstandard2.0/Vostok.Hosting.Kontur.dll",
+        "lib/netstandard2.0/Vostok.Hosting.Kontur.xml",
+        "vostok.hosting.kontur.1.0.134.nupkg.sha512",
+        "vostok.hosting.kontur.nuspec"
+      ]
+    },
+    "Vostok.Logging.Abstractions/1.0.32": {
+      "sha512": "WbhrvhsO7yr2EAI+M88BQZy0uMJnWpUdpqfcS34oiMTUoiJfv3Y997JNck4ZsaWJDZqit54/V7Lm/H9oVe+YoQ==",
+      "type": "package",
+      "path": "vostok.logging.abstractions/1.0.32",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Logging.Abstractions.dll",
+        "lib/net6.0/Vostok.Logging.Abstractions.xml",
+        "lib/netstandard2.0/Vostok.Logging.Abstractions.dll",
+        "lib/netstandard2.0/Vostok.Logging.Abstractions.xml",
+        "vostok.logging.abstractions.1.0.32.nupkg.sha512",
+        "vostok.logging.abstractions.nuspec"
+      ]
+    },
+    "Vostok.Logging.Configuration/1.0.8": {
+      "sha512": "N2RK8RQqAVe3gezqX/TbMU2ZSf63bt8yoDXXrFp7boJML0Zn1gBcqXBmAVYsMTcid5NU3wvKJH5VnGxzcxaWjw==",
+      "type": "package",
+      "path": "vostok.logging.configuration/1.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Logging.Configuration.dll",
+        "lib/net6.0/Vostok.Logging.Configuration.xml",
+        "lib/netstandard2.0/Vostok.Logging.Configuration.dll",
+        "lib/netstandard2.0/Vostok.Logging.Configuration.xml",
+        "vostok.logging.configuration.1.0.8.nupkg.sha512",
+        "vostok.logging.configuration.nuspec"
+      ]
+    },
+    "Vostok.Logging.Console/1.0.10": {
+      "sha512": "q6tbQ+O9pUGRBJqPoQm3/lhvU6PU4py0ituuaSsCnrhoEXMxd3974vR8WH/E/TArR8956kphFqVLUgTj+qoJ7w==",
+      "type": "package",
+      "path": "vostok.logging.console/1.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Logging.Console.dll",
+        "lib/net6.0/Vostok.Logging.Console.xml",
+        "lib/netstandard2.0/Vostok.Logging.Console.dll",
+        "lib/netstandard2.0/Vostok.Logging.Console.xml",
+        "vostok.logging.console.1.0.10.nupkg.sha512",
+        "vostok.logging.console.nuspec"
+      ]
+    },
+    "Vostok.Logging.Context/1.0.5": {
+      "sha512": "6L03P2rpugYNyxCxMk3q1Goioe+GK+YQHMtIQUkrhYeEV6+iYoKDXY027T3sQULwTPSZY9withqUwdA8HpoPfg==",
+      "type": "package",
+      "path": "vostok.logging.context/1.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Logging.Context.dll",
+        "lib/net6.0/Vostok.Logging.Context.xml",
+        "lib/netstandard2.0/Vostok.Logging.Context.dll",
+        "lib/netstandard2.0/Vostok.Logging.Context.xml",
+        "vostok.logging.context.1.0.5.nupkg.sha512",
+        "vostok.logging.context.nuspec"
+      ]
+    },
+    "Vostok.Logging.File/1.0.23": {
+      "sha512": "8xXT0KfzXQQbnIrAoLhM1iOeiwJOQ+Nrhmv4NRa0Q67fiDuCaTMwYDZ8sy54mOcwJ4F7nKbZuoqor3dlbgPoOQ==",
+      "type": "package",
+      "path": "vostok.logging.file/1.0.23",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Logging.File.dll",
+        "lib/net6.0/Vostok.Logging.File.xml",
+        "lib/netstandard2.0/Vostok.Logging.File.dll",
+        "lib/netstandard2.0/Vostok.Logging.File.xml",
+        "vostok.logging.file.1.0.23.nupkg.sha512",
+        "vostok.logging.file.nuspec"
+      ]
+    },
+    "Vostok.Logging.Formatting/1.0.14": {
+      "sha512": "H3DYcuiwJQBoUfApOuIg6VgwnUwL7zmweRgIFF17m6AuiaIt8qHeDQrbKKJoLBAMGBAqIfBroLyCbEjzb5pviQ==",
+      "type": "package",
+      "path": "vostok.logging.formatting/1.0.14",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Logging.Formatting.dll",
+        "lib/net6.0/Vostok.Logging.Formatting.xml",
+        "lib/netstandard2.0/Vostok.Logging.Formatting.dll",
+        "lib/netstandard2.0/Vostok.Logging.Formatting.xml",
+        "vostok.logging.formatting.1.0.14.nupkg.sha512",
+        "vostok.logging.formatting.nuspec"
+      ]
+    },
+    "Vostok.Logging.Hercules/0.1.12": {
+      "sha512": "hUOO23HKI7qpPpaqQXB4sUd4tcyd8OOS7wYVNeV9CnuO9Q86VkqoGnIUk+zGi1l3d9guwkPo/cyBZ7adPTRl6Q==",
+      "type": "package",
+      "path": "vostok.logging.hercules/0.1.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Logging.Hercules.dll",
+        "lib/net6.0/Vostok.Logging.Hercules.xml",
+        "lib/netstandard2.0/Vostok.Logging.Hercules.dll",
+        "lib/netstandard2.0/Vostok.Logging.Hercules.xml",
+        "vostok.logging.hercules.0.1.12.nupkg.sha512",
+        "vostok.logging.hercules.nuspec"
+      ]
+    },
+    "Vostok.Logging.Microsoft/2.0.15": {
+      "sha512": "MG6KVaTiHh/XI7wc/1BJE2EfnLKgiz5PWFuyiqQ93Ffi4TtL1l11e4CDmlKGSo1bSDjpTXVPy+LEUiOhAuyBng==",
+      "type": "package",
+      "path": "vostok.logging.microsoft/2.0.15",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Logging.Microsoft.dll",
+        "lib/net6.0/Vostok.Logging.Microsoft.xml",
+        "lib/netstandard2.0/Vostok.Logging.Microsoft.dll",
+        "lib/netstandard2.0/Vostok.Logging.Microsoft.xml",
+        "vostok.logging.microsoft.2.0.15.nupkg.sha512",
+        "vostok.logging.microsoft.nuspec"
+      ]
+    },
+    "Vostok.Logging.Tracing/0.1.7": {
+      "sha512": "HAjnrQpmCMWxxdm6WJ7TfFR9H39rqPo5Pv4hEHiFUqjU+GMXr5S58HJmr+Nrc5tiYhEYTO+NXQHI71MI7NuwRQ==",
+      "type": "package",
+      "path": "vostok.logging.tracing/0.1.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Logging.Tracing.dll",
+        "lib/net6.0/Vostok.Logging.Tracing.xml",
+        "lib/netstandard2.0/Vostok.Logging.Tracing.dll",
+        "lib/netstandard2.0/Vostok.Logging.Tracing.xml",
+        "vostok.logging.tracing.0.1.7.nupkg.sha512",
+        "vostok.logging.tracing.nuspec"
+      ]
+    },
+    "Vostok.Metrics/0.2.29": {
+      "sha512": "1FZ3KT8JzBCSvvrcW1s0x9mrmWN1bo29gQ2ZgGUgeR5GLPQ2EeABrTCzKfv+cA/txEG3A4UVufJ64s2NRkpQ7A==",
+      "type": "package",
+      "path": "vostok.metrics/0.2.29",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Metrics.dll",
+        "lib/net6.0/Vostok.Metrics.xml",
+        "lib/netstandard2.0/Vostok.Metrics.dll",
+        "lib/netstandard2.0/Vostok.Metrics.xml",
+        "vostok.metrics.0.2.29.nupkg.sha512",
+        "vostok.metrics.nuspec"
+      ]
+    },
+    "Vostok.Metrics.Hercules/0.1.5": {
+      "sha512": "AHJTe+qYnpmjBzut9T56FIBGS3rZF2UopSKPBvA9I9J4+V7fdmgOAeIgziE3b03olEOM4rfuJz0RhIKcutGO5A==",
+      "type": "package",
+      "path": "vostok.metrics.hercules/0.1.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Metrics.Hercules.dll",
+        "lib/net6.0/Vostok.Metrics.Hercules.xml",
+        "lib/netstandard2.0/Vostok.Metrics.Hercules.dll",
+        "lib/netstandard2.0/Vostok.Metrics.Hercules.xml",
+        "vostok.metrics.hercules.0.1.5.nupkg.sha512",
+        "vostok.metrics.hercules.nuspec"
+      ]
+    },
+    "Vostok.Metrics.System/0.3.23": {
+      "sha512": "vLNDX36uUxmRPQEdBdu7klz9ty5GHWZgQ3J3j8AximxhLjPcZ3Ch7OltZrNJm+2cWADepfJjoMNwufhTahuIKw==",
+      "type": "package",
+      "path": "vostok.metrics.system/0.3.23",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Metrics.System.dll",
+        "lib/net6.0/Vostok.Metrics.System.xml",
+        "lib/netstandard2.0/Vostok.Metrics.System.dll",
+        "lib/netstandard2.0/Vostok.Metrics.System.xml",
+        "vostok.metrics.system.0.3.23.nupkg.sha512",
+        "vostok.metrics.system.nuspec"
+      ]
+    },
+    "Vostok.ServiceDiscovery/0.1.23": {
+      "sha512": "+ZHZ4F/nr73PxbUAF1xo7apLM8i/9zATu5h77V/jsY4UL3TGrdat9/h6GMXF1XSB46JGEywFOrJzO0SI400GhQ==",
+      "type": "package",
+      "path": "vostok.servicediscovery/0.1.23",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.ServiceDiscovery.dll",
+        "lib/net6.0/Vostok.ServiceDiscovery.xml",
+        "lib/netstandard2.0/Vostok.ServiceDiscovery.dll",
+        "lib/netstandard2.0/Vostok.ServiceDiscovery.xml",
+        "vostok.servicediscovery.0.1.23.nupkg.sha512",
+        "vostok.servicediscovery.nuspec"
+      ]
+    },
+    "Vostok.ServiceDiscovery.Abstractions/0.1.7": {
+      "sha512": "hAPqM/uPxoLoFL7IZkTQrsserKbltzN6VVTJXcnqyn/xa32mDYUfTbftRYIzlPn3EdJJ8/s++Uic/aiS0L5m7g==",
+      "type": "package",
+      "path": "vostok.servicediscovery.abstractions/0.1.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.ServiceDiscovery.Abstractions.dll",
+        "lib/net6.0/Vostok.ServiceDiscovery.Abstractions.xml",
+        "lib/netstandard2.0/Vostok.ServiceDiscovery.Abstractions.dll",
+        "lib/netstandard2.0/Vostok.ServiceDiscovery.Abstractions.xml",
+        "vostok.servicediscovery.abstractions.0.1.7.nupkg.sha512",
+        "vostok.servicediscovery.abstractions.nuspec"
+      ]
+    },
+    "Vostok.ServiceDiscovery.Extensions/0.1.10": {
+      "sha512": "jqdl2vXBOwT1JrUCNXt6qvIYQ6Mgu//ySSftbZlxAGs5Cr/ovT24wrXAlZpZNEuvECDD9yuGljMj09Mb5CdAzg==",
+      "type": "package",
+      "path": "vostok.servicediscovery.extensions/0.1.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.ServiceDiscovery.Extensions.dll",
+        "lib/net6.0/Vostok.ServiceDiscovery.Extensions.xml",
+        "lib/netstandard2.0/Vostok.ServiceDiscovery.Extensions.dll",
+        "lib/netstandard2.0/Vostok.ServiceDiscovery.Extensions.xml",
+        "vostok.servicediscovery.extensions.0.1.10.nupkg.sha512",
+        "vostok.servicediscovery.extensions.nuspec"
+      ]
+    },
+    "Vostok.ServiceDiscovery.Kontur/1.0.116": {
+      "sha512": "HTg+xgJNwvFf+4t3akRzD17pnQVmJuyXUXMMT3a7TmPCRr0H5VZyAJGlAXrTuVWDJB/7zDbSsefSo7RyzQpnHg==",
+      "type": "package",
+      "path": "vostok.servicediscovery.kontur/1.0.116",
+      "files": [
+        ".nupkg.metadata",
+        "README.md",
+        "lib/net6.0/Vostok.ServiceDiscovery.Kontur.dll",
+        "lib/net6.0/Vostok.ServiceDiscovery.Kontur.xml",
+        "lib/netstandard2.0/Vostok.ServiceDiscovery.Kontur.dll",
+        "lib/netstandard2.0/Vostok.ServiceDiscovery.Kontur.xml",
+        "vostok.servicediscovery.kontur.1.0.116.nupkg.sha512",
+        "vostok.servicediscovery.kontur.nuspec"
+      ]
+    },
+    "Vostok.ServiceDiscovery.Telemetry/0.1.3": {
+      "sha512": "WMjhnzyO5AQc+FH6HGZ/8cV6vUDappaBfHJ6ylzLniawLKti2GSIAJdRBuRJERcJaghA90n2YwVAtFgphUO62w==",
+      "type": "package",
+      "path": "vostok.servicediscovery.telemetry/0.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.ServiceDiscovery.Telemetry.dll",
+        "lib/net6.0/Vostok.ServiceDiscovery.Telemetry.xml",
+        "lib/netstandard2.0/Vostok.ServiceDiscovery.Telemetry.dll",
+        "lib/netstandard2.0/Vostok.ServiceDiscovery.Telemetry.xml",
+        "vostok.servicediscovery.telemetry.0.1.3.nupkg.sha512",
+        "vostok.servicediscovery.telemetry.nuspec"
+      ]
+    },
+    "Vostok.ServiceDiscovery.Telemetry.Hercules/0.1.1": {
+      "sha512": "b8NvQOHSDRO1QPi2IRbKcZVmG0jmwIpHLOOB3YOonNuHHPWgb5B+CTLQ7uaMPgtz0rJXOObK99fSoXktYsajYQ==",
+      "type": "package",
+      "path": "vostok.servicediscovery.telemetry.hercules/0.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.ServiceDiscovery.Telemetry.Hercules.dll",
+        "lib/net6.0/Vostok.ServiceDiscovery.Telemetry.Hercules.xml",
+        "lib/netstandard2.0/Vostok.ServiceDiscovery.Telemetry.Hercules.dll",
+        "lib/netstandard2.0/Vostok.ServiceDiscovery.Telemetry.Hercules.xml",
+        "vostok.servicediscovery.telemetry.hercules.0.1.1.nupkg.sha512",
+        "vostok.servicediscovery.telemetry.hercules.nuspec"
+      ]
+    },
+    "Vostok.Sys.Metrics.PerfCounters/0.0.6": {
+      "sha512": "1MG4J2s3HTE9ayf5Vj4fpyv2A8qoRjw+GN6bWzE9lB69dBmA9jQmW65truyfSI5wnvPy4thnbejR3XJs5arkeA==",
+      "type": "package",
+      "path": "vostok.sys.metrics.perfcounters/0.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Sys.Metrics.PerfCounters.dll",
+        "lib/net6.0/Vostok.Sys.Metrics.PerfCounters.xml",
+        "lib/netstandard2.0/Vostok.Sys.Metrics.PerfCounters.dll",
+        "lib/netstandard2.0/Vostok.Sys.Metrics.PerfCounters.xml",
+        "vostok.sys.metrics.perfcounters.0.0.6.nupkg.sha512",
+        "vostok.sys.metrics.perfcounters.nuspec"
+      ]
+    },
+    "Vostok.Telemetry.Kontur/1.0.96": {
+      "sha512": "N4DCXW1A2qClHscnydL15EMI7xC1ywhqG4HZKk0yR6ORU/vE0+lHeBZThzh6fkLSH2iWaaJsQrM9F/6+jsXMIA==",
+      "type": "package",
+      "path": "vostok.telemetry.kontur/1.0.96",
+      "files": [
+        ".nupkg.metadata",
+        "README.md",
+        "lib/net6.0/Vostok.Telemetry.Kontur.dll",
+        "lib/net6.0/Vostok.Telemetry.Kontur.xml",
+        "lib/netstandard2.0/Vostok.Telemetry.Kontur.dll",
+        "lib/netstandard2.0/Vostok.Telemetry.Kontur.xml",
+        "vostok.telemetry.kontur.1.0.96.nupkg.sha512",
+        "vostok.telemetry.kontur.nuspec"
+      ]
+    },
+    "Vostok.Throttling/0.1.5": {
+      "sha512": "Xyuk3yvj+htvJieDOVjcj10g7hydzNW7vOnPcqzOiAgZnSfFj2JhIDVdTtmFCxODl2XhpuP+jt1gyF46LG48Nw==",
+      "type": "package",
+      "path": "vostok.throttling/0.1.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Throttling.dll",
+        "lib/net6.0/Vostok.Throttling.xml",
+        "lib/netstandard2.0/Vostok.Throttling.dll",
+        "lib/netstandard2.0/Vostok.Throttling.xml",
+        "vostok.throttling.0.1.5.nupkg.sha512",
+        "vostok.throttling.nuspec"
+      ]
+    },
+    "Vostok.Throttling.Metrics/0.1.7": {
+      "sha512": "GdUngNo4+A1dFOAry5CIF3IegDP7FMnNctGeAhl/JYSFT8L5GlXKTRptY/1ZyNWW5CDvt6p26mQbx2FoIOGDqA==",
+      "type": "package",
+      "path": "vostok.throttling.metrics/0.1.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Throttling.Metrics.dll",
+        "lib/net6.0/Vostok.Throttling.Metrics.xml",
+        "lib/netstandard2.0/Vostok.Throttling.Metrics.dll",
+        "lib/netstandard2.0/Vostok.Throttling.Metrics.xml",
+        "vostok.throttling.metrics.0.1.7.nupkg.sha512",
+        "vostok.throttling.metrics.nuspec"
+      ]
+    },
+    "Vostok.Tracing/0.1.7": {
+      "sha512": "VAPrOiM889LmyPlAxWQrlHHSvzBcdZD7aIwLGalKhqkoXwxvj4CPEADAqSG0kga1CkHkUdk2rvhnfnwTr4qk4w==",
+      "type": "package",
+      "path": "vostok.tracing/0.1.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Tracing.dll",
+        "lib/net6.0/Vostok.Tracing.xml",
+        "lib/netstandard2.0/Vostok.Tracing.dll",
+        "lib/netstandard2.0/Vostok.Tracing.xml",
+        "vostok.tracing.0.1.7.nupkg.sha512",
+        "vostok.tracing.nuspec"
+      ]
+    },
+    "Vostok.Tracing.Abstractions/0.1.7": {
+      "sha512": "JGFZgFYJpgjUED2QdNoskCoUL5qGg8EFlXoAaqMXcvCy1v4th/aLiLV6FngoNkAtO9ZEDnhrpbReW+ywOgmkHQ==",
+      "type": "package",
+      "path": "vostok.tracing.abstractions/0.1.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Tracing.Abstractions.dll",
+        "lib/net6.0/Vostok.Tracing.Abstractions.xml",
+        "lib/netstandard2.0/Vostok.Tracing.Abstractions.dll",
+        "lib/netstandard2.0/Vostok.Tracing.Abstractions.xml",
+        "vostok.tracing.abstractions.0.1.7.nupkg.sha512",
+        "vostok.tracing.abstractions.nuspec"
+      ]
+    },
+    "Vostok.Tracing.Diagnostics/0.1.0": {
+      "sha512": "e7M9QUj9IUSip6rv+wOTDByutjaZpOSKORq0zr6Y8U7WjFqZlGhAOAsUYhmulYlDlr5kAzoL0NajzV7EablUBA==",
+      "type": "package",
+      "path": "vostok.tracing.diagnostics/0.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Tracing.Diagnostics.dll",
+        "lib/net6.0/Vostok.Tracing.Diagnostics.xml",
+        "vostok.tracing.diagnostics.0.1.0.nupkg.sha512",
+        "vostok.tracing.diagnostics.nuspec"
+      ]
+    },
+    "Vostok.Tracing.Extensions/0.1.9": {
+      "sha512": "7jLBBzhINz0NHsdmb+NZY9KRnJdNMYzezkRgRFocgoyeFguSlAq75ujYaPgNvJeQPtngBkCB1mlZbXaZb+BRZA==",
+      "type": "package",
+      "path": "vostok.tracing.extensions/0.1.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Tracing.Extensions.dll",
+        "lib/net6.0/Vostok.Tracing.Extensions.xml",
+        "lib/netstandard2.0/Vostok.Tracing.Extensions.dll",
+        "lib/netstandard2.0/Vostok.Tracing.Extensions.xml",
+        "vostok.tracing.extensions.0.1.9.nupkg.sha512",
+        "vostok.tracing.extensions.nuspec"
+      ]
+    },
+    "Vostok.Tracing.Hercules/0.1.10": {
+      "sha512": "AvMzMagZo0Z0/XbhoS+xG5hjbZG406Dfra/z1op1fUqG+ju7ltu1jBPVtzeHUhPN+De70FKm2fYI+N9hw7DtmQ==",
+      "type": "package",
+      "path": "vostok.tracing.hercules/0.1.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.Tracing.Hercules.dll",
+        "lib/net6.0/Vostok.Tracing.Hercules.xml",
+        "lib/netstandard2.0/Vostok.Tracing.Hercules.dll",
+        "lib/netstandard2.0/Vostok.Tracing.Hercules.xml",
+        "vostok.tracing.hercules.0.1.10.nupkg.sha512",
+        "vostok.tracing.hercules.nuspec"
+      ]
+    },
+    "Vostok.Tracing.Kontur/1.0.36": {
+      "sha512": "J68VJ/L4vTtyetXeU7DcSJDRGnIqmzPDL9YUaziL1/yxsVvUwXtWMUlVbBCZ5ESDbKRgsXVIz+KM8Y4Z8S1W8w==",
+      "type": "package",
+      "path": "vostok.tracing.kontur/1.0.36",
+      "files": [
+        ".nupkg.metadata",
+        "README.md",
+        "lib/net6.0/Vostok.Tracing.Kontur.dll",
+        "lib/net6.0/Vostok.Tracing.Kontur.xml",
+        "lib/netstandard2.0/Vostok.Tracing.Kontur.dll",
+        "lib/netstandard2.0/Vostok.Tracing.Kontur.xml",
+        "vostok.tracing.kontur.1.0.36.nupkg.sha512",
+        "vostok.tracing.kontur.nuspec"
+      ]
+    },
+    "Vostok.ZooKeeper.Client/0.1.14": {
+      "sha512": "8fr16V9RhFUNpSNrSUNttO/HO4Rr2XMSHsCur+h/sKcu815H2mGj3xkwDYQ9hf7Vkali9KYykJgU3BYcrvXfIA==",
+      "type": "package",
+      "path": "vostok.zookeeper.client/0.1.14",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.ZooKeeper.Client.dll",
+        "lib/net6.0/Vostok.ZooKeeper.Client.xml",
+        "lib/netstandard2.0/Vostok.ZooKeeper.Client.dll",
+        "lib/netstandard2.0/Vostok.ZooKeeper.Client.xml",
+        "vostok.zookeeper.client.0.1.14.nupkg.sha512",
+        "vostok.zookeeper.client.nuspec"
+      ]
+    },
+    "Vostok.ZooKeeper.Client.Abstractions/0.1.8": {
+      "sha512": "pJFZdAvhF6IDkbRmvlUGZzGRWCc090QBI0APOJJPd8fK+77n04uo7aTyp/FGL767YptM86md3WFjLWOuEdOu7A==",
+      "type": "package",
+      "path": "vostok.zookeeper.client.abstractions/0.1.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Vostok.ZooKeeper.Client.Abstractions.dll",
+        "lib/net6.0/Vostok.ZooKeeper.Client.Abstractions.xml",
+        "lib/netstandard2.0/Vostok.ZooKeeper.Client.Abstractions.dll",
+        "lib/netstandard2.0/Vostok.ZooKeeper.Client.Abstractions.xml",
+        "vostok.zookeeper.client.abstractions.0.1.8.nupkg.sha512",
+        "vostok.zookeeper.client.abstractions.nuspec"
+      ]
+    },
+    "YamlDotNet/13.3.1": {
+      "sha512": "Q2dqDsb0xAlr092grgHk8/vTXI2snIiYM5ND3IXkgJDFIdPnqDYwYnlk+gwzSeRByDLhiSzTog8uT7xFwH68Zg==",
+      "type": "package",
+      "path": "yamldotnet/13.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "images/yamldotnet.png",
+        "lib/net35/YamlDotNet.dll",
+        "lib/net35/YamlDotNet.xml",
+        "lib/net45/YamlDotNet.dll",
+        "lib/net45/YamlDotNet.xml",
+        "lib/net47/YamlDotNet.dll",
+        "lib/net47/YamlDotNet.xml",
+        "lib/net6.0/YamlDotNet.dll",
+        "lib/net6.0/YamlDotNet.xml",
+        "lib/net7.0/YamlDotNet.dll",
+        "lib/net7.0/YamlDotNet.xml",
+        "lib/netstandard2.0/YamlDotNet.dll",
+        "lib/netstandard2.0/YamlDotNet.xml",
+        "lib/netstandard2.1/YamlDotNet.dll",
+        "lib/netstandard2.1/YamlDotNet.xml",
+        "yamldotnet.13.3.1.nupkg.sha512",
+        "yamldotnet.nuspec"
+      ]
+    },
+    "Zebra.ClientEx/1.4.136": {
+      "sha512": "MxEtoZSjbtay32ezT4B6hn2AjlWsUNHis3GmV/wezZAMgutKj+LqSt/ZHDjTURURO0dL+oOZ6VoT71PNG11SjA==",
+      "type": "package",
+      "path": "zebra.clientex/1.4.136",
+      "files": [
+        ".nupkg.metadata",
+        "lib/netstandard2.0/Zebra.ClientEx.dll",
+        "zebra.clientex.1.4.136.nupkg.sha512",
+        "zebra.clientex.nuspec"
+      ]
+    },
+    "Zebra.Core/1.4.136": {
+      "sha512": "xR3onGQSgC9dUYjrrmzFAIRisTp1JJ8AVhEJRAmZQwF7yRLaM3+8KsS1wAGCcX3Z0rMARUj8ID+EdGoVd7iyug==",
+      "type": "package",
+      "path": "zebra.core/1.4.136",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net6.0/Zebra.Core.dll",
+        "lib/netstandard2.0/Zebra.Core.dll",
+        "zebra.core.1.4.136.nupkg.sha512",
+        "zebra.core.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Vostok.Hosting.AspNetCore >= 0.1.4",
+      "Vostok.Hosting.AspNetCore.Houston >= 1.0.17",
+      "Vostok.Hosting.Houston2 >= 1.0.125"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\r.permyakov\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Code\\experiments\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+      "projectName": "WebApplication2",
+      "projectPath": "C:\\Code\\experiments\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+      "packagesPath": "C:\\Users\\r.permyakov\\.nuget\\packages\\",
+      "outputPath": "C:\\Code\\experiments\\WebApplication2\\WebApplication2\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Code\\experiments\\WebApplication2\\NuGet.Config",
+        "C:\\Users\\r.permyakov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nexus.kontur.host/repository/nuget/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Vostok.Hosting.AspNetCore": {
+            "target": "Package",
+            "version": "[0.1.4, )"
+          },
+          "Vostok.Hosting.AspNetCore.Houston": {
+            "target": "Package",
+            "version": "[1.0.17, )"
+          },
+          "Vostok.Hosting.Houston2": {
+            "target": "Package",
+            "version": "[1.0.125, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
